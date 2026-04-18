@@ -1,0 +1,97 @@
+# plumed_S1_BIN1_BAR.dat  —  CRYPTAD
+# WTMetaD for BIN1 BAR homodimer (S1)
+# 2 CVs: concave-face inter-monomer jaw distance (CV1) + BAR long-axis hinge angle (CV2)
+#
+# Confirmed GROMACS atom indices (1-based, Cα):
+#   CV1 jaw:    A-TYR217 = 2595  |  B-GLU178 = 5230   (ref dist = 4.000 nm)
+#   CV2 hinge:  A-THR172 = 1974 (tip_A)
+#               B-ILE146 = 4682 (center / bend vertex)
+#               B-GLU250 = 6384 (tip_B)
+#
+# BEFORE RUNNING:
+#   1. Verify WHOLEMOLECULES atom range (current estimate: 1–8000 covers the
+#      BAR dimer protein heavy atoms; solvation atoms come after in CHARMM-GUI
+#      topologies). Confirm with:
+#        gmx_mpi dump -s meta.tpr 2>&1 | grep 'natoms'
+#      Then adjust ENTITY0=1-N to match the last protein atom.
+#   2. Compute nc_threshold from last 50 ns of production MD (see TODO below).
+#   3. Temperature (TEMP=310.15) must match ref_t in meta.mdp.
+#
+# Reference: research plan §9 Step 3.3 (v1.3 template)
+
+# ── PBC molecule reconstruction ───────────────────────────────────────────────
+# Covers both BAR chains (A+B, ~430 res × 2 × ~9 heavy atoms = ~7700 atoms)
+# Adjust upper bound to the actual last protein atom from the topology.
+WHOLEMOLECULES ENTITY0=1-8000
+
+# ── Biased collective variables ───────────────────────────────────────────────
+
+# CV1: inter-monomer concave jaw (A-TYR217 Cα ↔ B-GLU178 Cα)
+# Selected by geometric concave-face projection opposite to convex centroid.
+cv1: DISTANCE ATOMS=2595,5230
+
+# CV2: BAR long-axis hinge angle (A-THR172 → B-ILE146 → B-GLU250)
+# tip_A → center (bend vertex) → tip_B — spans the full ~128 Å long axis.
+# PLUMED ANGLE order: ATOMS=tip_A,center,tip_B  (same order as IDX_A,IDX_C,IDX_B)
+cv2: ANGLE ATOMS=1974,4682,6384
+
+# ── Native contact restraint (unfolding guard) ────────────────────────────────
+# Keeps the BAR dimer from denaturing under metadynamics bias.
+#
+# TODO — required before production run (leave commented for 1 ns test):
+#   Step 1: Identify stable residue pairs from last 50 ns of production MD:
+#     python -c "
+#     import mdtraj as md, numpy as np
+#     t = md.load('prod.xtc', top='prod.gro', stride=10)
+#     t = t[-250:]  # last 50 ns at 200 ps/frame stride
+#     # Compute Cα–Cα contact occupancy at 0.8 nm; use mdtraj or MDAnalysis
+#     "
+#   Step 2: Exclude residues within 12 Å of pocket centroid (81.84,71.23,74.61)
+#     → roughly residues A:200-220 and B:160-185 in the BAR concave face.
+#   Step 3: Exclude tip residues (chain A: <175; chain B: >245 and <152)
+#     Stable core range estimate: chain A residues 175–215, chain B residues 155–245
+#     → translate to Cα atom index ranges using gmx_mpi select:
+#       gmx_mpi select -s meta.tpr -select 'name CA and chain A and resnr >= 175 and resnr <= 215'
+#   Step 4: Set AT = 0.80 × nc_mean (20 % safety margin below equilibrium)
+#   Step 5: Uncomment the nc: and nc_wall: lines below.
+#
+# Placeholder (disabled) — fill in GROUPA/GROUPB atom lists from Step 3 above:
+# nc: COORDINATION ...
+#   GROUPA=CA_STABLE_ATOMS GROUPB=CA_STABLE_ATOMS
+#   SWITCH={RATIONAL R_0=0.8 D_MAX=0.8 NN=6 MM=10}
+# ...
+#
+# LOWER_WALLS fires when nc drops below AT (prevents unfolding).
+# nc_wall: LOWER_WALLS ARG=nc AT=NC_THRESHOLD KAPPA=1000.0 EXP=2 OFFSET=0
+
+# ── Well-tempered metadynamics ────────────────────────────────────────────────
+# T_eff = BIASFACTOR × TEMP = 10 × 310.15 = 3,101.5 K
+# PACE=500 → deposit Gaussian every 500 × 0.004 ps = 2 ps (HMR dt=0.004)
+metad: METAD ...
+  ARG=cv1,cv2
+  PACE=500
+  HEIGHT=1.2
+  SIGMA=0.3,0.05
+  BIASFACTOR=10
+  TEMP=310.15
+  FILE=HILLS
+  WALKERS_N=1
+...
+# For multiple-walker WTMetaD (recommended for BIN1 — §9 Step 3.3):
+#   Add to each walker's METAD block:
+#     WALKERS_N=2  WALKERS_ID=0   (walker 1)  or  WALKERS_ID=1   (walker 2)
+#     WALKERS_DIR=./  WALKERS_RSTRIDE=100
+#   Both walkers share the same HILLS file on Lustre/NFS.
+
+# ── Output ────────────────────────────────────────────────────────────────────
+# STRIDE=500 → write COLVAR every 500 × 0.004 ps = 2 ps
+# Once nc guard is active, add nc to ARG: ARG=cv1,cv2,nc,metad.bias
+PRINT ARG=cv1,cv2,metad.bias STRIDE=500 FILE=COLVAR
+
+# ── Monitoring notes ──────────────────────────────────────────────────────────
+# 1. After 1 ns test: HILLS and COLVAR files must exist → PLUMED working.
+# 2. SIGMA tuning: inspect CV1 and CV2 fluctuations in the first ~5 ns
+#    unbiased COLVAR columns; set SIGMA ~ 1× the thermal fluctuation width.
+#    If CV1 fluctuates ±0.1 nm → SIGMA=0.1 is sufficient; 0.3 is conservative.
+# 3. Convergence: run plumed sum_hills --hills HILLS --stride 100 --mintozero
+#    at t=67, 133, 200 ns; ΔΔF < 1 kJ/mol → converged FES (§9 Step 3.3).

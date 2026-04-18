@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-04-17T14:57:17.764610+00:00",
+  "note": "Original PDB residue numbering is preserved in *_prepared.pdb files. Renumbering (for CHARMM-GUI topology) is a separate manual step. gemmi PdbWriteOptions: seqres_records=False, conect_records=False.",
+  "systems": [
+    {
+      "system": "S1",
+      "status": "ok",
+      "input": "01_structures/BIN1/pdb/2FIC.pdb",
+      "output": "01_structures/BIN1/prepared/2FIC_BAR_dimer_prepared.pdb",
+      "input_sha256": "f0d6aa7cc681b79077475a63570158815be080c9987d588946950280933e2e7d",
+      "output_sha256": "b4e9deed8b3c8aee76926091134beb360a19934afd3c097c8ec8ed419eccf2a6",
+      "operations": {
+        "chains_kept": [
+          "A",
+          "B"
+        ],
+        "chains_removed": [],
+        "hetatm_stripped": [
+          "HOH",
+          "XE"
+        ],
+        "models_kept": "all (X-ray, single model)"
+      }
+    },
+    {
+      "system": "S2",
+      "status": "ok",
+      "input": "01_structures/BIN1/pdb/1MUZ.pdb",
+      "output": "01_structures/BIN1/prepared/1MUZ_SH3_model0_prepared.pdb",
+      "input_sha256": "cfd27c2b9e96e146ff9a81be145b1774a259d4ab41aed62f8e0c1a9c02882261",
+      "output_sha256": "0d8f6dd1884264f94304a6130c9f74ac5705f1f0f9501ab7dcd77e73d07a59e7",
+      "operations": {
+        "chains_kept": [
+          "A"
+        ],
+        "chains_removed": [],
+        "hetatm_stripped": [],
+        "models_kept": "model 0 only (NMR ensemble \u2014 top model selected)",
+        "nmr_models_total": 20
+      }
+    },
+    {
+      "system": "S3",
+      "status": "ok",
+      "input": "01_structures/PICALM/pdb/7JXV.pdb",
+      "output": "01_structures/PICALM/prepared/7JXV_ANTH_prepared.pdb",
+      "input_sha256": "83c3414aea33ffca806e0dfbf007a593931644b7c772cd40ecabdff4d5534c12",
+      "output_sha256": "180c26b76c81f9093d464b482b2a20e730f50201624d245549faf1e77901a6a0",
+      "operations": {
+        "chains_kept": [
+          "A"
+        ],
+        "chains_removed": [
+          "B"
+        ],
+        "hetatm_stripped": [
+          "HOH"
+        ],
+        "models_kept": "all (X-ray, single model)",
+        "note": "chain B is ubiquitin co-crystallisation partner; removed for apo simulation"
+      }
+    },
+    {
+      "system": "S4",
+      "status": "ok",
+      "input": "01_structures/CD2AP/pdb/3U23.pdb",
+      "output": "01_structures/CD2AP/prepared/3U23_SH3-2_prepared.pdb",
+      "input_sha256": "ef97df63cafbd844dce6a6a312cf77e3b98ca132d43ede75ae3a882986af5165",
+      "output_sha256": "7b8bf5e99da1cc8a2723811fd848c705d9b335ea81a400c6644cc4f43be8e5d4",
+      "operations": {
+        "chains_kept": [
+          "A"
+        ],
+        "chains_removed": [
+          "B"
+        ],
+        "hetatm_stripped": [
+          "EDO",
+          "HOH"
+        ],
+        "models_kept": "all (X-ray, single model)",
+        "note": "chain B is RIN3 peptide co-crystallisation partner; removed for apo simulation"
+      }
+    },
+    {
+      "system": "S5",
+      "status": "ok",
+      "input": "01_structures/CD2AP/pdb/4WCI.pdb",
+      "output": "01_structures/CD2AP/prepared/4WCI_SH3-1_prepared.pdb",
+      "input_sha256": "7ca0c7e2adf29b2259fef81f5c81eb72eabb89ecc8560881c1878d1539beb61b",
+      "output_sha256": "7e3b47e0b44afe563b2f8b1d85606d801cfc9e2fd8d752822367f9caf6317b9b",
+      "operations": {
+        "chains_kept": [
+          "A"
+        ],
+        "chains_removed": [
+          "B",
+          "C",
+          "D",
+          "E",
+          "F"
+        ],
+        "hetatm_stripped": [
+          "HOH",
+          "SO4"
+        ],
+        "models_kept": "all (X-ray, single model)"
+      }
+    }
+  ]
+}

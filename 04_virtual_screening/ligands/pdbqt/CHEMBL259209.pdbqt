@@ -1,0 +1,39 @@
+REMARK SMILES CCN(CC)C(=O)C1(c2ccccc2)CC1CN
+REMARK SMILES IDX 8 1 15 2 16 3 6 4 3 5 7 6 2 7 1 8 4 9 5 10 9 11 10 12 14 13
+REMARK SMILES IDX 11 14 13 15 12 16 17 17 18 18
+REMARK H PARENT 18 19 18 20
+ROOT
+ATOM      1  C   UNL     1      -0.560   0.490  -0.725  1.00  0.00     0.079 C 
+ATOM      2  C   UNL     1      -0.347   0.871  -2.191  1.00  0.00     0.028 C 
+ATOM      3  C   UNL     1      -1.446   1.547  -1.436  1.00  0.00     0.024 C 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C   UNL     1       0.424   0.985   0.319  1.00  0.00     0.233 C 
+ATOM      5  N   UNL     1       1.756   0.562   0.263  1.00  0.00    -0.342 N 
+ATOM      6  O   UNL     1       0.011   1.742   1.197  1.00  0.00    -0.274 OA
+BRANCH   5   7
+ATOM      7  C   UNL     1       2.672   1.096   1.271  1.00  0.00     0.116 C 
+ATOM      8  C   UNL     1       2.506   0.462   2.645  1.00  0.00     0.027 C 
+ENDBRANCH   5   7
+BRANCH   5   9
+ATOM      9  C   UNL     1       2.264  -0.477  -0.634  1.00  0.00     0.116 C 
+ATOM     10  C   UNL     1       2.429  -1.828   0.045  1.00  0.00     0.027 C 
+ENDBRANCH   5   9
+ENDBRANCH   1   4
+BRANCH   1  11
+ATOM     11  C   UNL     1      -1.290  -0.813  -0.372  1.00  0.00    -0.032 A 
+ATOM     12  C   UNL     1      -1.099  -2.008  -1.089  1.00  0.00     0.005 A 
+ATOM     13  C   UNL     1      -2.192  -0.853   0.708  1.00  0.00     0.005 A 
+ATOM     14  C   UNL     1      -1.773  -3.183  -0.746  1.00  0.00     0.000 A 
+ATOM     15  C   UNL     1      -2.868  -2.025   1.056  1.00  0.00     0.000 A 
+ATOM     16  C   UNL     1      -2.658  -3.191   0.328  1.00  0.00     0.000 A 
+ENDBRANCH   1  11
+BRANCH   3  17
+ATOM     17  C   UNL     1      -1.359   3.021  -1.201  1.00  0.00     0.082 C 
+BRANCH  17  18
+ATOM     18  N   UNL     1      -2.039   3.360   0.036  1.00  0.00    -0.330 NA
+ATOM     19  H   UNL     1      -2.948   2.905   0.072  1.00  0.00     0.118 HD
+ATOM     20  H   UNL     1      -1.492   2.952   0.806  1.00  0.00     0.118 HD
+ENDBRANCH  17  18
+ENDBRANCH   3  17
+TORSDOF 6

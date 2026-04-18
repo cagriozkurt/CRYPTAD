@@ -1,0 +1,16 @@
+# CRYPTAD ligand COM drift analysis
+# Drift = displacement of ligand COM from frame-0 position (Angstrom)
+# Columns: system  rep  mean_drift  max_drift  final_drift  n_frames
+--------------------------------------------------------------------------------
+S1_site688_CHEMBL4105630             rep1    35.28    73.05    33.22  1002
+S1_site688_CHEMBL4105630             rep2    33.82    74.11     6.51  1002
+S1_site688_CHEMBL4105630             rep3    10.86   104.23    12.67  1002
+S1_site680_CHEMBL4105630             rep1    38.00    69.82    45.04  1002
+S1_site680_CHEMBL4105630             rep2    63.36   185.46   101.01  1002
+S1_site680_CHEMBL4105630             rep3    29.47    37.10    30.71  1002
+S3_site473_CHEMBL341812              rep1     7.75    17.22     7.98  1070
+S3_site473_CHEMBL341812              rep2    13.91    27.83    18.00  1298
+S3_site473_CHEMBL341812              rep3    29.99    70.58    24.73  1002
+S3_site473_CHEMBL797                 rep1    29.80    71.08    42.42  1002
+S3_site473_CHEMBL797                 rep2    14.66    75.62    55.47  1002
+S3_site473_CHEMBL797                 rep3    34.78    79.44    29.72  1002

@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-04-17T14:54:34.171810+00:00",
+  "note": "AF3 model_0 selected for each target. Confidence scores from summary_confidences_0.json. Seeds from job_request.json.",
+  "targets": [
+    {
+      "target": "BIN1",
+      "cif_source": "fold_cryptad_bin1_isoform1_model_0.cif",
+      "pdb_output": "BIN1_af3_model.pdb",
+      "af3_metadata": {
+        "iptm": null,
+        "ptm": 0.48,
+        "ranking_score": 0.71,
+        "fraction_disordered": 0.47,
+        "has_clash": 0.0,
+        "num_recycles": 10.0,
+        "job_name": "CRYPTAD_BIN1_isoform1",
+        "model_seeds": [
+          "879802526"
+        ]
+      },
+      "plddt_stats": {
+        "mean_plddt": 66.01768971293612,
+        "n_residues": 593,
+        "frac_above_90": 0.3760539629005059,
+        "frac_above_70": 0.5193929173693086,
+        "frac_below_50": 0.43844856661045534,
+        "disordered_runs": [
+          [
+            278,
+            513
+          ]
+        ]
+      }
+    },
+    {
+      "target": "PICALM",
+      "cif_source": "fold_cryptad_picalm_full_model_0.cif",
+      "pdb_output": "PICALM_af3_model.pdb",
+      "af3_metadata": {
+        "iptm": null,
+        "ptm": 0.55,
+        "ranking_score": 0.8,
+        "fraction_disordered": 0.5,
+        "has_clash": 0.0,
+        "num_recycles": 10.0,
+        "job_name": "CRYPTAD_PICALM_full",
+        "model_seeds": [
+          "872322400"
+        ]
+      },
+      "plddt_stats": {
+        "mean_plddt": 63.094493857190656,
+        "n_residues": 652,
+        "frac_above_90": 0.4325153374233129,
+        "frac_above_70": 0.504601226993865,
+        "frac_below_50": 0.4616564417177914,
+        "disordered_runs": [
+          [
+            353,
+            544
+          ],
+          [
+            546,
+            652
+          ]
+        ]
+      }
+    },
+    {
+      "target": "CD2AP",
+      "cif_source": "fold_cryptad_cd2ap_sh3tandem_model_0.cif",
+      "pdb_output": "CD2AP_af3_model.pdb",
+      "af3_metadata": {
+        "iptm": null,
+        "ptm": 0.29,
+        "ranking_score": 0.61,
+        "fraction_disordered": 0.64,
+        "has_clash": 0.0,
+        "num_recycles": 10.0,
+        "job_name": "CRYPTAD_CD2AP_SH3tandem",
+        "model_seeds": [
+          "1319588984"
+        ]
+      },
+      "plddt_stats": {
+        "mean_plddt": 67.4178000831604,
+        "n_residues": 300,
+        "frac_above_90": 0.44666666666666666,
+        "frac_above_70": 0.5133333333333333,
+        "frac_below_50": 0.33,
+        "disordered_runs": [
+          [
+            61,
+            77
+          ],
+          [
+            93,
+            106
+          ],
+          [
+            177,
+            206
+          ],
+          [
+            231,
+            266
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+CRYPTAD — Ibufenac (CHEMBL341812) residue contact analysis
+System: S3_site473_CHEMBL341812
+Contact cutoff: 4.5 Å | Engaged cutoff: 15.0 Å
+======================================================================
+
+--- rep1 ---
+  Total frames : 1069
+  Engaged frames: 1069 (100.0%)
+  Drift (mean/max/final): 8.2 / 12.3 / 8.7 Å
+
+  Top residues by contact occupancy (in engaged frames):
+  Resid    Resname  Chain  Frames   Occupancy
+  ---------------------------------------------
+  267      LEU      A      1036     96.9%
+  240      PHE      A      931      87.1%
+  237      TYR      A      923      86.3%
+  269      GLN      A      910      85.1%
+  270      ALA      A      901      84.3%
+  268      SER      A      876      81.9%
+  219      LEU      A      836      78.2%
+  215      ILE      A      825      77.2%
+  278      LEU      A      818      76.5%
+  218      LEU      A      813      76.1%
+  222      TYR      A      810      75.8%
+  233      GLY      A      804      75.2%
+  274      LEU      A      803      75.1%
+  236      ILE      A      731      68.4%
+  225      MET      A      652      61.0%
+  275      LEU      A      642      60.1%
+  234      LEU      A      637      59.6%
+  244      MET      A      604      56.5%
+  241      LEU      A      439      41.1%
+  165      LEU      A      431      40.3%
+
+--- rep2 ---
+  Total frames : 1297
+  Engaged frames: 1089 (84.0%)
+  Drift (mean/max/final): 10.9 / 23.3 / 17.6 Å
+
+  Top residues by contact occupancy (in engaged frames):
+  Resid    Resname  Chain  Frames   Occupancy
+  ---------------------------------------------
+  219      LEU      A      960      88.2%
+  237      TYR      A      876      80.4%
+  278      LEU      A      745      68.4%
+  275      LEU      A      738      67.8%
+  270      ALA      A      697      64.0%
+  269      GLN      A      596      54.7%
+  241      LEU      A      592      54.4%
+  267      LEU      A      538      49.4%
+  268      SER      A      512      47.0%
+  271      PRO      A      494      45.4%
+  222      TYR      A      489      44.9%
+  234      LEU      A      464      42.6%
+  274      LEU      A      463      42.5%
+  233      GLY      A      428      39.3%
+  218      LEU      A      426      39.1%
+  230      CYS      A      423      38.8%
+  225      MET      A      407      37.4%
+  251      LEU      A      394      36.2%
+  240      PHE      A      326      29.9%
+  282      ALA      A      283      26.0%
+
+--- rep3 ---
+  Total frames : 1001
+  Engaged frames: 349 (34.9%)
+  Drift (mean/max/final): 30.9 / 71.4 / 25.8 Å
+
+  Top residues by contact occupancy (in engaged frames):
+  Resid    Resname  Chain  Frames   Occupancy
+  ---------------------------------------------
+  219      LEU      A      322      92.3%
+  267      LEU      A      316      90.5%
+  268      SER      A      315      90.3%
+  237      TYR      A      298      85.4%
+  270      ALA      A      296      84.8%
+  269      GLN      A      283      81.1%
+  278      LEU      A      272      77.9%
+  240      PHE      A      260      74.5%
+  215      ILE      A      246      70.5%
+  275      LEU      A      243      69.6%
+  251      LEU      A      238      68.2%
+  274      LEU      A      219      62.8%
+  241      LEU      A      200      57.3%
+  222      TYR      A      182      52.1%
+  218      LEU      A      177      50.7%
+  236      ILE      A      168      48.1%
+  216      ILE      A      158      45.3%
+  233      GLY      A      110      31.5%
+  220      GLU      A      101      28.9%
+  271      PRO      A      51       14.6%
+
+--- rep4 ---
+  Total frames : 1001
+  Engaged frames: 564 (56.3%)
+  Drift (mean/max/final): 20.1 / 75.9 / 37.7 Å
+
+  Top residues by contact occupancy (in engaged frames):
+  Resid    Resname  Chain  Frames   Occupancy
+  ---------------------------------------------
+  245      THR      A      545      96.6%
+  241      LEU      A      519      92.0%
+  275      LEU      A      354      62.8%
+  246      ARG      A      349      61.9%
+  251      LEU      A      338      59.9%
+  272      SER      A      333      59.0%
+  242      THR      A      324      57.4%
+  247      ILE      A      294      52.1%
+  270      ALA      A      293      52.0%
+  269      GLN      A      244      43.3%
+  238      LYS      A      239      42.4%
+  244      MET      A      218      38.7%
+  253      VAL      A      209      37.1%
+  268      SER      A      207      36.7%
+  267      LEU      A      205      36.3%
+  240      PHE      A      200      35.5%
+  250      PHE      A      168      29.8%
+  271      PRO      A      166      29.4%
+  237      TYR      A      127      22.5%
+  249      GLU      A      105      18.6%
+
+--- rep5 ---
+  Total frames : 1001
+  Engaged frames: 1001 (100.0%)
+  Drift (mean/max/final): 7.8 / 13.4 / 10.6 Å
+
+  Top residues by contact occupancy (in engaged frames):
+  Resid    Resname  Chain  Frames   Occupancy
+  ---------------------------------------------
+  240      PHE      A      1000     99.9%
+  267      LEU      A      997      99.6%
+  237      TYR      A      987      98.6%
+  219      LEU      A      987      98.6%
+  215      ILE      A      973      97.2%
+  216      ILE      A      968      96.7%
+  274      LEU      A      878      87.7%
+  265      PRO      A      857      85.6%
+  212      ASN      A      857      85.6%
+  266      ASP      A      661      66.0%
+  244      MET      A      523      52.2%
+  270      ALA      A      502      50.1%
+  241      LEU      A      493      49.3%
+  264      ILE      A      342      34.2%
+  275      LEU      A      315      31.5%
+  271      PRO      A      257      25.7%
+  245      THR      A      223      22.3%
+  277      ALA      A      210      21.0%
+  213      GLU      A      191      19.1%
+  268      SER      A      134      13.4%
+
+--- rep6 ---
+  Total frames : 1001
+  Engaged frames: 842 (84.1%)
+  Drift (mean/max/final): 10.7 / 76.7 / 63.2 Å
+
+  Top residues by contact occupancy (in engaged frames):
+  Resid    Resname  Chain  Frames   Occupancy
+  ---------------------------------------------
+  241      LEU      A      767      91.1%
+  275      LEU      A      748      88.8%
+  245      THR      A      711      84.4%
+  237      TYR      A      521      61.9%
+  270      ALA      A      498      59.1%
+  269      GLN      A      457      54.3%
+  246      ARG      A      438      52.0%
+  267      LEU      A      425      50.5%
+  240      PHE      A      425      50.5%
+  250      PHE      A      422      50.1%
+  268      SER      A      421      50.0%
+  244      MET      A      400      47.5%
+  272      SER      A      364      43.2%
+  249      GLU      A      307      36.5%
+  238      LYS      A      307      36.5%
+  247      ILE      A      290      34.4%
+  242      THR      A      282      33.5%
+  253      VAL      A      264      31.4%
+  251      LEU      A      231      27.4%
+  271      PRO      A      188      22.3%
+

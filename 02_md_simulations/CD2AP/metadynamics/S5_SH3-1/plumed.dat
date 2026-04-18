@@ -1,0 +1,65 @@
+# plumed_S5_CD2AP_SH3-1.dat  —  CRYPTAD
+# WTMetaD for CD2AP SH3-1 domain (S5)
+# 2 CVs: groove face (Site1) and RT-loop flank (Site4) jaw distances
+#
+# Confirmed GROMACS atom indices (1-based, Cα):
+#   cv_site1:  ASN-29 = 460  |  GLY-45 = 720   (ref dist = 1.224 nm)
+#   cv_site4:  GLY-24 = 376  |  PHE-50 = 799   (ref dist = 1.496 nm)
+#
+# Note: CD2AP SH3-1 construct is numbered from residue 1 (unlike SH3-2).
+#   Atom indices are consistent with ~50 residues × ~16 atoms/res before PHE-50.
+#
+# BEFORE RUNNING:
+#   1. Verify WHOLEMOLECULES atom range (estimate: SH3-1 construct ~70 residues
+#      × ~15 atoms/res ≈ 1050 atoms; adjust ENTITY0 upper bound accordingly).
+#   2. Compute nc_threshold from last 50 ns of production MD.
+
+# ── PBC molecule reconstruction ───────────────────────────────────────────────
+# CD2AP SH3-1 domain construct: ~70 residues × ~15 atoms/res ≈ 1050 protein atoms.
+WHOLEMOLECULES ENTITY0=1-1200
+
+# ── Biased collective variables ───────────────────────────────────────────────
+
+# Site1 groove-face jaw (ASN-29 Cα ↔ GLY-45 Cα)
+cv_site1: DISTANCE ATOMS=460,720
+
+# Site4 RT-loop flank jaw (GLY-24 Cα ↔ PHE-50 Cα)
+cv_site4: DISTANCE ATOMS=376,799
+
+# ── Native contact restraint (unfolding guard) ────────────────────────────────
+# TODO — required before production run (leave commented for 1 ns test):
+#   Step 1: Compute stable Cα–Cα contacts (<0.8 nm, >80% occupancy)
+#           from last 50 ns of production MD.
+#   Step 2: Exclude residues within 12 Å of Site1 centroid (29.04,28.65,19.88)
+#           (residues ~24–50, groove face — functional interface, EXCLUDE per §9 rule c)
+#           and Site4 centroid (32.74,36.65,29.05) (residues ~19–55, RT-loop).
+#   Step 3: With both pockets near the binding groove, the stable core is the
+#           β-barrel far from the groove (~residues 1–20 and 55–70).
+#           → translate to Cα atom indices with gmx_mpi select.
+#   Step 4: AT = 0.80 × nc_mean.  Uncomment below.
+#           NOTE: For S5, the stable core is small; KAPPA may need to be
+#           reduced (500–800) if the LOWER_WALLS fires spuriously.
+#
+# nc: COORDINATION ...
+#   GROUPA=CA_STABLE GROUPB=CA_STABLE
+#   SWITCH={RATIONAL R_0=0.8 D_MAX=0.8 NN=6 MM=10}
+# ...
+# nc_wall: LOWER_WALLS ARG=nc AT=NC_THRESHOLD KAPPA=1000.0 EXP=2 OFFSET=0
+
+# ── Well-tempered metadynamics ────────────────────────────────────────────────
+# SIGMA=0.1,0.15 nm — cv_site4 ref dist = 1.496 nm (wider range); tune after 1 ns.
+# T_eff = 10 × 310.15 = 3,101.5 K
+# PACE=500 → 2 ps Gaussian interval (dt=0.004 HMR)
+metad: METAD ...
+  ARG=cv_site1,cv_site4
+  PACE=500
+  HEIGHT=1.2
+  SIGMA=0.1,0.15
+  BIASFACTOR=10
+  TEMP=310.15
+  FILE=HILLS
+  WALKERS_N=1
+...
+
+# ── Output ────────────────────────────────────────────────────────────────────
+PRINT ARG=cv_site1,cv_site4,metad.bias STRIDE=500 FILE=COLVAR

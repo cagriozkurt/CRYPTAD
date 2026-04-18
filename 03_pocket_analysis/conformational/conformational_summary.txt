@@ -1,0 +1,32 @@
+CRYPTAD — W16 Conformational Analysis Summary
+============================================================
+
+BIN1 BAR DCCM:
+  Mean |C| intra-chain A:  0.733
+  Mean |C| intra-chain B:  0.722
+  Mean |C| inter-chain AB: 0.724
+  Anti-corr fraction (inter, C<-0.3): 0.954
+
+PICALM ANTH DCCM:
+  Mean C (PIP2-loop ↔ site473 pocket): -0.068
+  Mean C (PIP2-loop ↔ core):           -0.073
+  Anti-corr fraction (PIP2 ↔ pocket, C<-0.2): 0.295
+
+BIN1 BAR Curvature:
+  CV1 range: 1.24–13.48 nm (mean 4.75)
+  Tip-tip distance: 2.12–22.54 nm (mean 15.92)
+  Pearson r(CV1, tip-tip) = -0.629  p = 1.06e-44
+  Interpretation: pocket opening (↑CV1) correlates with crescent tightening (↓tip-tip)
+
+PICALM ANTH PIP2-Loop:
+  cv_site4 range: 0.79–4.65 nm (mean 2.23)
+  PIP2-helix RMSD: 0.00–5.36 Å (mean 2.51)
+  Pearson r(cv_site4, RMSD) = 0.718  p = 0.00e+00
+  Interpretation: site473 opening correlates with PIP2-helix displacement — mechanistic link to PIP2 binding
+
+PICALM ANTH ΔDCCM (Holo − Apo):
+  Holo reps: rep1, rep5 (100% engaged)
+  Residues compared: 268 Cα
+  ΔDCCM range: -0.845 to 1.044
+  Mean |ΔDCCM|: 0.184
+  ΔDCCM PIP2 ↔ pocket: mean=0.111  max|Δ|=0.579

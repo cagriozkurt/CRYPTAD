@@ -1,0 +1,50 @@
+2026-04-17 09:34:39,845 INFO:main.py:246:print_splash_screen:PDB2PQR v3.7.1: biomolecular structure conversion software.
+2026-04-17 09:34:39,845 INFO:main.py:248:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2026-04-17 09:34:39,845 INFO:main.py:248:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2026-04-17 09:34:39,845 INFO:main.py:770:main_driver:Checking and transforming input arguments.
+2026-04-17 09:34:39,845 INFO:main.py:774:main_driver:Loading topology files.
+2026-04-17 09:34:39,867 INFO:main.py:776:main_driver:Loading molecule: /Volumes/PortableSSD/untitled folder/CRYPTAD/04_virtual_screening/selectivity/receptors/BIN1_SH3_canonical/receptor_clean.pdb
+2026-04-17 09:34:39,871 INFO:main.py:779:main_driver:Dropping water from structure.
+2026-04-17 09:34:39,871 INFO:main.py:781:main_driver:Setting up molecule.
+2026-04-17 09:34:39,873 INFO:main.py:423:setup_molecule:Created biomolecule object with 81 residues and 1287 atoms.
+2026-04-17 09:34:39,873 INFO:main.py:785:main_driver:Setting termini states for biomolecule chains.
+2026-04-17 09:34:39,874 INFO:main.py:616:non_trivial:Loading forcefield.
+2026-04-17 09:34:39,878 INFO:main.py:620:non_trivial:Loading hydrogen topology definitions.
+2026-04-17 09:34:39,879 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue PRO A 482
+2026-04-17 09:34:39,879 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue PRO A 482
+2026-04-17 09:34:39,879 INFO:main.py:630:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
+2026-04-17 09:34:39,879 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue PRO A 482
+2026-04-17 09:34:39,880 INFO:biomolecule.py:1080:repair_heavy:Added atom OXT to residue PRO A 482 at coordinates -3.124, -18.536, -1.150
+2026-04-17 09:34:39,880 INFO:main.py:635:non_trivial:Updating disulfide bridges.
+2026-04-17 09:34:39,880 INFO:main.py:661:non_trivial:Adding hydrogens to biomolecule.
+2026-04-17 09:34:39,880 INFO:main.py:666:non_trivial:Optimizing hydrogen bonds
+2026-04-17 09:34:39,906 INFO:main.py:678:non_trivial:Applying force field to biomolecule states.
+2026-04-17 09:34:39,906 INFO:main.py:725:non_trivial:Regenerating headers.
+2026-04-17 09:34:39,907 INFO:main.py:750:non_trivial:Regenerating PDB lines.
+2026-04-17 09:34:39,909 WARNING:main.py:326:print_pqr:Ignoring 391 header lines in output.
+2026-04-17 09:34:39,913 WARNING:main.py:369:print_pdb:Ignoring 391 header lines in output.
+2026-04-17 09:35:16,531 INFO:main.py:246:print_splash_screen:PDB2PQR v3.7.1: biomolecular structure conversion software.
+2026-04-17 09:35:16,531 INFO:main.py:248:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2026-04-17 09:35:16,531 INFO:main.py:248:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2026-04-17 09:35:16,531 INFO:main.py:770:main_driver:Checking and transforming input arguments.
+2026-04-17 09:35:16,531 INFO:main.py:774:main_driver:Loading topology files.
+2026-04-17 09:35:16,553 INFO:main.py:776:main_driver:Loading molecule: /Volumes/PortableSSD/untitled folder/CRYPTAD/04_virtual_screening/selectivity/receptors/BIN1_SH3_canonical/receptor_clean.pdb
+2026-04-17 09:35:16,557 INFO:main.py:779:main_driver:Dropping water from structure.
+2026-04-17 09:35:16,557 INFO:main.py:781:main_driver:Setting up molecule.
+2026-04-17 09:35:16,559 INFO:main.py:423:setup_molecule:Created biomolecule object with 81 residues and 1287 atoms.
+2026-04-17 09:35:16,559 INFO:main.py:785:main_driver:Setting termini states for biomolecule chains.
+2026-04-17 09:35:16,560 INFO:main.py:616:non_trivial:Loading forcefield.
+2026-04-17 09:35:16,563 INFO:main.py:620:non_trivial:Loading hydrogen topology definitions.
+2026-04-17 09:35:16,564 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue PRO A 482
+2026-04-17 09:35:16,564 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue PRO A 482
+2026-04-17 09:35:16,564 INFO:main.py:630:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
+2026-04-17 09:35:16,565 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue PRO A 482
+2026-04-17 09:35:16,565 INFO:biomolecule.py:1080:repair_heavy:Added atom OXT to residue PRO A 482 at coordinates -3.124, -18.536, -1.150
+2026-04-17 09:35:16,565 INFO:main.py:635:non_trivial:Updating disulfide bridges.
+2026-04-17 09:35:16,565 INFO:main.py:661:non_trivial:Adding hydrogens to biomolecule.
+2026-04-17 09:35:16,565 INFO:main.py:666:non_trivial:Optimizing hydrogen bonds
+2026-04-17 09:35:16,592 INFO:main.py:678:non_trivial:Applying force field to biomolecule states.
+2026-04-17 09:35:16,592 INFO:main.py:725:non_trivial:Regenerating headers.
+2026-04-17 09:35:16,592 INFO:main.py:750:non_trivial:Regenerating PDB lines.
+2026-04-17 09:35:16,595 WARNING:main.py:326:print_pqr:Ignoring 391 header lines in output.
+2026-04-17 09:35:16,599 WARNING:main.py:369:print_pdb:Ignoring 391 header lines in output.

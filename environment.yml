@@ -1,0 +1,43 @@
+name: cryptad
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11          # 3.11 required: vina conda-forge does not build on 3.14+
+  # ── Core scientific stack ──────────────────────────────────────────────────
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  # ── Structural biology / cheminformatics ───────────────────────────────────
+  - rdkit
+  - mdanalysis
+  - gemmi
+  # ── Virtual screening ──────────────────────────────────────────────────────
+  - vina=1.2.6            # AutoDock Vina; use: conda run -n cryptad python3 ...
+  - pdb2pqr               # receptor protonation (mk_prepare_receptor.py prerequisite)
+  # ── Figure / image assembly ────────────────────────────────────────────────
+  - pillow
+  # ── Network / web ──────────────────────────────────────────────────────────
+  - networkx
+  - requests
+  # ── pip-only packages ──────────────────────────────────────────────────────
+  - pip
+  - pip:
+    - meeko               # PDBQT preparation: mk_prepare_receptor.py, mk_prepare_ligand.py
+    - gmx_MMPBSA          # MM-GBSA scoring (HPC step 08.5); requires GROMACS in PATH
+    - acpype              # GAFF2 ligand topology for MM-GBSA (HPC step 08.5)
+
+# ── External CLI tools (not conda-installable; install separately) ──────────
+#
+#   fpocket   — pocket detection (steps 05, 07)
+#               Linux:      apt install fpocket  OR  compile from github.com/Discngine/fpocket
+#               macOS ARM:  git clone ...; make ARCH=MACOSXARM64; make install
+#
+#   VMD       — drift analysis TCL script (step 09.4)
+#               Download from https://www.ks.uiuc.edu/Research/vmd/
+#               Free for non-commercial use; requires registration.
+#
+#   GROMACS + PLUMED — metadynamics and complex MD (steps 03, 09)
+#               Run on HPC cluster. See singularity/gromacs-plumed.def for a
+#               reproducible build (GROMACS 2023.3 + PLUMED 2.9.2).

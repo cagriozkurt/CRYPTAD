@@ -1,0 +1,28 @@
+# CRYPTAD — Python analysis environment
+# Tested with Python 3.11+ (local analysis) and Python 3.10 (TRUBA HPC)
+#
+# Install:  pip install -r requirements.txt
+#
+# AutoDock Vina (1.2.6) must be installed separately via conda:
+#   conda create -n vina_env -c conda-forge vina=1.2.6
+#   (Python 3.14 incompatible with the vina Python package)
+#
+# External tools required on PATH:
+#   - GROMACS 2023.3 (with PLUMED 2.9.2 patch) — for metadynamics
+#   - GROMACS 2024.1 (standard) — for complex MD
+#   - fpocket 4.1 — pocket detection
+#   - P2Rank 2.5.1 (Java 17) — ML pocket ranking
+#   - AmberTools 23 (MMPBSA.py / ante-MMPBSA.py) — MM-GBSA rescoring
+
+MDAnalysis>=2.6.0
+rdkit>=2023.9.0
+meeko>=0.5.0
+matplotlib>=3.8.0
+scipy>=1.12.0
+numpy>=1.26.0
+pandas>=2.1.0
+gemmi>=0.6.5
+Pillow>=10.0.0
+networkx>=3.2.0
+requests>=2.31.0
+adjustText>=1.0.0

@@ -1,0 +1,14 @@
+receptor = /Volumes/PortableSSD/untitled folder/CRYPTAD/04_virtual_screening/receptors/S3_site473/receptor.pdbqt
+
+center_x = 65.410
+center_y = 64.130
+center_z = 59.470
+
+size_x = 25
+size_y = 25
+size_z = 25
+
+exhaustiveness = 16
+num_modes       = 20
+energy_range    = 5
+cpu             = 8

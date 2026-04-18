@@ -1,0 +1,13 @@
+pocket,chembl_id,name,n_frames,n_contacts,n_hbonds,n_hydrophobic,hbond_residues,top_hydrophobic,rep_frame
+S3_site473,CHEMBL175,DEXIBUPROFEN,101,13,1,14,MET226.seg_0_Protein_chain_A(29%),MET226.seg_0_Protein_chain_A(100%); LEU223.seg_0_Protein_chain_A(93%); PHE232.seg_0_Protein_chain_A(91%),80
+S3_site473,CHEMBL341812,IBUFENAC,101,14,1,14,TYR219.seg_0_Protein_chain_A(62%),LEU233.seg_0_Protein_chain_A(98%); LEU257.seg_0_Protein_chain_A(98%); ALA252.seg_0_Protein_chain_A(96%),98
+S3_site473,CHEMBL797,PHENSUXIMIDE,101,13,1,14,THR227.seg_0_Protein_chain_A(33%),ALA252.seg_0_Protein_chain_A(97%); MET226.seg_0_Protein_chain_A(96%); LEU223.seg_0_Protein_chain_A(89%),12
+S1_site1813,CHEMBL1162,NORETHINDRONE,101,0,0,0,,,85
+S1_site688,CHEMBL1162,NORETHINDRONE,101,7,0,7,,PHE163.seg_0_Protein_chain_A(100%); TYR27.seg_0_Protein_chain_A(97%); LEU20.seg_0_Protein_chain_A(92%),42
+S1_site1813,CHEMBL1201151,MESTRANOL,101,0,0,0,,,100
+S1_site1813,CHEMBL976,PRAZIQUANTEL,101,0,0,0,,,58
+S1_site1813,CHEMBL691,ETHINYL ESTRADIOL,101,0,1,0,ASN172.seg_0_Protein_chain_A(46%),,73
+S1_site688,CHEMBL3707377,SEGESTERONE ACETATE,101,9,0,9,,LEU20.seg_0_Protein_chain_A(100%); ASP23.seg_0_Protein_chain_A(100%); TYR159.seg_0_Protein_chain_A(100%),91
+S1_site680,CHEMBL4105630,ZURANOLONE,101,10,1,9,GLN345.seg_1_Protein_chain_B(43%),GLN345.seg_1_Protein_chain_B(99%); PRO349.seg_1_Protein_chain_B(95%); GLU346.seg_1_Protein_chain_B(94%),24
+S1_site688,CHEMBL4105630,ZURANOLONE,101,12,0,10,,LEU20.seg_0_Protein_chain_A(100%); PHE163.seg_0_Protein_chain_A(99%); ASP23.seg_0_Protein_chain_A(95%),24
+S1_site688,CHEMBL1200624,ETHYNODIOL DIACETATE,101,8,0,7,,PHE163.seg_0_Protein_chain_A(100%); LEU20.seg_0_Protein_chain_A(98%); TYR159.seg_0_Protein_chain_A(97%),57

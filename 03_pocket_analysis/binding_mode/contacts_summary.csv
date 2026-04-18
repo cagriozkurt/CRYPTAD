@@ -1,0 +1,11 @@
+pocket,chembl_id,name,n_frames,n_contacts,n_hbonds,n_hydrophobic,hbond_residues,top_hydrophobic,rep_frame
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,101,12,3,10,GLU194.seg_1_Protein_chain_B(57%); GLN345.seg_1_Protein_chain_B(46%); GLN195.seg_1_Protein_chain_B(46%),ASP193.seg_1_Protein_chain_B(100%); GLU194.seg_1_Protein_chain_B(100%); GLN345.seg_1_Protein_chain_B(96%),67
+S1_site680,CHEMBL254857,FIPEXIDE,101,9,2,8,GLN345.seg_1_Protein_chain_B(80%); ARG295.seg_1_Protein_chain_B(24%),GLN345.seg_1_Protein_chain_B(100%); PHE196.seg_1_Protein_chain_B(92%); ASN341.seg_1_Protein_chain_B(91%),28
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,101,10,0,8,,ASP193.seg_1_Protein_chain_B(100%); GLU194.seg_1_Protein_chain_B(100%); PRO349.seg_1_Protein_chain_B(100%),21
+S1_site688,CHEMBL85,RISPERIDONE,101,10,0,10,,PHE163.seg_0_Protein_chain_A(100%); ILE166.seg_0_Protein_chain_A(100%); LEU24.seg_0_Protein_chain_A(99%),41
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,101,9,0,11,,LEU20.seg_0_Protein_chain_A(100%); LEU24.seg_0_Protein_chain_A(99%); PHE163.seg_0_Protein_chain_A(99%),96
+S1_site688,CHEMBL1621,PALIPERIDONE,101,12,0,12,,LEU20.seg_0_Protein_chain_A(100%); TYR27.seg_0_Protein_chain_A(100%); ILE166.seg_0_Protein_chain_A(100%),69
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,101,17,1,17,ASN194.seg_0_Protein_chain_A(83%),VAL235.seg_0_Protein_chain_A(100%); ALA236.seg_0_Protein_chain_A(100%); ILE246.seg_0_Protein_chain_A(100%),49
+S3_site473,CHEMBL799,CILOSTAZOL,101,16,1,16,ASN194.seg_0_Protein_chain_A(28%),ASN194.seg_0_Protein_chain_A(100%); VAL235.seg_0_Protein_chain_A(100%); ALA236.seg_0_Protein_chain_A(100%),36
+S3_site473,CHEMBL595,PIOGLITAZONE,101,16,2,15,ASN194.seg_0_Protein_chain_A(86%); GLY244.seg_0_Protein_chain_A(38%),PHE222.seg_0_Protein_chain_A(100%); PHE190.seg_0_Protein_chain_A(99%); VAL235.seg_0_Protein_chain_A(99%),9
+S3_site473,CHEMBL341812,IBUFENAC,101,14,1,14,TYR219.seg_0_Protein_chain_A(62%),LEU233.seg_0_Protein_chain_A(98%); LEU257.seg_0_Protein_chain_A(98%); ALA252.seg_0_Protein_chain_A(96%),98

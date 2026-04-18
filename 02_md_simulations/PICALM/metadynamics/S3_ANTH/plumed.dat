@@ -1,0 +1,66 @@
+# plumed_S3_PICALM_ANTH.dat  —  CRYPTAD
+# WTMetaD for PICALM ANTH domain (S3)
+# 2 CVs: PI(4,5)P2-loop face pocket jaw distances for Site1 and Site4
+#
+# Confirmed GROMACS atom indices (1-based, Cα):
+#   cv_site1:  LEU-131 = 1822  |  ARG-139 = 1950   (ref dist = 1.234 nm)
+#   cv_site4:  ASP-203 = 2979  |  SER-248 = 3753   (ref dist = 1.544 nm)
+#
+# BEFORE RUNNING:
+#   1. Verify WHOLEMOLECULES atom range (estimate: ANTH domain ~270 residues
+#      × ~15 atoms/res ≈ 4050 protein atoms; adjust ENTITY0 upper bound).
+#   2. Compute nc_threshold from last 50 ns of production MD (see TODO below).
+
+# ── PBC molecule reconstruction ───────────────────────────────────────────────
+# PICALM ANTH domain ~270 residues × 15 atoms/res ≈ 4050 protein atoms.
+WHOLEMOLECULES ENTITY0=1-4500
+
+# ── Biased collective variables ───────────────────────────────────────────────
+
+# Site1 PIP2-loop face jaw (LEU-131 Cα ↔ ARG-139 Cα)
+cv_site1: DISTANCE ATOMS=1822,1950
+
+# Site4 PIP2-loop face jaw (ASP-203 Cα ↔ SER-248 Cα)
+cv_site4: DISTANCE ATOMS=2979,3753
+
+# ── Native contact restraint (unfolding guard) ────────────────────────────────
+# TODO — required before production run (leave commented for 1 ns test):
+#   Step 1: Compute stable Cα–Cα contact pairs (<0.8 nm, >80% occupancy)
+#           from last 50 ns of production MD.
+#   Step 2: Exclude residues within 12 Å of Site1 centroid (41.26,42.15,42.59)
+#           (residues ~125–145) and Site4 centroid (49.25,55.70,53.12)
+#           (residues ~195–255, PIP2-binding loop region — functional interface,
+#           EXCLUDE per §9 rule c: these are expected to move under bias).
+#   Step 3: Stable core estimate for PICALM ANTH: residues away from PIP2 loop,
+#           roughly residues 1–120 and 160–195.
+#           → translate to Cα atom indices with gmx_mpi select.
+#   Step 4: AT = 0.80 × nc_mean.  Uncomment below.
+#
+# nc: COORDINATION ...
+#   GROUPA=CA_STABLE GROUPB=CA_STABLE
+#   SWITCH={RATIONAL R_0=0.8 D_MAX=0.8 NN=6 MM=10}
+# ...
+# nc_wall: LOWER_WALLS ARG=nc AT=NC_THRESHOLD KAPPA=1000.0 EXP=2 OFFSET=0
+
+# ── Well-tempered metadynamics ────────────────────────────────────────────────
+# SIGMA=0.1,0.1 nm — tuned for ANTH jaw distances ~1.2–1.5 nm;
+#   cv_site4 ref dist = 1.544 nm; consider SIGMA=0.1,0.15 after 1 ns test.
+# T_eff = 10 × 310.15 = 3,101.5 K
+# PACE=500 → 2 ps Gaussian interval (dt=0.004 HMR)
+#
+# Multiple-walker WTMetaD recommended for PICALM (larger domain, §9 Step 3.3):
+#   Add WALKERS_N=2 WALKERS_ID=0/1 WALKERS_DIR=./ WALKERS_RSTRIDE=100
+#   to both walkers' METAD blocks.
+metad: METAD ...
+  ARG=cv_site1,cv_site4
+  PACE=500
+  HEIGHT=1.2
+  SIGMA=0.1,0.1
+  BIASFACTOR=10
+  TEMP=310.15
+  FILE=HILLS
+  WALKERS_N=1
+...
+
+# ── Output ────────────────────────────────────────────────────────────────────
+PRINT ARG=cv_site1,cv_site4,metad.bias STRIDE=500 FILE=COLVAR

@@ -1,0 +1,101 @@
+CRYPTAD — ADMET Filtering Funnel Summary
+============================================================
+
+Input compounds (MM-GBSA scored)     : 161
+After ΔG ≤ -20.0 kcal/mol         : 83
+After CNS MPO ≥ 3              : 70
+After Lipinski/CNS property filters  : 70
+After Veber (RotBonds ≤ 10)          : 70
+After predicted logBBB > -1.0     : 67
+After PAINS removal                  : 67
+
+Final hits                           : 67
+
+Filters applied:
+  CNS_MPO_5 >= 3  (Wager et al., J Med Chem, 2010)
+  MW <= 500 Da
+  -1 <= cLogP <= 5
+  TPSA <= 90 Å²
+  HBD <= 3
+  RotBonds <= 10  (Veber et al., J Med Chem, 2002)
+  Lipinski violations <= 1
+  Predicted logBBB > -1.0  (Young et al., J Med Chem, 1988)
+  No PAINS alerts  (Baell & Holloway, J Med Chem, 2010)
+  MM-GBSA ΔG_mean <= -20.0 kcal/mol
+
+Hits by pocket:
+  S1_site1813: 17 compounds
+    CHEMBL1200803   SOLIFENACIN SUCCINATE          dG= -28.11  LE=1.041  CNS_MPO5=3.9  logBBB=0.24
+    CHEMBL2079587   STANOZOLOL                     dG= -27.24  LE=1.135  CNS_MPO5=3.2  logBBB=0.04
+    CHEMBL521686    OLAPARIB                       dG= -26.92  LE=0.841  CNS_MPO5=3.8  logBBB=-0.78
+    CHEMBL4585668   BELZUTIFAN                     dG= -26.71  LE=1.027  CNS_MPO5=3.6  logBBB=-0.65
+    CHEMBL3137310   BENZHYDROCODONE HYDROCHLORIDE  dG= -25.76  LE=0.859  CNS_MPO5=3.8  logBBB=-0.01
+    CHEMBL1375743   ZIPRASIDONE HYDROCHLORIDE      dG= -24.58  LE=0.878  CNS_MPO5=3.5  logBBB=0.00
+    CHEMBL1162      NORETHINDRONE                  dG= -23.05  LE=1.048  CNS_MPO5=4.1  logBBB=0.12
+    CHEMBL1200436   OXANDROLONE                    dG= -22.90  LE=1.041  CNS_MPO5=4.0  logBBB=-0.01
+    CHEMBL1201151   MESTRANOL                      dG= -22.71  LE=0.987  CNS_MPO5=3.7  logBBB=0.30
+    CHEMBL1200430   ESTRADIOL ACETATE              dG= -22.63  LE=0.984  CNS_MPO5=3.8  logBBB=0.03
+    CHEMBL976       PRAZIQUANTEL                   dG= -21.97  LE=0.955  CNS_MPO5=4.8  logBBB=-0.08
+    CHEMBL1627367   FLUOROESTRADIOL                dG= -21.71  LE=1.034  CNS_MPO5=3.7  logBBB=0.08
+    CHEMBL1571      TESTOLACTONE                   dG= -21.38  LE=0.972  CNS_MPO5=4.2  logBBB=0.04
+    CHEMBL85        RISPERIDONE                    dG= -21.20  LE=0.707  CNS_MPO5=3.8  logBBB=-0.27
+    CHEMBL1405      ESTRONE                        dG= -20.52  LE=1.026  CNS_MPO5=3.8  logBBB=0.17
+    CHEMBL4594261   FLUOROESTRADIOL F-18           dG= -20.44  LE=0.973  CNS_MPO5=3.7  logBBB=0.08
+    CHEMBL654       MIRTAZAPINE                    dG= -20.13  LE=1.007  CNS_MPO5=4.8  logBBB=0.23
+
+  S1_site680: 11 compounds
+    CHEMBL3989939   LAROTRECTINIB SULFATE          dG= -28.69  LE=0.925  CNS_MPO5=3.3  logBBB=-0.69
+    CHEMBL254857    FIPEXIDE                       dG= -27.41  LE=1.015  CNS_MPO5=4.5  logBBB=-0.20
+    CHEMBL1201060   LOXAPINE HYDROCHLORIDE         dG= -26.18  LE=1.138  CNS_MPO5=4.0  logBBB=0.30
+    CHEMBL1621      PALIPERIDONE                   dG= -22.97  LE=0.741  CNS_MPO5=3.5  logBBB=-0.64
+    CHEMBL277100    TEMAFLOXACIN                   dG= -22.55  LE=0.752  CNS_MPO5=3.5  logBBB=-0.52
+    CHEMBL1375743   ZIPRASIDONE HYDROCHLORIDE      dG= -21.11  LE=0.754  CNS_MPO5=3.5  logBBB=0.00
+    CHEMBL85        RISPERIDONE                    dG= -21.03  LE=0.701  CNS_MPO5=3.8  logBBB=-0.27
+    CHEMBL2103837   TAFAMIDIS                      dG= -20.86  LE=1.043  CNS_MPO5=3.2  logBBB=-0.11
+    CHEMBL256997    ATALUREN                       dG= -20.28  LE=0.966  CNS_MPO5=4.0  logBBB=-0.50
+    CHEMBL3137310   BENZHYDROCODONE HYDROCHLORIDE  dG= -20.27  LE=0.676  CNS_MPO5=3.8  logBBB=-0.01
+    CHEMBL494753    ESTRONE SULFURIC ACID          dG= -20.02  LE=0.834  CNS_MPO5=3.9  logBBB=-0.56
+
+  S1_site688: 15 compounds
+    CHEMBL85        RISPERIDONE                    dG= -27.81  LE=0.927  CNS_MPO5=3.8  logBBB=-0.27
+    CHEMBL3137310   BENZHYDROCODONE HYDROCHLORIDE  dG= -26.71  LE=0.890  CNS_MPO5=3.8  logBBB=-0.01
+    CHEMBL1621      PALIPERIDONE                   dG= -26.53  LE=0.856  CNS_MPO5=3.5  logBBB=-0.64
+    CHEMBL231068    FLIBANSERIN                    dG= -24.45  LE=0.873  CNS_MPO5=4.1  logBBB=-0.04
+    CHEMBL521686    OLAPARIB                       dG= -23.40  LE=0.731  CNS_MPO5=3.8  logBBB=-0.78
+    CHEMBL3707377   SEGESTERONE ACETATE            dG= -23.34  LE=0.865  CNS_MPO5=3.6  logBBB=-0.12
+    CHEMBL1479      DANAZOL                        dG= -22.23  LE=0.889  CNS_MPO5=3.5  logBBB=0.10
+    CHEMBL1375743   ZIPRASIDONE HYDROCHLORIDE      dG= -21.78  LE=0.778  CNS_MPO5=3.5  logBBB=0.00
+    CHEMBL1201731   NEBIVOLOL HYDROCHLORIDE        dG= -21.45  LE=0.740  CNS_MPO5=3.5  logBBB=-0.55
+    CHEMBL1531      ETONOGESTREL                   dG= -21.39  LE=0.891  CNS_MPO5=3.6  logBBB=0.20
+    CHEMBL1200624   ETHYNODIOL DIACETATE           dG= -21.17  LE=0.756  CNS_MPO5=3.3  logBBB=0.03
+    CHEMBL4297147   HALOPERIDOL LACTATE            dG= -21.12  LE=0.812  CNS_MPO5=3.2  logBBB=0.21
+    CHEMBL3188267   CAPMATINIB                     dG= -20.86  LE=0.673  CNS_MPO5=3.4  logBBB=-0.60
+    CHEMBL1678      DONEPEZIL HYDROCHLORIDE        dG= -20.59  LE=0.736  CNS_MPO5=3.4  logBBB=0.23
+    CHEMBL3137320   TALAZOPARIB                    dG= -20.00  LE=0.714  CNS_MPO5=3.7  logBBB=-0.77
+
+  S3_site473: 24 compounds
+    CHEMBL3233142   LUMATEPERONE TOSYLATE          dG= -34.24  LE=1.181  CNS_MPO5=3.7  logBBB=0.34
+    CHEMBL799       CILOSTAZOL                     dG= -34.19  LE=1.266  CNS_MPO5=3.7  logBBB=-0.55
+    CHEMBL595       PIOGLITAZONE                   dG= -33.08  LE=1.323  CNS_MPO5=4.2  logBBB=-0.39
+    CHEMBL2359966   QUININE SULFATE                dG= -30.89  LE=1.287  CNS_MPO5=4.4  logBBB=-0.05
+    CHEMBL1387      NORETHYNODREL                  dG= -29.02  LE=1.319  CNS_MPO5=4.0  logBBB=0.14
+    CHEMBL857       BIOTIN                         dG= -28.61  LE=1.788  CNS_MPO5=3.9  logBBB=-0.90
+    CHEMBL400599    BENFLUOREX                     dG= -28.11  LE=1.125  CNS_MPO5=3.6  logBBB=0.19
+    CHEMBL95        TACRINE                        dG= -27.15  LE=1.810  CNS_MPO5=4.6  logBBB=-0.03
+    CHEMBL1256841   NIALAMIDE                      dG= -27.02  LE=1.228  CNS_MPO5=3.8  logBBB=-0.94
+    CHEMBL1108      DROPERIDOL                     dG= -26.75  LE=0.955  CNS_MPO5=3.8  logBBB=-0.16
+    CHEMBL175       DEXIBUPROFEN                   dG= -26.69  LE=1.780  CNS_MPO5=4.4  logBBB=0.05
+    CHEMBL1770      LEVAMISOLE HYDROCHLORIDE       dG= -26.34  LE=1.881  CNS_MPO5=5.0  logBBB=0.23
+    CHEMBL1200596   CHLOROXINE                     dG= -26.28  LE=2.021  CNS_MPO5=4.3  logBBB=0.14
+    CHEMBL1177      PEMOLINE                       dG= -24.62  LE=1.894  CNS_MPO5=4.8  logBBB=-0.73
+    CHEMBL341812    IBUFENAC                       dG= -24.39  LE=1.742  CNS_MPO5=4.7  logBBB=-0.03
+    CHEMBL3137310   BENZHYDROCODONE HYDROCHLORIDE  dG= -23.03  LE=0.768  CNS_MPO5=3.8  logBBB=-0.01
+    CHEMBL3989939   LAROTRECTINIB SULFATE          dG= -22.86  LE=0.737  CNS_MPO5=3.3  logBBB=-0.69
+    CHEMBL277100    TEMAFLOXACIN                   dG= -22.20  LE=0.740  CNS_MPO5=3.5  logBBB=-0.52
+    CHEMBL1095      ETHOTOIN                       dG= -22.14  LE=1.476  CNS_MPO5=4.8  logBBB=-0.40
+    CHEMBL1454910   NITROXOLINE                    dG= -22.13  LE=1.581  CNS_MPO5=4.6  logBBB=-0.71
+    CHEMBL1266      TETRAHYDROZOLINE               dG= -21.92  LE=1.462  CNS_MPO5=4.8  logBBB=0.10
+    CHEMBL1201168   ISOCARBOXAZID                  dG= -21.06  LE=1.239  CNS_MPO5=4.4  logBBB=-0.64
+    CHEMBL1201754   RUFINAMIDE                     dG= -20.20  LE=1.188  CNS_MPO5=4.6  logBBB=-0.85
+    CHEMBL797       PHENSUXIMIDE                   dG= -20.08  LE=1.435  CNS_MPO5=5.0  logBBB=-0.24
+

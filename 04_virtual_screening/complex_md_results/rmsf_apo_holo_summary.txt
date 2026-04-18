@@ -1,0 +1,20 @@
+RMSF Apo vs Holo — PICALM ANTH (site473)
+==================================================
+Apo  (metadynamics, 200 ns, stride=10): 268 Cα, mean RMSF = 2.89 Å, max = 20.90 Å
+Holo (Ibufenac rep1+rep5 avg):          268 Cα, mean RMSF = 1.84 Å, max = 6.90 Å
+
+site473 pocket residues (holo → apo numbering):
+  LEU 219 (apo 201): apo 1.37 Å  holo 1.06 Å  Δ -0.31  ↓ stabilised
+  TYR 237 (apo 219): apo 1.27 Å  holo 1.11 Å  Δ -0.16  ↓ stabilised
+  PHE 240 (apo 222): apo 1.47 Å  holo 1.11 Å  Δ -0.36  ↓ stabilised
+  LEU 267 (apo 249): apo 3.28 Å  holo 1.93 Å  Δ -1.35  ↓ stabilised
+  SER 268 (apo 250): apo 3.72 Å  holo 2.73 Å  Δ -0.99  ↓ stabilised
+  GLN 269 (apo 251): apo 4.90 Å  holo 2.62 Å  Δ -2.28  ↓ stabilised
+  ALA 270 (apo 252): apo 4.42 Å  holo 2.21 Å  Δ -2.22  ↓ stabilised
+  LEU 278 (apo 260): apo 1.89 Å  holo 1.87 Å  Δ -0.01  ≈ unchanged
+
+PIP2-helix (resids 1–22):  apo 2.19 Å  holo 1.91 Å
+Ubiquitin face (~140–180): apo 1.93 Å  holo 1.83 Å
+
+Caveat: Apo RMSF reflects enhanced sampling (metadynamics) — higher values expected.
+Meaningful comparison: RELATIVE RMSF change at site473 vs rest of domain.

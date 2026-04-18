@@ -1,0 +1,59 @@
+open data/site1584_frame30.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #474cb3
+color name color_pocket3 #885ce6
+color name color_pocket4 #9047b3
+color name color_pocket5 #e65ce0
+color name color_pocket6 #b34788
+color name color_pocket7 #e65c7d
+color name color_pocket8 #b35447
+color name color_pocket9 #e69e5c
+color name color_pocket10 #b3a147
+
+name pocket1_atoms @@serial_number=6156 @@serial_number=4214 @@serial_number=4215 @@serial_number=4216 @@serial_number=4281 @@serial_number=4289 @@serial_number=6157 @@serial_number=3768 @@serial_number=3832 @@serial_number=3771 @@serial_number=3826 @@serial_number=6269 @@serial_number=3846 @@serial_number=3891 @@serial_number=4155 @@serial_number=6088 @@serial_number=3716 @@serial_number=6223 @@serial_number=6224 @@serial_number=6150 @@serial_number=6153
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=614 @@serial_number=617 @@serial_number=678 @@serial_number=2956 @@serial_number=693 @@serial_number=1062 @@serial_number=3006 @@serial_number=2957
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=2666 @@serial_number=2668 @@serial_number=384 @@serial_number=446 @@serial_number=449 @@serial_number=450 @@serial_number=377 @@serial_number=457 @@serial_number=2710 @@serial_number=2725 @@serial_number=2729 @@serial_number=2660 @@serial_number=2662 @@serial_number=2677 @@serial_number=2723 @@serial_number=2727 @@serial_number=454 @@serial_number=2712 @@serial_number=459 @@serial_number=2773 @@serial_number=324 @@serial_number=398 @@serial_number=2719
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=5847 @@serial_number=5789 @@serial_number=5786 @@serial_number=5848 @@serial_number=5850 @@serial_number=5729 @@serial_number=5734 @@serial_number=4578 @@serial_number=4580 @@serial_number=4526 @@serial_number=4572 @@serial_number=4574 @@serial_number=4564 @@serial_number=4621 @@serial_number=4624
+color pocket4_atoms color_pocket4
+
+name pocket5_atoms @@serial_number=580 @@serial_number=581 @@serial_number=1195 @@serial_number=1198 @@serial_number=1200 @@serial_number=1201 @@serial_number=535 @@serial_number=1121 @@serial_number=1074 @@serial_number=1076 @@serial_number=1069 @@serial_number=1071 @@serial_number=1148 @@serial_number=1078 @@serial_number=1141 @@serial_number=1139
+color pocket5_atoms color_pocket5
+
+name pocket6_atoms @@serial_number=3604 @@serial_number=3606 @@serial_number=3667 @@serial_number=4334 @@serial_number=6039 @@serial_number=6088 @@serial_number=3709 @@serial_number=3712 @@serial_number=3716 @@serial_number=3653 @@serial_number=4289 @@serial_number=6104 @@serial_number=6105
+color pocket6_atoms color_pocket6
+
+name pocket7_atoms @@serial_number=3183 @@serial_number=5650 @@serial_number=3205 @@serial_number=5641 @@serial_number=5645 @@serial_number=3203 @@serial_number=3187 @@serial_number=5701 @@serial_number=5709 @@serial_number=3180 @@serial_number=3207 @@serial_number=3209 @@serial_number=3252
+color pocket7_atoms color_pocket7
+
+name pocket8_atoms @@serial_number=561 @@serial_number=562 @@serial_number=2837 @@serial_number=2838 @@serial_number=558 @@serial_number=2841 @@serial_number=2883 @@serial_number=2886 @@serial_number=2957 @@serial_number=614 @@serial_number=2821 @@serial_number=2890 @@serial_number=1135
+color pocket8_atoms color_pocket8
+
+name pocket9_atoms @@serial_number=98 @@serial_number=144 @@serial_number=2487 @@serial_number=38 @@serial_number=2485 @@serial_number=2437 @@serial_number=2446 @@serial_number=2439 @@serial_number=2442 @@serial_number=2509 @@serial_number=78 @@serial_number=29 @@serial_number=33
+color pocket9_atoms color_pocket9
+
+name pocket10_atoms @@serial_number=5704 @@serial_number=5752 @@serial_number=3187 @@serial_number=5706 @@serial_number=3298 @@serial_number=3252 @@serial_number=3235 @@serial_number=5754
+color pocket10_atoms color_pocket10
+
+
+
+open data/site1584_frame30.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

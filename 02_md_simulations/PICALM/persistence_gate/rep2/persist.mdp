@@ -1,0 +1,61 @@
+; persist_template.mdp  —  CRYPTAD
+; 20 ns unbiased persistence gate (Step 3.4b)
+; NPT, CHARMM36m, TIP3P, 310.15 K, 1 bar, HMR dt=0.004 ps
+; gen_seed is filled in by run_persist_S1.sh via sed substitution.
+; Do NOT use -plumed flag when running mdrun with this .tpr.
+
+integrator              = md
+dt                      = 0.004
+nsteps                  = 5000000       ; 20 ns at 4 fs
+
+; Output — same stride as production (200 frames total)
+nstxout-compressed      = 25000         ; every 100 ps
+nstxout                 = 0
+nstvout                 = 0
+nstfout                 = 0
+nstcalcenergy           = 100
+nstenergy               = 1000
+nstlog                  = 1000
+
+; Neighbour search
+cutoff-scheme           = Verlet
+nstlist                 = 20
+
+; vdW
+vdwtype                 = Cut-off
+vdw-modifier            = Force-switch
+rvdw_switch             = 1.0
+rvdw                    = 1.2
+rlist                   = 1.2
+
+; Electrostatics
+rcoulomb                = 1.2
+coulombtype             = PME
+
+; Temperature coupling (v-rescale, same groups as production)
+tcoupl                  = v-rescale
+tc_grps                 = SOLU SOLV
+tau_t                   = 1.0 1.0
+ref_t                   = 310.15 310.15
+
+; Pressure coupling
+pcoupl                  = C-rescale
+pcoupltype              = isotropic
+tau_p                   = 5.0
+compressibility         = 4.5e-5
+ref_p                   = 1.0
+
+; Constraints (HMR — h-bonds constrained)
+constraints             = h-bonds
+constraint_algorithm    = LINCS
+continuation            = no            ; fresh start from extracted GRO
+
+; Velocity generation (unique per replica — seed replaced by run script)
+gen_vel                 = yes
+gen_temp                = 310.15
+gen_seed                = 900146
+
+; COM removal
+nstcomm                 = 100
+comm_mode               = linear
+comm_grps               = SOLU SOLV

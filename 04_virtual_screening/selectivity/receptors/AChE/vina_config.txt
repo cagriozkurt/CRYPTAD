@@ -1,0 +1,14 @@
+receptor = /Volumes/PortableSSD/untitled folder/CRYPTAD/04_virtual_screening/selectivity/receptors/AChE/receptor.pdbqt
+
+center_x = -1.582
+center_y = -50.192
+center_z = 2.101
+
+size_x = 25
+size_y = 25
+size_z = 25
+
+exhaustiveness = 8
+num_modes       = 9
+energy_range    = 3
+cpu             = 8

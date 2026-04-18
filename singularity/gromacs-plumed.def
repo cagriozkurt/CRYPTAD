@@ -1,0 +1,189 @@
+# CRYPTAD — Apptainer/Singularity definition file
+# Builds PLUMED 2.9.2 + GROMACS 2023.3 (MPI + CUDA) in a portable container.
+#
+# Build (requires root or --fakeroot; takes ~30–60 min):
+#   apptainer build gromacs-plumed.sif singularity/gromacs-plumed.def
+#
+# Run interactively:
+#   apptainer shell --nv gromacs-plumed.sif
+#
+# Run a GROMACS command:
+#   apptainer exec --nv gromacs-plumed.sif gmx_mpi mdrun -v -deffnm md
+#
+# Run via SLURM with host MPI (hybrid mode — recommended for multi-node):
+#   mpirun -np $SLURM_NTASKS \
+#     apptainer exec --nv --bind $SCRATCH gromacs-plumed.sif \
+#     gmx_mpi mdrun -ntomp $OMP_NUM_THREADS -npme 4 -deffnm md
+#
+# Note: GPU offload requires --nv flag and a CUDA-capable node.
+# Note: For CPU-only runs, omit --nv.
+
+Bootstrap: docker
+From: nvidia/cuda:12.4.1-devel-ubuntu22.04
+
+%labels
+    GROMACS_VERSION   2023.3
+    PLUMED_VERSION    2.9.2
+    GCC_VERSION       12
+    OpenMPI_VERSION   4.1.6
+    CMake_VERSION     3.31.1
+    CUDA_VERSION      12.4.1
+    GMX_SIMD          AVX2_256
+    GMX_GPU           CUDA
+    MPI               OpenMPI
+
+%help
+    CRYPTAD simulation container: GROMACS 2023.3 patched with PLUMED 2.9.2.
+
+    Binaries:
+        gmx_mpi   — GROMACS (MPI + PLUMED)
+        plumed    — PLUMED CLI
+
+    Environment variables set automatically:
+        PLUMED_KERNEL  — path to libplumedKernel.so (runtime loading)
+        PATH           — includes GROMACS and PLUMED bin dirs
+        LD_LIBRARY_PATH — includes GROMACS and PLUMED lib dirs
+
+%environment
+    export PLUMED_INSTALL=/opt/plumed-2.9.2
+    export GMX_INSTALL=/opt/gromacs-plumed-2023.3
+    export PATH=${GMX_INSTALL}/bin:${PLUMED_INSTALL}/bin:${PATH}
+    export PLUMED_KERNEL=${PLUMED_INSTALL}/lib/libplumedKernel.so
+    export LD_LIBRARY_PATH=${GMX_INSTALL}/lib:${PLUMED_INSTALL}/lib:${LD_LIBRARY_PATH:-}
+
+%post
+    set -euo pipefail
+    export DEBIAN_FRONTEND=noninteractive
+
+    # ── Pinned versions ──────────────────────────────────────────────────────
+    PLUMED_VERSION=2.9.2
+    GMX_VERSION=2023.3
+    OMPI_VERSION=4.1.6
+    CMAKE_VERSION=3.31.1
+    PLUMED_INSTALL=/opt/plumed-${PLUMED_VERSION}
+    GMX_INSTALL=/opt/gromacs-plumed-${GMX_VERSION}
+
+    # ── System packages ──────────────────────────────────────────────────────
+    apt-get update -qq
+    apt-get install -y --no-install-recommends \
+        gcc-12 g++-12 \
+        wget curl ca-certificates \
+        make autoconf automake libtool \
+        libssl-dev zlib1g-dev libfftw3-dev \
+        libxml2-dev \
+        python3 python3-dev \
+        pkg-config
+    apt-get clean && rm -rf /var/lib/apt/lists/*
+
+    # GCC 12 as default compiler
+    update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-12 100
+    update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-12 100
+    update-alternatives --install /usr/bin/cc  cc  /usr/bin/gcc-12 100
+    update-alternatives --install /usr/bin/c++ c++ /usr/bin/g++-12 100
+
+    # ── CMake 3.31.1 ─────────────────────────────────────────────────────────
+    wget -q \
+        "https://github.com/Kitware/CMake/releases/download/v${CMAKE_VERSION}/cmake-${CMAKE_VERSION}-linux-x86_64.sh" \
+        -O /tmp/cmake-install.sh
+    chmod +x /tmp/cmake-install.sh
+    /tmp/cmake-install.sh --skip-license --prefix=/usr/local
+    rm /tmp/cmake-install.sh
+    cmake --version | head -1
+
+    # ── OpenMPI 4.1.6 ────────────────────────────────────────────────────────
+    # Compiled with CUDA and PMI2 support for SLURM hybrid-mode execution.
+    # At runtime, pass --mpi=pmi2 (srun) or use mpirun with host launcher.
+    wget -q \
+        "https://download.open-mpi.org/release/open-mpi/v4.1/openmpi-${OMPI_VERSION}.tar.gz" \
+        -O /tmp/openmpi.tar.gz
+    cd /tmp
+    tar xzf openmpi.tar.gz
+    cd openmpi-${OMPI_VERSION}
+    ./configure \
+        --prefix=/usr/local \
+        --with-cuda=/usr/local/cuda \
+        --with-pmi \
+        --enable-mpi-cxx \
+        CC=gcc CXX=g++
+    make -j$(nproc)
+    make install
+    ldconfig
+    cd /tmp && rm -rf openmpi-${OMPI_VERSION} openmpi.tar.gz
+    mpicc --version | head -1
+
+    # ── PLUMED 2.9.2 ─────────────────────────────────────────────────────────
+    # Using -mavx2 (not -march=native) for reproducibility across nodes.
+    wget -q \
+        "https://github.com/plumed/plumed2/releases/download/v${PLUMED_VERSION}/plumed-${PLUMED_VERSION}.tgz" \
+        -O /tmp/plumed.tgz
+    cd /tmp
+    tar xzf plumed.tgz
+    cd plumed-${PLUMED_VERSION}
+    ./configure \
+        --prefix=${PLUMED_INSTALL} \
+        --enable-mpi \
+        CC=mpicc CXX=mpicxx \
+        CXXFLAGS="-O3 -mavx2"
+    make -j$(nproc)
+    make install
+    cd /tmp && rm -rf plumed-${PLUMED_VERSION} plumed.tgz
+
+    export PATH=${PLUMED_INSTALL}/bin:${PATH}
+    export PLUMED_KERNEL=${PLUMED_INSTALL}/lib/libplumedKernel.so
+    export LD_LIBRARY_PATH=${PLUMED_INSTALL}/lib:${LD_LIBRARY_PATH:-}
+    plumed info 2>&1 | head -3
+
+    # ── GROMACS 2023.3 (PLUMED-patched, MPI + CUDA) ───────────────────────────
+    wget -q \
+        "https://ftp.gromacs.org/gromacs/gromacs-${GMX_VERSION}.tar.gz" \
+        -O /tmp/gromacs.tar.gz
+    cd /tmp
+    tar xzf gromacs.tar.gz
+    cd gromacs-${GMX_VERSION}
+
+    plumed patch -p --shared -e "gromacs-${GMX_VERSION}"
+
+    mkdir build && cd build
+    cmake .. \
+        -DCMAKE_INSTALL_PREFIX=${GMX_INSTALL} \
+        -DCMAKE_C_COMPILER=mpicc \
+        -DCMAKE_CXX_COMPILER=mpicxx \
+        -DGMX_MPI=ON \
+        -DGMX_THREAD_MPI=OFF \
+        -DGMX_GPU=CUDA \
+        -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda \
+        -DGMX_CUDA_TARGET_COMPUTE="80;86" \
+        -DGMX_FFT_LIBRARY=fftw3 \
+        -DGMX_BUILD_OWN_FFTW=ON \
+        -DGMX_SIMD=AVX2_256 \
+        -DBUILD_SHARED_LIBS=ON \
+        -DCMAKE_BUILD_TYPE=Release
+    make -j$(nproc)
+    make install
+    cd /tmp && rm -rf gromacs-${GMX_VERSION} gromacs.tar.gz
+
+    ldconfig
+
+    # ── Build manifest ────────────────────────────────────────────────────────
+    {
+        echo "built_at:        $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+        echo "plumed_version:  $(${PLUMED_INSTALL}/bin/plumed info 2>&1 | head -1)"
+        echo "gromacs_version: $(${GMX_INSTALL}/bin/gmx_mpi --version 2>&1 | grep 'GROMACS version')"
+        echo "gcc:             $(gcc --version | head -1)"
+        echo "mpi:             $(mpicc --version | head -1)"
+        echo "cuda:            $(nvcc --version | grep 'release')"
+        echo "cmake:           $(cmake --version | head -1)"
+    } > /opt/build_manifest.txt
+    cat /opt/build_manifest.txt
+
+%test
+    echo "=== GROMACS ==="
+    gmx_mpi --version | head -5
+    echo "=== PLUMED ==="
+    plumed info 2>&1 | head -3
+    echo "=== MPI ==="
+    mpirun --version | head -1
+    echo "=== All checks passed ==="
+
+%runscript
+    exec gmx_mpi "$@"

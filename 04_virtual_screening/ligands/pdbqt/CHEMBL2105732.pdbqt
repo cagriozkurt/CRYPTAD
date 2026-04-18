@@ -1,0 +1,39 @@
+REMARK SMILES CCN(CC)C(=O)[C@@]1(c2ccccc2)C[C@H]1CN
+REMARK SMILES IDX 8 1 15 2 16 3 6 4 3 5 7 6 2 7 1 8 4 9 5 10 9 11 10 12 14 13
+REMARK SMILES IDX 11 14 13 15 12 16 17 17 18 18
+REMARK H PARENT 18 19 18 20
+ROOT
+ATOM      1  C   UNL     1      -0.999   0.619   0.179  1.00  0.00     0.079 C 
+ATOM      2  C   UNL     1      -2.149   1.558   0.602  1.00  0.00     0.028 C 
+ATOM      3  C   UNL     1      -1.506   1.747  -0.741  1.00  0.00     0.024 C 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C   UNL     1       0.324   0.808   0.901  1.00  0.00     0.233 C 
+ATOM      5  N   UNL     1       1.519   0.535   0.230  1.00  0.00    -0.342 N 
+ATOM      6  O   UNL     1       0.301   1.225   2.058  1.00  0.00    -0.274 OA
+BRANCH   5   7
+ATOM      7  C   UNL     1       2.767   0.724   0.970  1.00  0.00     0.116 C 
+ATOM      8  C   UNL     1       3.051  -0.400   1.955  1.00  0.00     0.027 C 
+ENDBRANCH   5   7
+BRANCH   5   9
+ATOM      9  C   UNL     1       1.613   0.031  -1.140  1.00  0.00     0.116 C 
+ATOM     10  C   UNL     1       1.977  -1.443  -1.210  1.00  0.00     0.027 C 
+ENDBRANCH   5   9
+ENDBRANCH   1   4
+BRANCH   1  11
+ATOM     11  C   UNL     1      -1.458  -0.835  -0.025  1.00  0.00    -0.032 A 
+ATOM     12  C   UNL     1      -1.662  -1.675   1.086  1.00  0.00     0.005 A 
+ATOM     13  C   UNL     1      -1.694  -1.390  -1.296  1.00  0.00     0.005 A 
+ATOM     14  C   UNL     1      -2.073  -3.002   0.938  1.00  0.00     0.000 A 
+ATOM     15  C   UNL     1      -2.107  -2.717  -1.450  1.00  0.00     0.000 A 
+ATOM     16  C   UNL     1      -2.295  -3.523  -0.332  1.00  0.00     0.000 A 
+ENDBRANCH   1  11
+BRANCH   3  17
+ATOM     17  C   UNL     1      -0.674   2.941  -1.096  1.00  0.00     0.082 C 
+BRANCH  17  18
+ATOM     18  N   UNL     1      -0.390   3.846   0.002  1.00  0.00    -0.330 NA
+ATOM     19  H   UNL     1      -1.264   4.183   0.402  1.00  0.00     0.118 HD
+ATOM     20  H   UNL     1       0.087   3.348   0.756  1.00  0.00     0.118 HD
+ENDBRANCH  17  18
+ENDBRANCH   3  17
+TORSDOF 6

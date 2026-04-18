@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+
+# Editor backups
+*~
+*.swp
+*.swo
+
+# GROMACS binary / large output files
+*.xtc
+*.trr
+*.cpt
+*.edr
+*.tpr
+*.gro
+*.ndx
+
+# Numpy / MDAnalysis offset caches
+*.npz
+*.npy
+
+# ============================================================
+# Large raw data directories — deposited at Zenodo
+# ============================================================
+
+# CHARMM-GUI solvated system inputs (~73 GB)
+02_md_inputs/
+
+# Complex MD production trajectories (~24 GB)
+02_md_simulations/complex_md/
+
+# Per-frame fpocket PDB outputs (~12 GB)
+03_pocket_analysis/fpocket_results/
+
+# Per-compound AMBER/GROMACS MM-GBSA run directories (~99 GB)
+04_virtual_screening/mmgbsa/
+
+# Per-compound AutoDock Vina docking output pdbqt files (~219 MB)
+04_virtual_screening/docking_results/
+
+# ============================================================
+# Large trajectory PDB dumps inside tracked sim dirs
+# ============================================================
+02_md_simulations/*/metadynamics/*/protein_traj_metad.pdb
+02_md_simulations/*/metadynamics/*/protein_traj_metad_filtered.pdb
+02_md_simulations/*/persistence_gate/*/protein_traj.pdb
+
+# AlphaFold MSA files (large, re-downloadable from AF3 server)
+*.a3m
+
+# Excel / binary workbooks (not diff-friendly; keep .csv instead)
+*.xlsx
+*.xls
+
+# Log files in root (per-run noise)
+logs/
+
+# ============================================================
+# Project documents (private / unpublished)
+# ============================================================
+CLAUDE.md
+CRYPTAD_layman.md
+CRYPTAD_research_plan.md
+project_publication_assessment.md
+08_manuscript/
+truba_docs/

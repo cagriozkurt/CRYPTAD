@@ -1,0 +1,240 @@
+2026-03-16 09:19:58,170 INFO:main.py:246:print_splash_screen:PDB2PQR v3.7.1: biomolecular structure conversion software.
+2026-03-16 09:19:58,170 INFO:main.py:248:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2026-03-16 09:19:58,170 INFO:main.py:248:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2026-03-16 09:19:58,170 INFO:main.py:770:main_driver:Checking and transforming input arguments.
+2026-03-16 09:19:58,170 INFO:main.py:774:main_driver:Loading topology files.
+2026-03-16 09:19:58,187 INFO:main.py:776:main_driver:Loading molecule: /Volumes/PortableSSD/untitled folder/CRYPTAD/04_virtual_screening/receptors/S3_site473/receptor_clean.pdb
+2026-03-16 09:19:58,195 INFO:main.py:779:main_driver:Dropping water from structure.
+2026-03-16 09:19:58,196 INFO:main.py:781:main_driver:Setting up molecule.
+2026-03-16 09:19:58,202 INFO:main.py:423:setup_molecule:Created biomolecule object with 268 residues and 4328 atoms.
+2026-03-16 09:19:58,202 INFO:main.py:785:main_driver:Setting termini states for biomolecule chains.
+2026-03-16 09:19:58,205 INFO:main.py:616:non_trivial:Loading forcefield.
+2026-03-16 09:19:58,207 INFO:main.py:620:non_trivial:Loading hydrogen topology definitions.
+2026-03-16 09:19:58,208 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLU A 286
+2026-03-16 09:19:58,209 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLU A 286
+2026-03-16 09:19:58,209 INFO:main.py:630:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
+2026-03-16 09:19:58,209 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLU A 286
+2026-03-16 09:19:58,209 WARNING:biomolecule.py:1027:repair_heavy:Extra atom CAY in GLY A 19! - 
+2026-03-16 09:19:58,209 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:19:58,209 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HY1 in GLY A 19! - 
+2026-03-16 09:19:58,209 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:19:58,209 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HY2 in GLY A 19! - 
+2026-03-16 09:19:58,209 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:19:58,209 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HY3 in GLY A 19! - 
+2026-03-16 09:19:58,209 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:19:58,209 WARNING:biomolecule.py:1027:repair_heavy:Extra atom CY in GLY A 19! - 
+2026-03-16 09:19:58,209 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:19:58,209 WARNING:biomolecule.py:1027:repair_heavy:Extra atom OY in GLY A 19! - 
+2026-03-16 09:19:58,209 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:19:58,210 WARNING:biomolecule.py:1027:repair_heavy:Extra atom NT in GLU A 286! - 
+2026-03-16 09:19:58,210 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:19:58,210 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HNT in GLU A 286! - 
+2026-03-16 09:19:58,210 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:19:58,210 WARNING:biomolecule.py:1027:repair_heavy:Extra atom CAT in GLU A 286! - 
+2026-03-16 09:19:58,210 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:19:58,210 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HT1 in GLU A 286! - 
+2026-03-16 09:19:58,210 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:19:58,210 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HT2 in GLU A 286! - 
+2026-03-16 09:19:58,210 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:19:58,210 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HT3 in GLU A 286! - 
+2026-03-16 09:19:58,210 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:19:58,210 INFO:biomolecule.py:1080:repair_heavy:Added atom OXT to residue GLU A 286 at coordinates 50.725, 78.116, 23.986
+2026-03-16 09:19:58,210 INFO:main.py:635:non_trivial:Updating disulfide bridges.
+2026-03-16 09:19:58,210 INFO:main.py:638:non_trivial:Debumping biomolecule.
+2026-03-16 09:19:58,244 INFO:main.py:645:non_trivial:Assigning titration states with PROPKA.
+2026-03-16 09:20:52,842 INFO:main.py:246:print_splash_screen:PDB2PQR v3.7.1: biomolecular structure conversion software.
+2026-03-16 09:20:52,842 INFO:main.py:248:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2026-03-16 09:20:52,842 INFO:main.py:248:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2026-03-16 09:20:52,842 INFO:main.py:770:main_driver:Checking and transforming input arguments.
+2026-03-16 09:20:52,843 INFO:main.py:774:main_driver:Loading topology files.
+2026-03-16 09:20:52,860 INFO:main.py:776:main_driver:Loading molecule: /Volumes/PortableSSD/untitled folder/CRYPTAD/04_virtual_screening/receptors/S3_site473/receptor_clean.pdb
+2026-03-16 09:20:52,868 INFO:main.py:779:main_driver:Dropping water from structure.
+2026-03-16 09:20:52,869 INFO:main.py:781:main_driver:Setting up molecule.
+2026-03-16 09:20:52,875 INFO:main.py:423:setup_molecule:Created biomolecule object with 268 residues and 4328 atoms.
+2026-03-16 09:20:52,875 INFO:main.py:785:main_driver:Setting termini states for biomolecule chains.
+2026-03-16 09:20:52,878 INFO:main.py:616:non_trivial:Loading forcefield.
+2026-03-16 09:20:52,880 INFO:main.py:620:non_trivial:Loading hydrogen topology definitions.
+2026-03-16 09:20:52,881 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLU A 286
+2026-03-16 09:20:52,882 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLU A 286
+2026-03-16 09:20:52,882 INFO:main.py:630:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
+2026-03-16 09:20:52,882 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLU A 286
+2026-03-16 09:20:52,882 WARNING:biomolecule.py:1027:repair_heavy:Extra atom CAY in GLY A 19! - 
+2026-03-16 09:20:52,882 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:20:52,882 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HY1 in GLY A 19! - 
+2026-03-16 09:20:52,882 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:20:52,882 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HY2 in GLY A 19! - 
+2026-03-16 09:20:52,882 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:20:52,882 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HY3 in GLY A 19! - 
+2026-03-16 09:20:52,882 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:20:52,882 WARNING:biomolecule.py:1027:repair_heavy:Extra atom CY in GLY A 19! - 
+2026-03-16 09:20:52,882 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:20:52,882 WARNING:biomolecule.py:1027:repair_heavy:Extra atom OY in GLY A 19! - 
+2026-03-16 09:20:52,882 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:20:52,883 WARNING:biomolecule.py:1027:repair_heavy:Extra atom NT in GLU A 286! - 
+2026-03-16 09:20:52,883 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:20:52,883 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HNT in GLU A 286! - 
+2026-03-16 09:20:52,883 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:20:52,883 WARNING:biomolecule.py:1027:repair_heavy:Extra atom CAT in GLU A 286! - 
+2026-03-16 09:20:52,883 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:20:52,883 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HT1 in GLU A 286! - 
+2026-03-16 09:20:52,883 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:20:52,883 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HT2 in GLU A 286! - 
+2026-03-16 09:20:52,883 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:20:52,883 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HT3 in GLU A 286! - 
+2026-03-16 09:20:52,883 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:20:52,883 INFO:biomolecule.py:1080:repair_heavy:Added atom OXT to residue GLU A 286 at coordinates 50.725, 78.116, 23.986
+2026-03-16 09:20:52,883 INFO:main.py:635:non_trivial:Updating disulfide bridges.
+2026-03-16 09:20:52,883 INFO:main.py:661:non_trivial:Adding hydrogens to biomolecule.
+2026-03-16 09:20:52,884 INFO:main.py:666:non_trivial:Optimizing hydrogen bonds
+2026-03-16 09:20:53,105 INFO:main.py:678:non_trivial:Applying force field to biomolecule states.
+2026-03-16 09:20:53,106 INFO:main.py:725:non_trivial:Regenerating headers.
+2026-03-16 09:20:53,107 INFO:main.py:750:non_trivial:Regenerating PDB lines.
+2026-03-16 09:20:53,116 WARNING:main.py:326:print_pqr:Ignoring 390 header lines in output.
+2026-03-16 09:20:53,125 WARNING:main.py:369:print_pdb:Ignoring 390 header lines in output.
+2026-03-16 09:21:58,572 INFO:main.py:246:print_splash_screen:PDB2PQR v3.7.1: biomolecular structure conversion software.
+2026-03-16 09:21:58,573 INFO:main.py:248:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2026-03-16 09:21:58,573 INFO:main.py:248:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2026-03-16 09:21:58,573 INFO:main.py:770:main_driver:Checking and transforming input arguments.
+2026-03-16 09:21:58,573 INFO:main.py:774:main_driver:Loading topology files.
+2026-03-16 09:21:58,590 INFO:main.py:776:main_driver:Loading molecule: /Volumes/PortableSSD/untitled folder/CRYPTAD/04_virtual_screening/receptors/S3_site473/receptor_clean.pdb
+2026-03-16 09:21:58,598 INFO:main.py:779:main_driver:Dropping water from structure.
+2026-03-16 09:21:58,599 INFO:main.py:781:main_driver:Setting up molecule.
+2026-03-16 09:21:58,605 INFO:main.py:423:setup_molecule:Created biomolecule object with 268 residues and 4328 atoms.
+2026-03-16 09:21:58,606 INFO:main.py:785:main_driver:Setting termini states for biomolecule chains.
+2026-03-16 09:21:58,609 INFO:main.py:616:non_trivial:Loading forcefield.
+2026-03-16 09:21:58,611 INFO:main.py:620:non_trivial:Loading hydrogen topology definitions.
+2026-03-16 09:21:58,612 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLU A 286
+2026-03-16 09:21:58,612 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLU A 286
+2026-03-16 09:21:58,612 INFO:main.py:630:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
+2026-03-16 09:21:58,613 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLU A 286
+2026-03-16 09:21:58,613 WARNING:biomolecule.py:1027:repair_heavy:Extra atom CAY in GLY A 19! - 
+2026-03-16 09:21:58,613 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:21:58,613 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HY1 in GLY A 19! - 
+2026-03-16 09:21:58,613 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:21:58,613 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HY2 in GLY A 19! - 
+2026-03-16 09:21:58,613 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:21:58,613 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HY3 in GLY A 19! - 
+2026-03-16 09:21:58,613 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:21:58,613 WARNING:biomolecule.py:1027:repair_heavy:Extra atom CY in GLY A 19! - 
+2026-03-16 09:21:58,613 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:21:58,613 WARNING:biomolecule.py:1027:repair_heavy:Extra atom OY in GLY A 19! - 
+2026-03-16 09:21:58,613 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:21:58,614 WARNING:biomolecule.py:1027:repair_heavy:Extra atom NT in GLU A 286! - 
+2026-03-16 09:21:58,614 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:21:58,614 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HNT in GLU A 286! - 
+2026-03-16 09:21:58,614 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:21:58,614 WARNING:biomolecule.py:1027:repair_heavy:Extra atom CAT in GLU A 286! - 
+2026-03-16 09:21:58,614 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:21:58,614 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HT1 in GLU A 286! - 
+2026-03-16 09:21:58,614 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:21:58,614 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HT2 in GLU A 286! - 
+2026-03-16 09:21:58,614 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:21:58,614 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HT3 in GLU A 286! - 
+2026-03-16 09:21:58,614 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:21:58,614 INFO:biomolecule.py:1080:repair_heavy:Added atom OXT to residue GLU A 286 at coordinates 50.725, 78.116, 23.986
+2026-03-16 09:21:58,614 INFO:main.py:635:non_trivial:Updating disulfide bridges.
+2026-03-16 09:21:58,614 INFO:main.py:661:non_trivial:Adding hydrogens to biomolecule.
+2026-03-16 09:21:58,614 INFO:main.py:666:non_trivial:Optimizing hydrogen bonds
+2026-03-16 09:21:58,844 INFO:main.py:678:non_trivial:Applying force field to biomolecule states.
+2026-03-16 09:21:58,845 INFO:main.py:725:non_trivial:Regenerating headers.
+2026-03-16 09:21:58,846 INFO:main.py:750:non_trivial:Regenerating PDB lines.
+2026-03-16 09:21:58,854 WARNING:main.py:326:print_pqr:Ignoring 390 header lines in output.
+2026-03-16 09:21:58,864 WARNING:main.py:369:print_pdb:Ignoring 390 header lines in output.
+2026-03-16 09:22:43,244 INFO:main.py:246:print_splash_screen:PDB2PQR v3.7.1: biomolecular structure conversion software.
+2026-03-16 09:22:43,244 INFO:main.py:248:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2026-03-16 09:22:43,244 INFO:main.py:248:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2026-03-16 09:22:43,244 INFO:main.py:770:main_driver:Checking and transforming input arguments.
+2026-03-16 09:22:43,244 INFO:main.py:774:main_driver:Loading topology files.
+2026-03-16 09:22:43,261 INFO:main.py:776:main_driver:Loading molecule: /Volumes/PortableSSD/untitled folder/CRYPTAD/04_virtual_screening/receptors/S3_site473/receptor_clean.pdb
+2026-03-16 09:22:43,270 INFO:main.py:779:main_driver:Dropping water from structure.
+2026-03-16 09:22:43,271 INFO:main.py:781:main_driver:Setting up molecule.
+2026-03-16 09:22:43,277 INFO:main.py:423:setup_molecule:Created biomolecule object with 268 residues and 4328 atoms.
+2026-03-16 09:22:43,277 INFO:main.py:785:main_driver:Setting termini states for biomolecule chains.
+2026-03-16 09:22:43,280 INFO:main.py:616:non_trivial:Loading forcefield.
+2026-03-16 09:22:43,282 INFO:main.py:620:non_trivial:Loading hydrogen topology definitions.
+2026-03-16 09:22:43,283 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLU A 286
+2026-03-16 09:22:43,283 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLU A 286
+2026-03-16 09:22:43,283 INFO:main.py:630:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
+2026-03-16 09:22:43,284 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLU A 286
+2026-03-16 09:22:43,284 WARNING:biomolecule.py:1027:repair_heavy:Extra atom CAY in GLY A 19! - 
+2026-03-16 09:22:43,284 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:22:43,284 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HY1 in GLY A 19! - 
+2026-03-16 09:22:43,284 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:22:43,284 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HY2 in GLY A 19! - 
+2026-03-16 09:22:43,284 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:22:43,284 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HY3 in GLY A 19! - 
+2026-03-16 09:22:43,284 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:22:43,284 WARNING:biomolecule.py:1027:repair_heavy:Extra atom CY in GLY A 19! - 
+2026-03-16 09:22:43,284 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:22:43,284 WARNING:biomolecule.py:1027:repair_heavy:Extra atom OY in GLY A 19! - 
+2026-03-16 09:22:43,284 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:22:43,285 WARNING:biomolecule.py:1027:repair_heavy:Extra atom NT in GLU A 286! - 
+2026-03-16 09:22:43,285 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:22:43,285 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HNT in GLU A 286! - 
+2026-03-16 09:22:43,285 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:22:43,285 WARNING:biomolecule.py:1027:repair_heavy:Extra atom CAT in GLU A 286! - 
+2026-03-16 09:22:43,285 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:22:43,285 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HT1 in GLU A 286! - 
+2026-03-16 09:22:43,285 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:22:43,285 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HT2 in GLU A 286! - 
+2026-03-16 09:22:43,285 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:22:43,285 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HT3 in GLU A 286! - 
+2026-03-16 09:22:43,285 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:22:43,285 INFO:biomolecule.py:1080:repair_heavy:Added atom OXT to residue GLU A 286 at coordinates 50.725, 78.116, 23.986
+2026-03-16 09:22:43,285 INFO:main.py:635:non_trivial:Updating disulfide bridges.
+2026-03-16 09:22:43,285 INFO:main.py:661:non_trivial:Adding hydrogens to biomolecule.
+2026-03-16 09:22:43,286 INFO:main.py:666:non_trivial:Optimizing hydrogen bonds
+2026-03-16 09:22:43,522 INFO:main.py:678:non_trivial:Applying force field to biomolecule states.
+2026-03-16 09:22:43,524 INFO:main.py:725:non_trivial:Regenerating headers.
+2026-03-16 09:22:43,524 INFO:main.py:750:non_trivial:Regenerating PDB lines.
+2026-03-16 09:22:43,533 WARNING:main.py:326:print_pqr:Ignoring 390 header lines in output.
+2026-03-16 09:22:43,543 WARNING:main.py:369:print_pdb:Ignoring 390 header lines in output.
+2026-03-16 09:26:06,300 INFO:main.py:246:print_splash_screen:PDB2PQR v3.7.1: biomolecular structure conversion software.
+2026-03-16 09:26:06,301 INFO:main.py:248:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2026-03-16 09:26:06,301 INFO:main.py:248:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2026-03-16 09:26:06,301 INFO:main.py:770:main_driver:Checking and transforming input arguments.
+2026-03-16 09:26:06,301 INFO:main.py:774:main_driver:Loading topology files.
+2026-03-16 09:26:06,390 INFO:main.py:776:main_driver:Loading molecule: /Volumes/PortableSSD/untitled folder/CRYPTAD/04_virtual_screening/receptors/S3_site473/receptor_clean.pdb
+2026-03-16 09:26:06,431 INFO:main.py:779:main_driver:Dropping water from structure.
+2026-03-16 09:26:06,438 INFO:main.py:781:main_driver:Setting up molecule.
+2026-03-16 09:26:06,471 INFO:main.py:423:setup_molecule:Created biomolecule object with 268 residues and 4328 atoms.
+2026-03-16 09:26:06,472 INFO:main.py:785:main_driver:Setting termini states for biomolecule chains.
+2026-03-16 09:26:06,493 INFO:main.py:616:non_trivial:Loading forcefield.
+2026-03-16 09:26:06,505 INFO:main.py:620:non_trivial:Loading hydrogen topology definitions.
+2026-03-16 09:26:06,510 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLU A 286
+2026-03-16 09:26:06,512 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLU A 286
+2026-03-16 09:26:06,512 INFO:main.py:630:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
+2026-03-16 09:26:06,514 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLU A 286
+2026-03-16 09:26:06,514 WARNING:biomolecule.py:1027:repair_heavy:Extra atom CAY in GLY A 19! - 
+2026-03-16 09:26:06,514 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:26:06,515 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HY1 in GLY A 19! - 
+2026-03-16 09:26:06,515 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:26:06,515 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HY2 in GLY A 19! - 
+2026-03-16 09:26:06,515 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:26:06,515 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HY3 in GLY A 19! - 
+2026-03-16 09:26:06,515 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:26:06,515 WARNING:biomolecule.py:1027:repair_heavy:Extra atom CY in GLY A 19! - 
+2026-03-16 09:26:06,515 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:26:06,515 WARNING:biomolecule.py:1027:repair_heavy:Extra atom OY in GLY A 19! - 
+2026-03-16 09:26:06,515 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:26:06,519 WARNING:biomolecule.py:1027:repair_heavy:Extra atom NT in GLU A 286! - 
+2026-03-16 09:26:06,519 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:26:06,519 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HNT in GLU A 286! - 
+2026-03-16 09:26:06,519 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:26:06,520 WARNING:biomolecule.py:1027:repair_heavy:Extra atom CAT in GLU A 286! - 
+2026-03-16 09:26:06,520 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:26:06,520 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HT1 in GLU A 286! - 
+2026-03-16 09:26:06,520 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:26:06,520 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HT2 in GLU A 286! - 
+2026-03-16 09:26:06,520 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:26:06,520 WARNING:biomolecule.py:1027:repair_heavy:Extra atom HT3 in GLU A 286! - 
+2026-03-16 09:26:06,520 WARNING:biomolecule.py:1029:repair_heavy:Deleted this atom.
+2026-03-16 09:26:06,520 INFO:biomolecule.py:1080:repair_heavy:Added atom OXT to residue GLU A 286 at coordinates 50.725, 78.116, 23.986
+2026-03-16 09:26:06,520 INFO:main.py:635:non_trivial:Updating disulfide bridges.
+2026-03-16 09:26:06,520 INFO:main.py:661:non_trivial:Adding hydrogens to biomolecule.
+2026-03-16 09:26:06,524 INFO:main.py:666:non_trivial:Optimizing hydrogen bonds
+2026-03-16 09:26:07,865 INFO:main.py:678:non_trivial:Applying force field to biomolecule states.
+2026-03-16 09:26:07,874 INFO:main.py:725:non_trivial:Regenerating headers.
+2026-03-16 09:26:07,876 INFO:main.py:750:non_trivial:Regenerating PDB lines.
+2026-03-16 09:26:07,923 WARNING:main.py:326:print_pqr:Ignoring 390 header lines in output.
+2026-03-16 09:26:07,972 WARNING:main.py:369:print_pdb:Ignoring 390 header lines in output.

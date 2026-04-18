@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-04-17T14:52:33.953315+00:00",
+  "rcsb_url_template": "https://files.rcsb.org/download/{pdb_id}.pdb",
+  "note": "SHA-256 checksums match the depositions used in the CRYPTAD study (Apr 2026). If a checksum fails, retrieve the original file from the Zenodo data deposit.",
+  "files": [
+    {
+      "pdb_id": "2FIC",
+      "target": "BIN1",
+      "description": "BAR domain (X-ray, 1.99 \u00c5) \u2014 PRIMARY for MD",
+      "expected_sha256": "f0d6aa7cc681b79077475a63570158815be080c9987d588946950280933e2e7d",
+      "expected_size_bytes": 336717,
+      "status": "ok",
+      "path": "01_structures/BIN1/pdb/2FIC.pdb"
+    },
+    {
+      "pdb_id": "1MUZ",
+      "target": "BIN1",
+      "description": "SH3 domain (NMR) \u2014 reference/validation",
+      "expected_sha256": "cfd27c2b9e96e146ff9a81be145b1774a259d4ab41aed62f8e0c1a9c02882261",
+      "expected_size_bytes": 2108349,
+      "status": "ok",
+      "path": "01_structures/BIN1/pdb/1MUZ.pdb"
+    },
+    {
+      "pdb_id": "1MV0",
+      "target": "BIN1",
+      "description": "SH3 domain + c-Myc peptide (NMR) \u2014 binding groove reference",
+      "expected_sha256": "3c55373d56275f52e0d95b43fe5bdf0d906eff1543af507654da02342d752dce",
+      "expected_size_bytes": 2459565,
+      "status": "ok",
+      "path": "01_structures/BIN1/pdb/1MV0.pdb"
+    },
+    {
+      "pdb_id": "7JXV",
+      "target": "PICALM",
+      "description": "ANTH domain + Ubiquitin (X-ray, 2.35 \u00c5) \u2014 PRIMARY for MD",
+      "expected_sha256": "83c3414aea33ffca806e0dfbf007a593931644b7c772cd40ecabdff4d5534c12",
+      "expected_size_bytes": 490374,
+      "status": "ok",
+      "path": "01_structures/PICALM/pdb/7JXV.pdb"
+    },
+    {
+      "pdb_id": "3U23",
+      "target": "CD2AP",
+      "description": "SH3-2 + RIN3 peptide (X-ray, 1.11 \u00c5) \u2014 PRIMARY for MD",
+      "expected_sha256": "ef97df63cafbd844dce6a6a312cf77e3b98ca132d43ede75ae3a882986af5165",
+      "expected_size_bytes": 145557,
+      "status": "ok",
+      "path": "01_structures/CD2AP/pdb/3U23.pdb"
+    },
+    {
+      "pdb_id": "4WCI",
+      "target": "CD2AP",
+      "description": "SH3-1 + RIN3 peptide (X-ray, 1.65 \u00c5) \u2014 secondary",
+      "expected_sha256": "7ca0c7e2adf29b2259fef81f5c81eb72eabb89ecc8560881c1878d1539beb61b",
+      "expected_size_bytes": 363528,
+      "status": "ok",
+      "path": "01_structures/CD2AP/pdb/4WCI.pdb"
+    },
+    {
+      "pdb_id": "2J6F",
+      "target": "CD2AP",
+      "description": "SH3-1 + CBL-B peptide (X-ray, 1.70 \u00c5) \u2014 reference",
+      "expected_sha256": "0a3d274fe9ed5ad144b7e07116b72f779e3e39b7e704e081757f069c287c5684",
+      "expected_size_bytes": 86589,
+      "status": "ok",
+      "path": "01_structures/CD2AP/pdb/2J6F.pdb"
+    }
+  ]
+}

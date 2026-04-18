@@ -1,0 +1,257 @@
+pocket,chembl_id,name,residue,resid,resname,chain,itype,occupancy
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,GLU194.seg_1_Protein_chain_B,194,GLU,seg_1_Protein_chain_B,Contact,1.0
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,GLN345.seg_1_Protein_chain_B,345,GLN,seg_1_Protein_chain_B,Contact,1.0
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,ASP193.seg_1_Protein_chain_B,193,ASP,seg_1_Protein_chain_B,Hydrophobic,1.0
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,GLU194.seg_1_Protein_chain_B,194,GLU,seg_1_Protein_chain_B,Hydrophobic,1.0
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,PHE196.seg_1_Protein_chain_B,196,PHE,seg_1_Protein_chain_B,Contact,0.99
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,ASP193.seg_1_Protein_chain_B,193,ASP,seg_1_Protein_chain_B,Contact,0.98
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,CYS199.seg_1_Protein_chain_B,199,CYS,seg_1_Protein_chain_B,Contact,0.97
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,GLN345.seg_1_Protein_chain_B,345,GLN,seg_1_Protein_chain_B,Hydrophobic,0.96
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,GLN195.seg_1_Protein_chain_B,195,GLN,seg_1_Protein_chain_B,Contact,0.911
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,PHE196.seg_1_Protein_chain_B,196,PHE,seg_1_Protein_chain_B,Hydrophobic,0.911
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,GLN195.seg_1_Protein_chain_B,195,GLN,seg_1_Protein_chain_B,Hydrophobic,0.901
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,CYS199.seg_1_Protein_chain_B,199,CYS,seg_1_Protein_chain_B,Hydrophobic,0.822
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,PRO349.seg_1_Protein_chain_B,349,PRO,seg_1_Protein_chain_B,Hydrophobic,0.743
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,ASN341.seg_1_Protein_chain_B,341,ASN,seg_1_Protein_chain_B,Contact,0.733
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,ASN341.seg_1_Protein_chain_B,341,ASN,seg_1_Protein_chain_B,Hydrophobic,0.713
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,GLN198.seg_1_Protein_chain_B,198,GLN,seg_1_Protein_chain_B,Contact,0.683
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,PRO349.seg_1_Protein_chain_B,349,PRO,seg_1_Protein_chain_B,Contact,0.624
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,LYS192.seg_1_Protein_chain_B,192,LYS,seg_1_Protein_chain_B,Hydrophobic,0.624
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,ARG295.seg_1_Protein_chain_B,295,ARG,seg_1_Protein_chain_B,Contact,0.614
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,LYS192.seg_1_Protein_chain_B,192,LYS,seg_1_Protein_chain_B,Contact,0.604
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,GLN198.seg_1_Protein_chain_B,198,GLN,seg_1_Protein_chain_B,Hydrophobic,0.594
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,GLU194.seg_1_Protein_chain_B,194,GLU,seg_1_Protein_chain_B,HBond,0.574
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,GLN345.seg_1_Protein_chain_B,345,GLN,seg_1_Protein_chain_B,HBond,0.455
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,GLN195.seg_1_Protein_chain_B,195,GLN,seg_1_Protein_chain_B,HBond,0.455
+S1_site680,CHEMBL3989939,LAROTRECTINIB SULFATE,ASN202.seg_1_Protein_chain_B,202,ASN,seg_1_Protein_chain_B,Contact,0.426
+S1_site680,CHEMBL254857,FIPEXIDE,GLN345.seg_1_Protein_chain_B,345,GLN,seg_1_Protein_chain_B,Contact,1.0
+S1_site680,CHEMBL254857,FIPEXIDE,GLN345.seg_1_Protein_chain_B,345,GLN,seg_1_Protein_chain_B,Hydrophobic,1.0
+S1_site680,CHEMBL254857,FIPEXIDE,ARG295.seg_1_Protein_chain_B,295,ARG,seg_1_Protein_chain_B,Contact,0.921
+S1_site680,CHEMBL254857,FIPEXIDE,PHE196.seg_1_Protein_chain_B,196,PHE,seg_1_Protein_chain_B,Hydrophobic,0.921
+S1_site680,CHEMBL254857,FIPEXIDE,ASN341.seg_1_Protein_chain_B,341,ASN,seg_1_Protein_chain_B,Hydrophobic,0.911
+S1_site680,CHEMBL254857,FIPEXIDE,ASN341.seg_1_Protein_chain_B,341,ASN,seg_1_Protein_chain_B,Contact,0.901
+S1_site680,CHEMBL254857,FIPEXIDE,VAL342.seg_1_Protein_chain_B,342,VAL,seg_1_Protein_chain_B,Hydrophobic,0.901
+S1_site680,CHEMBL254857,FIPEXIDE,LEU299.seg_1_Protein_chain_B,299,LEU,seg_1_Protein_chain_B,Hydrophobic,0.832
+S1_site680,CHEMBL254857,FIPEXIDE,VAL342.seg_1_Protein_chain_B,342,VAL,seg_1_Protein_chain_B,Contact,0.812
+S1_site680,CHEMBL254857,FIPEXIDE,GLN345.seg_1_Protein_chain_B,345,GLN,seg_1_Protein_chain_B,HBond,0.802
+S1_site680,CHEMBL254857,FIPEXIDE,PHE337.seg_1_Protein_chain_B,337,PHE,seg_1_Protein_chain_B,Hydrophobic,0.772
+S1_site680,CHEMBL254857,FIPEXIDE,PHE337.seg_1_Protein_chain_B,337,PHE,seg_1_Protein_chain_B,Contact,0.752
+S1_site680,CHEMBL254857,FIPEXIDE,LEU299.seg_1_Protein_chain_B,299,LEU,seg_1_Protein_chain_B,Contact,0.693
+S1_site680,CHEMBL254857,FIPEXIDE,PHE196.seg_1_Protein_chain_B,196,PHE,seg_1_Protein_chain_B,Contact,0.673
+S1_site680,CHEMBL254857,FIPEXIDE,TYR302.seg_1_Protein_chain_B,302,TYR,seg_1_Protein_chain_B,Hydrophobic,0.634
+S1_site680,CHEMBL254857,FIPEXIDE,TYR302.seg_1_Protein_chain_B,302,TYR,seg_1_Protein_chain_B,Contact,0.446
+S1_site680,CHEMBL254857,FIPEXIDE,GLU194.seg_1_Protein_chain_B,194,GLU,seg_1_Protein_chain_B,Contact,0.347
+S1_site680,CHEMBL254857,FIPEXIDE,GLN195.seg_1_Protein_chain_B,195,GLN,seg_1_Protein_chain_B,Hydrophobic,0.287
+S1_site680,CHEMBL254857,FIPEXIDE,ARG295.seg_1_Protein_chain_B,295,ARG,seg_1_Protein_chain_B,HBond,0.238
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,LYS192.seg_1_Protein_chain_B,192,LYS,seg_1_Protein_chain_B,Contact,1.0
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,ASP193.seg_1_Protein_chain_B,193,ASP,seg_1_Protein_chain_B,Contact,1.0
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,PRO349.seg_1_Protein_chain_B,349,PRO,seg_1_Protein_chain_B,Contact,1.0
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,ASP193.seg_1_Protein_chain_B,193,ASP,seg_1_Protein_chain_B,Hydrophobic,1.0
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,GLU194.seg_1_Protein_chain_B,194,GLU,seg_1_Protein_chain_B,Hydrophobic,1.0
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,PRO349.seg_1_Protein_chain_B,349,PRO,seg_1_Protein_chain_B,Hydrophobic,1.0
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,GLN345.seg_1_Protein_chain_B,345,GLN,seg_1_Protein_chain_B,Contact,0.99
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,LYS192.seg_1_Protein_chain_B,192,LYS,seg_1_Protein_chain_B,Hydrophobic,0.99
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,GLU194.seg_1_Protein_chain_B,194,GLU,seg_1_Protein_chain_B,Contact,0.97
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,GLU346.seg_1_Protein_chain_B,346,GLU,seg_1_Protein_chain_B,Hydrophobic,0.97
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,GLN345.seg_1_Protein_chain_B,345,GLN,seg_1_Protein_chain_B,Hydrophobic,0.941
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,GLU346.seg_1_Protein_chain_B,346,GLU,seg_1_Protein_chain_B,Contact,0.861
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,CYS199.seg_1_Protein_chain_B,199,CYS,seg_1_Protein_chain_B,Contact,0.842
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,SER350.seg_1_Protein_chain_B,350,SER,seg_1_Protein_chain_B,Contact,0.733
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,ASN353.seg_1_Protein_chain_B,353,ASN,seg_1_Protein_chain_B,Contact,0.396
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,VAL342.seg_1_Protein_chain_B,342,VAL,seg_1_Protein_chain_B,Hydrophobic,0.257
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,SER350.seg_1_Protein_chain_B,350,SER,seg_1_Protein_chain_B,Hydrophobic,0.248
+S1_site680,CHEMBL1201060,LOXAPINE HYDROCHLORIDE,ASN202.seg_1_Protein_chain_B,202,ASN,seg_1_Protein_chain_B,Contact,0.208
+S1_site688,CHEMBL85,RISPERIDONE,PHE163.seg_0_Protein_chain_A,163,PHE,seg_0_Protein_chain_A,Contact,1.0
+S1_site688,CHEMBL85,RISPERIDONE,PHE163.seg_0_Protein_chain_A,163,PHE,seg_0_Protein_chain_A,Hydrophobic,1.0
+S1_site688,CHEMBL85,RISPERIDONE,ILE166.seg_0_Protein_chain_A,166,ILE,seg_0_Protein_chain_A,Hydrophobic,1.0
+S1_site688,CHEMBL85,RISPERIDONE,LEU24.seg_0_Protein_chain_A,24,LEU,seg_0_Protein_chain_A,Hydrophobic,0.99
+S1_site688,CHEMBL85,RISPERIDONE,TYR27.seg_0_Protein_chain_A,27,TYR,seg_0_Protein_chain_A,Hydrophobic,0.99
+S1_site688,CHEMBL85,RISPERIDONE,TYR27.seg_0_Protein_chain_A,27,TYR,seg_0_Protein_chain_A,Contact,0.941
+S1_site688,CHEMBL85,RISPERIDONE,LEU20.seg_0_Protein_chain_A,20,LEU,seg_0_Protein_chain_A,Hydrophobic,0.931
+S1_site688,CHEMBL85,RISPERIDONE,ALA167.seg_0_Protein_chain_A,167,ALA,seg_0_Protein_chain_A,Hydrophobic,0.921
+S1_site688,CHEMBL85,RISPERIDONE,LEU20.seg_0_Protein_chain_A,20,LEU,seg_0_Protein_chain_A,Contact,0.911
+S1_site688,CHEMBL85,RISPERIDONE,TYR159.seg_0_Protein_chain_A,159,TYR,seg_0_Protein_chain_A,Contact,0.911
+S1_site688,CHEMBL85,RISPERIDONE,ASP23.seg_0_Protein_chain_A,23,ASP,seg_0_Protein_chain_A,Hydrophobic,0.861
+S1_site688,CHEMBL85,RISPERIDONE,LEU24.seg_0_Protein_chain_A,24,LEU,seg_0_Protein_chain_A,Contact,0.851
+S1_site688,CHEMBL85,RISPERIDONE,ILE166.seg_0_Protein_chain_A,166,ILE,seg_0_Protein_chain_A,Contact,0.832
+S1_site688,CHEMBL85,RISPERIDONE,TYR159.seg_0_Protein_chain_A,159,TYR,seg_0_Protein_chain_A,Hydrophobic,0.832
+S1_site688,CHEMBL85,RISPERIDONE,VAL160.seg_0_Protein_chain_A,160,VAL,seg_0_Protein_chain_A,Contact,0.782
+S1_site688,CHEMBL85,RISPERIDONE,ALA167.seg_0_Protein_chain_A,167,ALA,seg_0_Protein_chain_A,Contact,0.713
+S1_site688,CHEMBL85,RISPERIDONE,VAL160.seg_0_Protein_chain_A,160,VAL,seg_0_Protein_chain_A,Hydrophobic,0.713
+S1_site688,CHEMBL85,RISPERIDONE,ASP23.seg_0_Protein_chain_A,23,ASP,seg_0_Protein_chain_A,Contact,0.396
+S1_site688,CHEMBL85,RISPERIDONE,GLU170.seg_0_Protein_chain_A,170,GLU,seg_0_Protein_chain_A,Hydrophobic,0.396
+S1_site688,CHEMBL85,RISPERIDONE,GLU170.seg_0_Protein_chain_A,170,GLU,seg_0_Protein_chain_A,Contact,0.366
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,LEU20.seg_0_Protein_chain_A,20,LEU,seg_0_Protein_chain_A,Hydrophobic,1.0
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,PHE163.seg_0_Protein_chain_A,163,PHE,seg_0_Protein_chain_A,Contact,0.99
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,LEU24.seg_0_Protein_chain_A,24,LEU,seg_0_Protein_chain_A,Hydrophobic,0.99
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,PHE163.seg_0_Protein_chain_A,163,PHE,seg_0_Protein_chain_A,Hydrophobic,0.99
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,TYR27.seg_0_Protein_chain_A,27,TYR,seg_0_Protein_chain_A,Hydrophobic,0.97
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,ILE166.seg_0_Protein_chain_A,166,ILE,seg_0_Protein_chain_A,Hydrophobic,0.97
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,TYR159.seg_0_Protein_chain_A,159,TYR,seg_0_Protein_chain_A,Hydrophobic,0.941
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,TYR159.seg_0_Protein_chain_A,159,TYR,seg_0_Protein_chain_A,Contact,0.931
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,LEU24.seg_0_Protein_chain_A,24,LEU,seg_0_Protein_chain_A,Contact,0.921
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,ASP23.seg_0_Protein_chain_A,23,ASP,seg_0_Protein_chain_A,Hydrophobic,0.881
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,THR162.seg_0_Protein_chain_A,162,THR,seg_0_Protein_chain_A,Hydrophobic,0.861
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,LEU20.seg_0_Protein_chain_A,20,LEU,seg_0_Protein_chain_A,Contact,0.851
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,ASP23.seg_0_Protein_chain_A,23,ASP,seg_0_Protein_chain_A,Contact,0.752
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,ILE166.seg_0_Protein_chain_A,166,ILE,seg_0_Protein_chain_A,Contact,0.752
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,TYR27.seg_0_Protein_chain_A,27,TYR,seg_0_Protein_chain_A,Contact,0.743
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,THR162.seg_0_Protein_chain_A,162,THR,seg_0_Protein_chain_A,Contact,0.703
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,VAL156.seg_0_Protein_chain_A,156,VAL,seg_0_Protein_chain_A,Hydrophobic,0.485
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,VAL160.seg_0_Protein_chain_A,160,VAL,seg_0_Protein_chain_A,Hydrophobic,0.386
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,GLU16.seg_0_Protein_chain_A,16,GLU,seg_0_Protein_chain_A,Hydrophobic,0.297
+S1_site688,CHEMBL3137310,BENZHYDROCODONE HYDROCHLORIDE,GLU16.seg_0_Protein_chain_A,16,GLU,seg_0_Protein_chain_A,Contact,0.238
+S1_site688,CHEMBL1621,PALIPERIDONE,LEU20.seg_0_Protein_chain_A,20,LEU,seg_0_Protein_chain_A,Hydrophobic,1.0
+S1_site688,CHEMBL1621,PALIPERIDONE,TYR27.seg_0_Protein_chain_A,27,TYR,seg_0_Protein_chain_A,Hydrophobic,1.0
+S1_site688,CHEMBL1621,PALIPERIDONE,ILE166.seg_0_Protein_chain_A,166,ILE,seg_0_Protein_chain_A,Hydrophobic,1.0
+S1_site688,CHEMBL1621,PALIPERIDONE,TYR27.seg_0_Protein_chain_A,27,TYR,seg_0_Protein_chain_A,Contact,0.99
+S1_site688,CHEMBL1621,PALIPERIDONE,PHE163.seg_0_Protein_chain_A,163,PHE,seg_0_Protein_chain_A,Contact,0.99
+S1_site688,CHEMBL1621,PALIPERIDONE,PHE163.seg_0_Protein_chain_A,163,PHE,seg_0_Protein_chain_A,Hydrophobic,0.98
+S1_site688,CHEMBL1621,PALIPERIDONE,TYR159.seg_0_Protein_chain_A,159,TYR,seg_0_Protein_chain_A,Hydrophobic,0.97
+S1_site688,CHEMBL1621,PALIPERIDONE,LEU20.seg_0_Protein_chain_A,20,LEU,seg_0_Protein_chain_A,Contact,0.96
+S1_site688,CHEMBL1621,PALIPERIDONE,TYR159.seg_0_Protein_chain_A,159,TYR,seg_0_Protein_chain_A,Contact,0.911
+S1_site688,CHEMBL1621,PALIPERIDONE,ALA167.seg_0_Protein_chain_A,167,ALA,seg_0_Protein_chain_A,Hydrophobic,0.871
+S1_site688,CHEMBL1621,PALIPERIDONE,GLU16.seg_0_Protein_chain_A,16,GLU,seg_0_Protein_chain_A,Contact,0.861
+S1_site688,CHEMBL1621,PALIPERIDONE,ILE166.seg_0_Protein_chain_A,166,ILE,seg_0_Protein_chain_A,Contact,0.782
+S1_site688,CHEMBL1621,PALIPERIDONE,LEU24.seg_0_Protein_chain_A,24,LEU,seg_0_Protein_chain_A,Hydrophobic,0.782
+S1_site688,CHEMBL1621,PALIPERIDONE,GLU16.seg_0_Protein_chain_A,16,GLU,seg_0_Protein_chain_A,Hydrophobic,0.703
+S1_site688,CHEMBL1621,PALIPERIDONE,GLU170.seg_0_Protein_chain_A,170,GLU,seg_0_Protein_chain_A,Hydrophobic,0.644
+S1_site688,CHEMBL1621,PALIPERIDONE,VAL156.seg_0_Protein_chain_A,156,VAL,seg_0_Protein_chain_A,Hydrophobic,0.624
+S1_site688,CHEMBL1621,PALIPERIDONE,GLU170.seg_0_Protein_chain_A,170,GLU,seg_0_Protein_chain_A,Contact,0.604
+S1_site688,CHEMBL1621,PALIPERIDONE,VAL156.seg_0_Protein_chain_A,156,VAL,seg_0_Protein_chain_A,Contact,0.604
+S1_site688,CHEMBL1621,PALIPERIDONE,ASP23.seg_0_Protein_chain_A,23,ASP,seg_0_Protein_chain_A,Hydrophobic,0.594
+S1_site688,CHEMBL1621,PALIPERIDONE,ALA167.seg_0_Protein_chain_A,167,ALA,seg_0_Protein_chain_A,Contact,0.574
+S1_site688,CHEMBL1621,PALIPERIDONE,LEU24.seg_0_Protein_chain_A,24,LEU,seg_0_Protein_chain_A,Contact,0.515
+S1_site688,CHEMBL1621,PALIPERIDONE,ARG155.seg_0_Protein_chain_A,155,ARG,seg_0_Protein_chain_A,Contact,0.485
+S1_site688,CHEMBL1621,PALIPERIDONE,ASP23.seg_0_Protein_chain_A,23,ASP,seg_0_Protein_chain_A,Contact,0.426
+S1_site688,CHEMBL1621,PALIPERIDONE,ARG155.seg_0_Protein_chain_A,155,ARG,seg_0_Protein_chain_A,Hydrophobic,0.366
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,ASN194.seg_0_Protein_chain_A,194,ASN,seg_0_Protein_chain_A,Contact,1.0
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,VAL235.seg_0_Protein_chain_A,235,VAL,seg_0_Protein_chain_A,Hydrophobic,1.0
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,ALA236.seg_0_Protein_chain_A,236,ALA,seg_0_Protein_chain_A,Hydrophobic,1.0
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,ILE246.seg_0_Protein_chain_A,246,ILE,seg_0_Protein_chain_A,Hydrophobic,1.0
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,ASP248.seg_0_Protein_chain_A,248,ASP,seg_0_Protein_chain_A,Hydrophobic,0.99
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,VAL235.seg_0_Protein_chain_A,235,VAL,seg_0_Protein_chain_A,Contact,0.98
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,ARG243.seg_0_Protein_chain_A,243,ARG,seg_0_Protein_chain_A,Contact,0.98
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,ILE241.seg_0_Protein_chain_A,241,ILE,seg_0_Protein_chain_A,Hydrophobic,0.98
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,ALA236.seg_0_Protein_chain_A,236,ALA,seg_0_Protein_chain_A,Contact,0.97
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,VAL239.seg_0_Protein_chain_A,239,VAL,seg_0_Protein_chain_A,Hydrophobic,0.97
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,ILE246.seg_0_Protein_chain_A,246,ILE,seg_0_Protein_chain_A,Contact,0.96
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,ASN194.seg_0_Protein_chain_A,194,ASN,seg_0_Protein_chain_A,Hydrophobic,0.931
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,ARG243.seg_0_Protein_chain_A,243,ARG,seg_0_Protein_chain_A,Hydrophobic,0.921
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,ASP242.seg_0_Protein_chain_A,242,ASP,seg_0_Protein_chain_A,Hydrophobic,0.901
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,MET226.seg_0_Protein_chain_A,226,MET,seg_0_Protein_chain_A,Hydrophobic,0.881
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,ILE241.seg_0_Protein_chain_A,241,ILE,seg_0_Protein_chain_A,Contact,0.861
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,ASN194.seg_0_Protein_chain_A,194,ASN,seg_0_Protein_chain_A,HBond,0.832
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,GLY244.seg_0_Protein_chain_A,244,GLY,seg_0_Protein_chain_A,Contact,0.802
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,MET226.seg_0_Protein_chain_A,226,MET,seg_0_Protein_chain_A,Contact,0.792
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,ASP248.seg_0_Protein_chain_A,248,ASP,seg_0_Protein_chain_A,Contact,0.792
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,TYR193.seg_0_Protein_chain_A,193,TYR,seg_0_Protein_chain_A,Hydrophobic,0.782
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,VAL239.seg_0_Protein_chain_A,239,VAL,seg_0_Protein_chain_A,Contact,0.752
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,PRO247.seg_0_Protein_chain_A,247,PRO,seg_0_Protein_chain_A,Hydrophobic,0.713
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,ASP242.seg_0_Protein_chain_A,242,ASP,seg_0_Protein_chain_A,Contact,0.653
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,TYR193.seg_0_Protein_chain_A,193,TYR,seg_0_Protein_chain_A,Contact,0.634
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,PHE222.seg_0_Protein_chain_A,222,PHE,seg_0_Protein_chain_A,Hydrophobic,0.604
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,GLY244.seg_0_Protein_chain_A,244,GLY,seg_0_Protein_chain_A,Hydrophobic,0.594
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,PRO247.seg_0_Protein_chain_A,247,PRO,seg_0_Protein_chain_A,Contact,0.545
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,ARG225.seg_0_Protein_chain_A,225,ARG,seg_0_Protein_chain_A,Contact,0.535
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,PHE222.seg_0_Protein_chain_A,222,PHE,seg_0_Protein_chain_A,Contact,0.406
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,MET157.seg_0_Protein_chain_A,157,MET,seg_0_Protein_chain_A,Hydrophobic,0.366
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,MET157.seg_0_Protein_chain_A,157,MET,seg_0_Protein_chain_A,Contact,0.307
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,PHE190.seg_0_Protein_chain_A,190,PHE,seg_0_Protein_chain_A,Hydrophobic,0.277
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,LEU249.seg_0_Protein_chain_A,249,LEU,seg_0_Protein_chain_A,Contact,0.257
+S3_site473,CHEMBL3233142,LUMATEPERONE TOSYLATE,GLN238.seg_0_Protein_chain_A,238,GLN,seg_0_Protein_chain_A,Hydrophobic,0.228
+S3_site473,CHEMBL799,CILOSTAZOL,ASN194.seg_0_Protein_chain_A,194,ASN,seg_0_Protein_chain_A,Contact,1.0
+S3_site473,CHEMBL799,CILOSTAZOL,VAL235.seg_0_Protein_chain_A,235,VAL,seg_0_Protein_chain_A,Contact,1.0
+S3_site473,CHEMBL799,CILOSTAZOL,ILE246.seg_0_Protein_chain_A,246,ILE,seg_0_Protein_chain_A,Contact,1.0
+S3_site473,CHEMBL799,CILOSTAZOL,PRO247.seg_0_Protein_chain_A,247,PRO,seg_0_Protein_chain_A,Contact,1.0
+S3_site473,CHEMBL799,CILOSTAZOL,ASN194.seg_0_Protein_chain_A,194,ASN,seg_0_Protein_chain_A,Hydrophobic,1.0
+S3_site473,CHEMBL799,CILOSTAZOL,VAL235.seg_0_Protein_chain_A,235,VAL,seg_0_Protein_chain_A,Hydrophobic,1.0
+S3_site473,CHEMBL799,CILOSTAZOL,ALA236.seg_0_Protein_chain_A,236,ALA,seg_0_Protein_chain_A,Hydrophobic,1.0
+S3_site473,CHEMBL799,CILOSTAZOL,ILE246.seg_0_Protein_chain_A,246,ILE,seg_0_Protein_chain_A,Hydrophobic,1.0
+S3_site473,CHEMBL799,CILOSTAZOL,ILE241.seg_0_Protein_chain_A,241,ILE,seg_0_Protein_chain_A,Hydrophobic,0.98
+S3_site473,CHEMBL799,CILOSTAZOL,MET226.seg_0_Protein_chain_A,226,MET,seg_0_Protein_chain_A,Hydrophobic,0.97
+S3_site473,CHEMBL799,CILOSTAZOL,VAL239.seg_0_Protein_chain_A,239,VAL,seg_0_Protein_chain_A,Hydrophobic,0.95
+S3_site473,CHEMBL799,CILOSTAZOL,PRO247.seg_0_Protein_chain_A,247,PRO,seg_0_Protein_chain_A,Hydrophobic,0.941
+S3_site473,CHEMBL799,CILOSTAZOL,ASP248.seg_0_Protein_chain_A,248,ASP,seg_0_Protein_chain_A,Hydrophobic,0.931
+S3_site473,CHEMBL799,CILOSTAZOL,ALA236.seg_0_Protein_chain_A,236,ALA,seg_0_Protein_chain_A,Contact,0.901
+S3_site473,CHEMBL799,CILOSTAZOL,ILE241.seg_0_Protein_chain_A,241,ILE,seg_0_Protein_chain_A,Contact,0.901
+S3_site473,CHEMBL799,CILOSTAZOL,MET226.seg_0_Protein_chain_A,226,MET,seg_0_Protein_chain_A,Contact,0.861
+S3_site473,CHEMBL799,CILOSTAZOL,GLY244.seg_0_Protein_chain_A,244,GLY,seg_0_Protein_chain_A,Contact,0.842
+S3_site473,CHEMBL799,CILOSTAZOL,VAL239.seg_0_Protein_chain_A,239,VAL,seg_0_Protein_chain_A,Contact,0.772
+S3_site473,CHEMBL799,CILOSTAZOL,PHE190.seg_0_Protein_chain_A,190,PHE,seg_0_Protein_chain_A,Hydrophobic,0.772
+S3_site473,CHEMBL799,CILOSTAZOL,PHE222.seg_0_Protein_chain_A,222,PHE,seg_0_Protein_chain_A,Contact,0.762
+S3_site473,CHEMBL799,CILOSTAZOL,PHE222.seg_0_Protein_chain_A,222,PHE,seg_0_Protein_chain_A,Hydrophobic,0.733
+S3_site473,CHEMBL799,CILOSTAZOL,PHE190.seg_0_Protein_chain_A,190,PHE,seg_0_Protein_chain_A,Contact,0.703
+S3_site473,CHEMBL799,CILOSTAZOL,LEU249.seg_0_Protein_chain_A,249,LEU,seg_0_Protein_chain_A,Hydrophobic,0.673
+S3_site473,CHEMBL799,CILOSTAZOL,GLY244.seg_0_Protein_chain_A,244,GLY,seg_0_Protein_chain_A,Hydrophobic,0.604
+S3_site473,CHEMBL799,CILOSTAZOL,ASP248.seg_0_Protein_chain_A,248,ASP,seg_0_Protein_chain_A,Contact,0.564
+S3_site473,CHEMBL799,CILOSTAZOL,ASP245.seg_0_Protein_chain_A,245,ASP,seg_0_Protein_chain_A,Hydrophobic,0.545
+S3_site473,CHEMBL799,CILOSTAZOL,ARG243.seg_0_Protein_chain_A,243,ARG,seg_0_Protein_chain_A,Contact,0.495
+S3_site473,CHEMBL799,CILOSTAZOL,ASP242.seg_0_Protein_chain_A,242,ASP,seg_0_Protein_chain_A,Contact,0.446
+S3_site473,CHEMBL799,CILOSTAZOL,GLN238.seg_0_Protein_chain_A,238,GLN,seg_0_Protein_chain_A,Hydrophobic,0.347
+S3_site473,CHEMBL799,CILOSTAZOL,ARG243.seg_0_Protein_chain_A,243,ARG,seg_0_Protein_chain_A,Hydrophobic,0.337
+S3_site473,CHEMBL799,CILOSTAZOL,ASP245.seg_0_Protein_chain_A,245,ASP,seg_0_Protein_chain_A,Contact,0.317
+S3_site473,CHEMBL799,CILOSTAZOL,ASN194.seg_0_Protein_chain_A,194,ASN,seg_0_Protein_chain_A,HBond,0.277
+S3_site473,CHEMBL799,CILOSTAZOL,TYR193.seg_0_Protein_chain_A,193,TYR,seg_0_Protein_chain_A,Contact,0.218
+S3_site473,CHEMBL595,PIOGLITAZONE,ASN194.seg_0_Protein_chain_A,194,ASN,seg_0_Protein_chain_A,Contact,1.0
+S3_site473,CHEMBL595,PIOGLITAZONE,GLY244.seg_0_Protein_chain_A,244,GLY,seg_0_Protein_chain_A,Contact,1.0
+S3_site473,CHEMBL595,PIOGLITAZONE,PHE222.seg_0_Protein_chain_A,222,PHE,seg_0_Protein_chain_A,Hydrophobic,1.0
+S3_site473,CHEMBL595,PIOGLITAZONE,PHE190.seg_0_Protein_chain_A,190,PHE,seg_0_Protein_chain_A,Hydrophobic,0.99
+S3_site473,CHEMBL595,PIOGLITAZONE,VAL235.seg_0_Protein_chain_A,235,VAL,seg_0_Protein_chain_A,Hydrophobic,0.99
+S3_site473,CHEMBL595,PIOGLITAZONE,PHE222.seg_0_Protein_chain_A,222,PHE,seg_0_Protein_chain_A,Contact,0.98
+S3_site473,CHEMBL595,PIOGLITAZONE,ALA236.seg_0_Protein_chain_A,236,ALA,seg_0_Protein_chain_A,Hydrophobic,0.98
+S3_site473,CHEMBL595,PIOGLITAZONE,ASP248.seg_0_Protein_chain_A,248,ASP,seg_0_Protein_chain_A,Hydrophobic,0.97
+S3_site473,CHEMBL595,PIOGLITAZONE,ILE246.seg_0_Protein_chain_A,246,ILE,seg_0_Protein_chain_A,Contact,0.96
+S3_site473,CHEMBL595,PIOGLITAZONE,ALA236.seg_0_Protein_chain_A,236,ALA,seg_0_Protein_chain_A,Contact,0.95
+S3_site473,CHEMBL595,PIOGLITAZONE,ARG243.seg_0_Protein_chain_A,243,ARG,seg_0_Protein_chain_A,Contact,0.931
+S3_site473,CHEMBL595,PIOGLITAZONE,MET226.seg_0_Protein_chain_A,226,MET,seg_0_Protein_chain_A,Hydrophobic,0.931
+S3_site473,CHEMBL595,PIOGLITAZONE,ILE246.seg_0_Protein_chain_A,246,ILE,seg_0_Protein_chain_A,Hydrophobic,0.931
+S3_site473,CHEMBL595,PIOGLITAZONE,PHE190.seg_0_Protein_chain_A,190,PHE,seg_0_Protein_chain_A,Contact,0.921
+S3_site473,CHEMBL595,PIOGLITAZONE,ASP248.seg_0_Protein_chain_A,248,ASP,seg_0_Protein_chain_A,Contact,0.911
+S3_site473,CHEMBL595,PIOGLITAZONE,ILE241.seg_0_Protein_chain_A,241,ILE,seg_0_Protein_chain_A,Contact,0.901
+S3_site473,CHEMBL595,PIOGLITAZONE,VAL239.seg_0_Protein_chain_A,239,VAL,seg_0_Protein_chain_A,Hydrophobic,0.891
+S3_site473,CHEMBL595,PIOGLITAZONE,LEU249.seg_0_Protein_chain_A,249,LEU,seg_0_Protein_chain_A,Hydrophobic,0.881
+S3_site473,CHEMBL595,PIOGLITAZONE,ASN194.seg_0_Protein_chain_A,194,ASN,seg_0_Protein_chain_A,HBond,0.861
+S3_site473,CHEMBL595,PIOGLITAZONE,VAL235.seg_0_Protein_chain_A,235,VAL,seg_0_Protein_chain_A,Contact,0.842
+S3_site473,CHEMBL595,PIOGLITAZONE,ASP242.seg_0_Protein_chain_A,242,ASP,seg_0_Protein_chain_A,Contact,0.822
+S3_site473,CHEMBL595,PIOGLITAZONE,LEU249.seg_0_Protein_chain_A,249,LEU,seg_0_Protein_chain_A,Contact,0.822
+S3_site473,CHEMBL595,PIOGLITAZONE,ASN194.seg_0_Protein_chain_A,194,ASN,seg_0_Protein_chain_A,Hydrophobic,0.792
+S3_site473,CHEMBL595,PIOGLITAZONE,ASP242.seg_0_Protein_chain_A,242,ASP,seg_0_Protein_chain_A,Hydrophobic,0.782
+S3_site473,CHEMBL595,PIOGLITAZONE,ARG243.seg_0_Protein_chain_A,243,ARG,seg_0_Protein_chain_A,Hydrophobic,0.713
+S3_site473,CHEMBL595,PIOGLITAZONE,GLY244.seg_0_Protein_chain_A,244,GLY,seg_0_Protein_chain_A,Hydrophobic,0.713
+S3_site473,CHEMBL595,PIOGLITAZONE,VAL239.seg_0_Protein_chain_A,239,VAL,seg_0_Protein_chain_A,Contact,0.624
+S3_site473,CHEMBL595,PIOGLITAZONE,MET226.seg_0_Protein_chain_A,226,MET,seg_0_Protein_chain_A,Contact,0.624
+S3_site473,CHEMBL595,PIOGLITAZONE,SER250.seg_0_Protein_chain_A,250,SER,seg_0_Protein_chain_A,Contact,0.624
+S3_site473,CHEMBL595,PIOGLITAZONE,ILE241.seg_0_Protein_chain_A,241,ILE,seg_0_Protein_chain_A,Hydrophobic,0.564
+S3_site473,CHEMBL595,PIOGLITAZONE,PRO247.seg_0_Protein_chain_A,247,PRO,seg_0_Protein_chain_A,Contact,0.436
+S3_site473,CHEMBL595,PIOGLITAZONE,GLY244.seg_0_Protein_chain_A,244,GLY,seg_0_Protein_chain_A,HBond,0.376
+S3_site473,CHEMBL595,PIOGLITAZONE,SER250.seg_0_Protein_chain_A,250,SER,seg_0_Protein_chain_A,Hydrophobic,0.257
+S3_site473,CHEMBL341812,IBUFENAC,TYR219.seg_0_Protein_chain_A,219,TYR,seg_0_Protein_chain_A,Contact,1.0
+S3_site473,CHEMBL341812,IBUFENAC,LEU233.seg_0_Protein_chain_A,233,LEU,seg_0_Protein_chain_A,Contact,0.98
+S3_site473,CHEMBL341812,IBUFENAC,LEU233.seg_0_Protein_chain_A,233,LEU,seg_0_Protein_chain_A,Hydrophobic,0.98
+S3_site473,CHEMBL341812,IBUFENAC,LEU257.seg_0_Protein_chain_A,257,LEU,seg_0_Protein_chain_A,Hydrophobic,0.98
+S3_site473,CHEMBL341812,IBUFENAC,ALA252.seg_0_Protein_chain_A,252,ALA,seg_0_Protein_chain_A,Hydrophobic,0.96
+S3_site473,CHEMBL341812,IBUFENAC,ALA252.seg_0_Protein_chain_A,252,ALA,seg_0_Protein_chain_A,Contact,0.95
+S3_site473,CHEMBL341812,IBUFENAC,PHE222.seg_0_Protein_chain_A,222,PHE,seg_0_Protein_chain_A,Contact,0.941
+S3_site473,CHEMBL341812,IBUFENAC,ARG228.seg_0_Protein_chain_A,228,ARG,seg_0_Protein_chain_A,Hydrophobic,0.941
+S3_site473,CHEMBL341812,IBUFENAC,GLN251.seg_0_Protein_chain_A,251,GLN,seg_0_Protein_chain_A,Hydrophobic,0.941
+S3_site473,CHEMBL341812,IBUFENAC,LEU223.seg_0_Protein_chain_A,223,LEU,seg_0_Protein_chain_A,Hydrophobic,0.931
+S3_site473,CHEMBL341812,IBUFENAC,LEU249.seg_0_Protein_chain_A,249,LEU,seg_0_Protein_chain_A,Contact,0.921
+S3_site473,CHEMBL341812,IBUFENAC,PHE222.seg_0_Protein_chain_A,222,PHE,seg_0_Protein_chain_A,Hydrophobic,0.921
+S3_site473,CHEMBL341812,IBUFENAC,ARG228.seg_0_Protein_chain_A,228,ARG,seg_0_Protein_chain_A,Contact,0.901
+S3_site473,CHEMBL341812,IBUFENAC,LEU257.seg_0_Protein_chain_A,257,LEU,seg_0_Protein_chain_A,Contact,0.901
+S3_site473,CHEMBL341812,IBUFENAC,MET226.seg_0_Protein_chain_A,226,MET,seg_0_Protein_chain_A,Hydrophobic,0.812
+S3_site473,CHEMBL341812,IBUFENAC,LEU223.seg_0_Protein_chain_A,223,LEU,seg_0_Protein_chain_A,Contact,0.782
+S3_site473,CHEMBL341812,IBUFENAC,GLN251.seg_0_Protein_chain_A,251,GLN,seg_0_Protein_chain_A,Contact,0.762
+S3_site473,CHEMBL341812,IBUFENAC,MET226.seg_0_Protein_chain_A,226,MET,seg_0_Protein_chain_A,Contact,0.743
+S3_site473,CHEMBL341812,IBUFENAC,THR227.seg_0_Protein_chain_A,227,THR,seg_0_Protein_chain_A,Hydrophobic,0.703
+S3_site473,CHEMBL341812,IBUFENAC,VAL235.seg_0_Protein_chain_A,235,VAL,seg_0_Protein_chain_A,Hydrophobic,0.703
+S3_site473,CHEMBL341812,IBUFENAC,TYR219.seg_0_Protein_chain_A,219,TYR,seg_0_Protein_chain_A,HBond,0.624
+S3_site473,CHEMBL341812,IBUFENAC,SER254.seg_0_Protein_chain_A,254,SER,seg_0_Protein_chain_A,Hydrophobic,0.614
+S3_site473,CHEMBL341812,IBUFENAC,TYR219.seg_0_Protein_chain_A,219,TYR,seg_0_Protein_chain_A,Hydrophobic,0.584
+S3_site473,CHEMBL341812,IBUFENAC,LEU249.seg_0_Protein_chain_A,249,LEU,seg_0_Protein_chain_A,Hydrophobic,0.455
+S3_site473,CHEMBL341812,IBUFENAC,VAL235.seg_0_Protein_chain_A,235,VAL,seg_0_Protein_chain_A,Contact,0.446
+S3_site473,CHEMBL341812,IBUFENAC,SER254.seg_0_Protein_chain_A,254,SER,seg_0_Protein_chain_A,Contact,0.446
+S3_site473,CHEMBL341812,IBUFENAC,THR227.seg_0_Protein_chain_A,227,THR,seg_0_Protein_chain_A,Contact,0.366
+S3_site473,CHEMBL341812,IBUFENAC,GLU231.seg_0_Protein_chain_A,231,GLU,seg_0_Protein_chain_A,Contact,0.297
+S3_site473,CHEMBL341812,IBUFENAC,SER250.seg_0_Protein_chain_A,250,SER,seg_0_Protein_chain_A,Hydrophobic,0.228

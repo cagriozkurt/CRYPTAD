@@ -1,0 +1,6 @@
+system,group_id,n_replicas,best_tier,persistence,mean_score,mean_drugg,mean_volume,cx,cy,cz,runs
+S3_PICALM_ANTH,47,3,Tier2,0.0814,0.1678,0.0575,273.9,41.26,42.15,42.59,"1,2,3"
+S3_PICALM_ANTH,83,3,Tier2,0.0795,0.1363,0.0485,290.3,47.06,37.55,43.97,"1,2,3"
+S3_PICALM_ANTH,21,3,Tier2,0.0792,0.138,0.0834,333.0,38.58,54.42,49.9,"1,2,3"
+S3_PICALM_ANTH,30,3,Tier2,0.0738,0.1312,0.0404,276.9,49.25,55.7,53.12,"1,2,3"
+S3_PICALM_ANTH,73,3,Tier2,0.0738,0.1313,0.0388,296.0,39.75,47.82,54.4,"1,2,3"

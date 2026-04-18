@@ -1,0 +1,76 @@
+; meta.mdp  —  CRYPTAD
+; Well-tempered metadynamics production run — 200 ns, HMR (4 fs dt)
+; NPT ensemble, CHARMM36m, TIP3P, 310.15 K, 1 bar, KCl 0.15 M
+; All 5 systems (S1–S5) share this MDP; adjust nsteps only if needed.
+;
+; Usage:
+;   gmx_mpi grompp -f meta.mdp -c <equil.gro> -p topol.top -n index.ndx \
+;                  -t <equil.cpt> -o meta.tpr -maxwarn 2
+;
+; NOTES:
+;   - nsteps = 50,000,000 = 200 ns at dt=0.004 (HMR).
+;     For a 1 ns test run: change nsteps to 250000.
+;   - nstxout-compressed = 5000 → save frame every 20 ps (10 GB/200 ns est.)
+;   - Group names SOLU / SOLV match the CHARMM-GUI index.ndx from all systems.
+;   - PLUMED does NOT require any changes here — it is injected via -plumed flag.
+
+integrator              = md
+dt                      = 0.004         ; 4 fs (HMR — H-bond constraints required)
+nsteps                  = 50000000      ; 200 ns total
+; nsteps                  = 250000       ; 1 ns test run (uncomment to test)
+
+; ── Output ───────────────────────────────────────────────────────────────────
+nstxout-compressed      = 5000          ; trajectory every 20 ps
+nstxout                 = 0
+nstvout                 = 0
+nstfout                 = 0
+nstcalcenergy           = 100
+nstenergy               = 5000          ; .edr every 20 ps
+nstlog                  = 5000          ; .log every 20 ps
+
+; ── Neighbour search ─────────────────────────────────────────────────────────
+cutoff-scheme           = Verlet
+nstlist                 = 20
+
+; ── Electrostatics ───────────────────────────────────────────────────────────
+coulombtype             = PME
+rcoulomb                = 1.2
+
+; ── van der Waals ─────────────────────────────────────────────────────────────
+vdwtype                 = Cut-off
+vdw-modifier            = Force-switch
+rvdw_switch             = 1.0
+rvdw                    = 1.2
+rlist                   = 1.2
+
+; ── Temperature coupling ─────────────────────────────────────────────────────
+tcoupl                  = v-rescale
+tc_grps                 = SOLU SOLV
+tau_t                   = 1.0  1.0
+ref_t                   = 310.15 310.15
+
+; ── Pressure coupling ────────────────────────────────────────────────────────
+pcoupl                  = C-rescale
+pcoupltype              = isotropic
+tau_p                   = 5.0
+ref_p                   = 1.0
+compressibility         = 4.5e-5
+
+; ── Bond constraints (HMR requires h-bonds) ──────────────────────────────────
+constraints             = h-bonds
+constraint_algorithm    = LINCS
+lincs_iter              = 1
+lincs_order             = 4
+lincs_warnangle         = 30
+
+; ── COM motion removal ───────────────────────────────────────────────────────
+nstcomm                 = 100
+comm_mode               = linear
+comm_grps               = SOLU SOLV
+
+; ── Continuation (start from equilibrated .cpt) ──────────────────────────────
+continuation            = yes
+gen_vel                 = no
+
+; ── PBC ──────────────────────────────────────────────────────────────────────
+pbc                     = xyz

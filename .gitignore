@@ -32,8 +32,11 @@ __pycache__/
 # Large raw data directories — deposited at Zenodo
 # ============================================================
 
-# CHARMM-GUI solvated system inputs (~73 GB)
-02_md_inputs/
+# CHARMM-GUI solvated system inputs (~73 GB) — exclude bulk, keep .mdp files
+02_md_inputs/**
+!02_md_inputs/
+!02_md_inputs/**/
+!02_md_inputs/**/*.mdp
 
 # Complex MD production trajectories (~24 GB)
 02_md_simulations/complex_md/

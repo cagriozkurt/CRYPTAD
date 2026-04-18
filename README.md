@@ -347,3 +347,44 @@ Override the project root on the HPC cluster with:
 ```bash
 export CRYPTAD=/path/to/CRYPTAD
 ```
+
+---
+
+## Reproducibility
+
+### Software versions
+
+| Component | Version |
+|-----------|---------|
+| GROMACS | 2023.3 |
+| PLUMED | 2.9.2 |
+| AutoDock Vina | 1.2.6 |
+| Python | 3.11 |
+| RDKit | see `environment.lock.yml` |
+| MDAnalysis | see `environment.lock.yml` |
+| fpocket | 3.1+ |
+| VMD | 1.9.3+ |
+
+Full Python dependency versions are captured in `environment.lock.yml` (generate
+with `conda env export --no-builds > environment.lock.yml` after creating the env).
+The GROMACS+PLUMED build is fully specified in `singularity/gromacs-plumed.def`.
+
+### PLUMED-NEST
+
+Metadynamics input files (PLUMED `.dat` files) are archived on
+[PLUMED-NEST](https://www.plumed-nest.org) under accession **plumID:XX.XXX**
+(replace with accession number after submission).
+
+### Trajectory data and PLUMED inputs
+
+PLUMED input files are archived on Zenodo:
+**DOI: [10.5281/zenodo.19643754](https://doi.org/10.5281/zenodo.19643754)**
+
+Raw and post-processed MD trajectories are archived on Zenodo (split across two deposits due to the 100-file limit):
+- **Part 1** (metadynamics + BIN1 complex MD): [10.5281/zenodo.19643896](https://doi.org/10.5281/zenodo.19643896)
+- **Part 2** (PICALM/CD2AP complex MD + persistence gate): [10.5281/zenodo.19645101](https://doi.org/10.5281/zenodo.19645101)
+
+Minimum recommended download for reproducing the analysis figures:
+- `complexmd_fit_nw.xtc` for each system/replica (complex MD, PBC-corrected)
+- `metad_fit_nw.xtc` for each system (metadynamics, PBC-corrected)
+- All topology and coordinate files in `01_structures/` and `02_md_simulations/`

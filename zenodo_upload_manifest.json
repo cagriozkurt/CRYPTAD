@@ -1,0 +1,1204 @@
+{
+  "deposits": [
+    19645101
+  ],
+  "sandbox": false,
+  "files": [
+    {
+      "remote": "metad_S1_BAR_meta.xtc",
+      "local": "02_md_simulations/BIN1/metadynamics/S1_BAR/meta.xtc",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S1_BAR_meta.tpr",
+      "local": "02_md_simulations/BIN1/metadynamics/S1_BAR/meta.tpr",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S1_BAR_plumed.dat",
+      "local": "02_md_simulations/BIN1/metadynamics/S1_BAR/plumed.dat",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S1_BAR_HILLS",
+      "local": "02_md_simulations/BIN1/metadynamics/S1_BAR/HILLS",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S1_BAR_COLVAR",
+      "local": "02_md_simulations/BIN1/metadynamics/S1_BAR/COLVAR",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S2_SH3_meta.xtc",
+      "local": "02_md_simulations/BIN1/metadynamics/S2_SH3/meta.xtc",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S2_SH3_meta.tpr",
+      "local": "02_md_simulations/BIN1/metadynamics/S2_SH3/meta.tpr",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S2_SH3_plumed.dat",
+      "local": "02_md_simulations/BIN1/metadynamics/S2_SH3/plumed.dat",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S2_SH3_HILLS",
+      "local": "02_md_simulations/BIN1/metadynamics/S2_SH3/HILLS",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S2_SH3_COLVAR",
+      "local": "02_md_simulations/BIN1/metadynamics/S2_SH3/COLVAR",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S3_ANTH_meta.xtc",
+      "local": "02_md_simulations/PICALM/metadynamics/S3_ANTH/meta.xtc",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S3_ANTH_meta.tpr",
+      "local": "02_md_simulations/PICALM/metadynamics/S3_ANTH/meta.tpr",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S3_ANTH_plumed.dat",
+      "local": "02_md_simulations/PICALM/metadynamics/S3_ANTH/plumed.dat",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S3_ANTH_HILLS",
+      "local": "02_md_simulations/PICALM/metadynamics/S3_ANTH/HILLS",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S3_ANTH_COLVAR",
+      "local": "02_md_simulations/PICALM/metadynamics/S3_ANTH/COLVAR",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S4_SH3-2_meta.xtc",
+      "local": "02_md_simulations/CD2AP/metadynamics/S4_SH3-2/meta.xtc",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S4_SH3-2_meta.tpr",
+      "local": "02_md_simulations/CD2AP/metadynamics/S4_SH3-2/meta.tpr",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S4_SH3-2_plumed.dat",
+      "local": "02_md_simulations/CD2AP/metadynamics/S4_SH3-2/plumed.dat",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S4_SH3-2_HILLS",
+      "local": "02_md_simulations/CD2AP/metadynamics/S4_SH3-2/HILLS",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S4_SH3-2_COLVAR",
+      "local": "02_md_simulations/CD2AP/metadynamics/S4_SH3-2/COLVAR",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S5_SH3-1_meta.xtc",
+      "local": "02_md_simulations/CD2AP/metadynamics/S5_SH3-1/meta.xtc",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S5_SH3-1_meta.tpr",
+      "local": "02_md_simulations/CD2AP/metadynamics/S5_SH3-1/meta.tpr",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S5_SH3-1_plumed.dat",
+      "local": "02_md_simulations/CD2AP/metadynamics/S5_SH3-1/plumed.dat",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S5_SH3-1_HILLS",
+      "local": "02_md_simulations/CD2AP/metadynamics/S5_SH3-1/HILLS",
+      "status": "skipped"
+    },
+    {
+      "remote": "metad_S5_SH3-1_COLVAR",
+      "local": "02_md_simulations/CD2AP/metadynamics/S5_SH3-1/COLVAR",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep1_complexmd_fit_nw.xtc",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep1/complexmd_fit_nw.xtc",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep1_complexmd.tpr",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep1/complexmd.tpr",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep1_complexmd.gro",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep1/complexmd.gro",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep1_ref_nw.pdb",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep1/ref_nw.pdb",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep1_topol.top",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep1/topol.top",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep1_topol_flat.top",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep1/topol_flat.top",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep1_LIG_GMX.itp",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep1/LIG_GMX.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep1_lig_atomtypes.itp",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep1/lig_atomtypes.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep1_posre_LIG.itp",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep1/posre_LIG.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep1_index.ndx",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep1/index.ndx",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep2_complexmd_fit_nw.xtc",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep2/complexmd_fit_nw.xtc",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep2_complexmd.tpr",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep2/complexmd.tpr",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep2_complexmd.gro",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep2/complexmd.gro",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep2_ref_nw.pdb",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep2/ref_nw.pdb",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep2_topol.top",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep2/topol.top",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep2_topol_flat.top",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep2/topol_flat.top",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep2_LIG_GMX.itp",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep2/LIG_GMX.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep2_lig_atomtypes.itp",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep2/lig_atomtypes.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep2_posre_LIG.itp",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep2/posre_LIG.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep2_index.ndx",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep2/index.ndx",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep3_complexmd_fit_nw.xtc",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep3/complexmd_fit_nw.xtc",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep3_complexmd.tpr",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep3/complexmd.tpr",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep3_complexmd.gro",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep3/complexmd.gro",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep3_ref_nw.pdb",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep3/ref_nw.pdb",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep3_topol.top",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep3/topol.top",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep3_topol_flat.top",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep3/topol_flat.top",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep3_LIG_GMX.itp",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep3/LIG_GMX.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep3_lig_atomtypes.itp",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep3/lig_atomtypes.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep3_posre_LIG.itp",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep3/posre_LIG.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site680_CHEMBL4105630_rep3_index.ndx",
+      "local": "02_md_simulations/complex_md/S1_site680_CHEMBL4105630/rep3/index.ndx",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep1_complexmd_fit_nw.xtc",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep1/complexmd_fit_nw.xtc",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep1_complexmd.tpr",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep1/complexmd.tpr",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep1_complexmd.gro",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep1/complexmd.gro",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep1_ref_nw.pdb",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep1/ref_nw.pdb",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep1_topol.top",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep1/topol.top",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep1_topol_flat.top",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep1/topol_flat.top",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep1_LIG_GMX.itp",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep1/LIG_GMX.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep1_lig_atomtypes.itp",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep1/lig_atomtypes.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep1_posre_LIG.itp",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep1/posre_LIG.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep1_index.ndx",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep1/index.ndx",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep2_complexmd_fit_nw.xtc",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep2/complexmd_fit_nw.xtc",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep2_complexmd.tpr",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep2/complexmd.tpr",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep2_complexmd.gro",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep2/complexmd.gro",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep2_ref_nw.pdb",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep2/ref_nw.pdb",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep2_topol.top",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep2/topol.top",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep2_topol_flat.top",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep2/topol_flat.top",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep2_LIG_GMX.itp",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep2/LIG_GMX.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep2_lig_atomtypes.itp",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep2/lig_atomtypes.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep2_posre_LIG.itp",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep2/posre_LIG.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep2_index.ndx",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep2/index.ndx",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep3_complexmd_fit_nw.xtc",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep3/complexmd_fit_nw.xtc",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep3_complexmd.tpr",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep3/complexmd.tpr",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep3_complexmd.gro",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep3/complexmd.gro",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep3_ref_nw.pdb",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep3/ref_nw.pdb",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep3_topol.top",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep3/topol.top",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep3_topol_flat.top",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep3/topol_flat.top",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep3_LIG_GMX.itp",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep3/LIG_GMX.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep3_lig_atomtypes.itp",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep3/lig_atomtypes.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep3_posre_LIG.itp",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep3/posre_LIG.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S1_site688_CHEMBL4105630_rep3_index.ndx",
+      "local": "02_md_simulations/complex_md/S1_site688_CHEMBL4105630/rep3/index.ndx",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep1_complexmd_fit_nw.xtc",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep1/complexmd_fit_nw.xtc",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep1_complexmd.tpr",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep1/complexmd.tpr",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep1_complexmd.gro",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep1/complexmd.gro",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep1_ref_nw.pdb",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep1/ref_nw.pdb",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep1_topol.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep1/topol.top",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep1_topol_flat.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep1/topol_flat.top",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep1_LIG_GMX.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep1/LIG_GMX.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep1_lig_atomtypes.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep1/lig_atomtypes.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep1_posre_LIG.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep1/posre_LIG.itp",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep1_index.ndx",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep1/index.ndx",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep2_complexmd_fit_nw.xtc",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep2/complexmd_fit_nw.xtc",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep2_complexmd.tpr",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep2/complexmd.tpr",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep2_complexmd.gro",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep2/complexmd.gro",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep2_ref_nw.pdb",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep2/ref_nw.pdb",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep2_topol.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep2/topol.top",
+      "status": "skipped"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep2_topol_flat.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep2/topol_flat.top",
+      "size_bytes": 1297165,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:68a434c0898a1e95011ded431ee9043b",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep2_LIG_GMX.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep2/LIG_GMX.itp",
+      "size_bytes": 18924,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:18b3accc38658c61725f3af10afd0125",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep2_lig_atomtypes.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep2/lig_atomtypes.itp",
+      "size_bytes": 798,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:786e5b9e457a74797c6a02875bac7ef1",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep2_posre_LIG.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep2/posre_LIG.itp",
+      "size_bytes": 582,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:6ee21ef00d552c6796ba886078a079c0",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep2_index.ndx",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep2/index.ndx",
+      "size_bytes": 1847899,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:8ed18a9896c8fe6fcbe55531019ecea0",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep3_complexmd_fit_nw.xtc",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep3/complexmd_fit_nw.xtc",
+      "size_bytes": 17339200,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:34758194ecd8edaea2a29cdeeb21b8f6",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep3_complexmd.tpr",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep3/complexmd.tpr",
+      "size_bytes": 2570344,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:f60427f81e604ae3fab05b2709771ff9",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep3_complexmd.gro",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep3/complexmd.gro",
+      "size_bytes": 4236024,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:4f4212fa836513408ec8e247256d430b",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep3_ref_nw.pdb",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep3/ref_nw.pdb",
+      "size_bytes": 352946,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:b1a2f3a1cf4f72f458ae5e2c22fa8f1f",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep3_topol.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep3/topol.top",
+      "size_bytes": 1219408,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:2c69beb8e87212d9f4e044f5707f9243",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep3_topol_flat.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep3/topol_flat.top",
+      "size_bytes": 1297165,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:68a434c0898a1e95011ded431ee9043b",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep3_LIG_GMX.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep3/LIG_GMX.itp",
+      "size_bytes": 18924,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:18b3accc38658c61725f3af10afd0125",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep3_lig_atomtypes.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep3/lig_atomtypes.itp",
+      "size_bytes": 798,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:786e5b9e457a74797c6a02875bac7ef1",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep3_posre_LIG.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep3/posre_LIG.itp",
+      "size_bytes": 582,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:6ee21ef00d552c6796ba886078a079c0",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep3_index.ndx",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep3/index.ndx",
+      "size_bytes": 1847899,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:8ed18a9896c8fe6fcbe55531019ecea0",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep4_complexmd_fit_nw.xtc",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep4/complexmd_fit_nw.xtc",
+      "size_bytes": 17329360,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:16cef7a8e58891250ed915de0eb6b37e",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep4_complexmd.tpr",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep4/complexmd.tpr",
+      "size_bytes": 2570344,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:ffafc653cd6dbafa417145521ba3bfce",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep4_complexmd.gro",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep4/complexmd.gro",
+      "size_bytes": 4236024,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:e76adee42825e9e392f058f3b0bc1ad9",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep4_ref_nw.pdb",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep4/ref_nw.pdb",
+      "size_bytes": 352946,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:8d1f94a03b6bed16770633afac8d1ac5",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep4_topol.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep4/topol.top",
+      "size_bytes": 1219408,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:2c69beb8e87212d9f4e044f5707f9243",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep4_topol_flat.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep4/topol_flat.top",
+      "size_bytes": 1297165,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:68a434c0898a1e95011ded431ee9043b",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep4_LIG_GMX.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep4/LIG_GMX.itp",
+      "size_bytes": 18924,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:18b3accc38658c61725f3af10afd0125",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep4_lig_atomtypes.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep4/lig_atomtypes.itp",
+      "size_bytes": 798,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:786e5b9e457a74797c6a02875bac7ef1",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep4_posre_LIG.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep4/posre_LIG.itp",
+      "size_bytes": 582,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:6ee21ef00d552c6796ba886078a079c0",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep4_index.ndx",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep4/index.ndx",
+      "size_bytes": 1847899,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:8ed18a9896c8fe6fcbe55531019ecea0",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep5_complexmd_fit_nw.xtc",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep5/complexmd_fit_nw.xtc",
+      "size_bytes": 17350924,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:e94044cbfdbd81639f0fc77fdc644759",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep5_complexmd.tpr",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep5/complexmd.tpr",
+      "size_bytes": 2570344,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:79be8e325ab3d1444e462456c4846293",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep5_complexmd.gro",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep5/complexmd.gro",
+      "size_bytes": 4236024,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:3b47764621efa398c80de0b93d86d426",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep5_ref_nw.pdb",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep5/ref_nw.pdb",
+      "size_bytes": 352946,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:bfeda401a962152a147eb7948d76f9f8",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep5_topol.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep5/topol.top",
+      "size_bytes": 1219408,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:2c69beb8e87212d9f4e044f5707f9243",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep5_topol_flat.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep5/topol_flat.top",
+      "size_bytes": 1297165,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:68a434c0898a1e95011ded431ee9043b",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep5_LIG_GMX.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep5/LIG_GMX.itp",
+      "size_bytes": 18924,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:18b3accc38658c61725f3af10afd0125",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep5_lig_atomtypes.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep5/lig_atomtypes.itp",
+      "size_bytes": 798,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:786e5b9e457a74797c6a02875bac7ef1",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep5_posre_LIG.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep5/posre_LIG.itp",
+      "size_bytes": 582,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:6ee21ef00d552c6796ba886078a079c0",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep5_index.ndx",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep5/index.ndx",
+      "size_bytes": 1847899,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:8ed18a9896c8fe6fcbe55531019ecea0",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep6_complexmd_fit_nw.xtc",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep6/complexmd_fit_nw.xtc",
+      "size_bytes": 17345816,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:c08edcd488121c28b8214f6cc174e112",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep6_complexmd.tpr",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep6/complexmd.tpr",
+      "size_bytes": 2570344,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:1cabf285b69cc6326bb15ef524f5ce21",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep6_complexmd.gro",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep6/complexmd.gro",
+      "size_bytes": 4236024,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:6dab77cdb3cb07842dc45c0efd4618c7",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep6_ref_nw.pdb",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep6/ref_nw.pdb",
+      "size_bytes": 352946,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:a751598d9638f50122c9f921349f355e",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep6_topol.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep6/topol.top",
+      "size_bytes": 1219408,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:2c69beb8e87212d9f4e044f5707f9243",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep6_topol_flat.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep6/topol_flat.top",
+      "size_bytes": 1297165,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:68a434c0898a1e95011ded431ee9043b",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep6_LIG_GMX.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep6/LIG_GMX.itp",
+      "size_bytes": 18924,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:18b3accc38658c61725f3af10afd0125",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep6_lig_atomtypes.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep6/lig_atomtypes.itp",
+      "size_bytes": 798,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:786e5b9e457a74797c6a02875bac7ef1",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep6_posre_LIG.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep6/posre_LIG.itp",
+      "size_bytes": 582,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:6ee21ef00d552c6796ba886078a079c0",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL341812_rep6_index.ndx",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL341812/rep6/index.ndx",
+      "size_bytes": 1847899,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:8ed18a9896c8fe6fcbe55531019ecea0",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep1_complexmd_fit_nw.xtc",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep1/complexmd_fit_nw.xtc",
+      "size_bytes": 17319716,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:5096a0e603d79a76f7c01e4bd33fdf5c",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep1_complexmd.tpr",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep1/complexmd.tpr",
+      "size_bytes": 2569872,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:e032a261e0b9e8c3717bdd9f30bac7a6",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep1_complexmd.gro",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep1/complexmd.gro",
+      "size_bytes": 4236300,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:b0b9a78c1b8dd3af956d1214792d0683",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep1_ref_nw.pdb",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep1/ref_nw.pdb",
+      "size_bytes": 352551,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:0180ce9be65866beb5016084bb6d0041",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep1_topol.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep1/topol.top",
+      "size_bytes": 1219405,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:ce0433c630fc45bb40327fe9195a3b72",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep1_topol_flat.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep1/topol_flat.top",
+      "size_bytes": 1296047,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:e90ddefe0c24586dbbdeb1dbf1fabd00",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep1_LIG_GMX.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep1/LIG_GMX.itp",
+      "size_bytes": 17809,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:58a95e2b21f7135060305d8e49686e06",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep1_lig_atomtypes.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep1/lig_atomtypes.itp",
+      "size_bytes": 798,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:642c5a8fa17bed6edba9fc3fbcb853de",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep1_posre_LIG.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep1/posre_LIG.itp",
+      "size_bytes": 582,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:10f2374e376f47c7cec4af8c77595dc4",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep1_index.ndx",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep1/index.ndx",
+      "size_bytes": 1847994,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:1c6eb9e79265d610748ba4569c2d6af0",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep2_complexmd_fit_nw.xtc",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep2/complexmd_fit_nw.xtc",
+      "size_bytes": 17316348,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:e32ca8325da1fbb9910bb1d0ee4766be",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep2_complexmd.tpr",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep2/complexmd.tpr",
+      "size_bytes": 2569872,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:29dececa6e7fed7a2455c223ba529b96",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep2_complexmd.gro",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep2/complexmd.gro",
+      "size_bytes": 4236300,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:2966056d86e219563505e8b16c09b8ac",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep2_ref_nw.pdb",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep2/ref_nw.pdb",
+      "size_bytes": 352551,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:380f84141e0997785aba58b42436efff",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep2_topol.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep2/topol.top",
+      "size_bytes": 1219405,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:ce0433c630fc45bb40327fe9195a3b72",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep2_topol_flat.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep2/topol_flat.top",
+      "size_bytes": 1296047,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:e90ddefe0c24586dbbdeb1dbf1fabd00",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep2_LIG_GMX.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep2/LIG_GMX.itp",
+      "size_bytes": 17809,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:58a95e2b21f7135060305d8e49686e06",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep2_lig_atomtypes.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep2/lig_atomtypes.itp",
+      "size_bytes": 798,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:642c5a8fa17bed6edba9fc3fbcb853de",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep2_posre_LIG.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep2/posre_LIG.itp",
+      "size_bytes": 582,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:10f2374e376f47c7cec4af8c77595dc4",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep2_index.ndx",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep2/index.ndx",
+      "size_bytes": 1847994,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:1c6eb9e79265d610748ba4569c2d6af0",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep3_complexmd_fit_nw.xtc",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep3/complexmd_fit_nw.xtc",
+      "size_bytes": 17325484,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:a7b24b0c662b66612257d65a2ea27599",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep3_complexmd.tpr",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep3/complexmd.tpr",
+      "size_bytes": 2569872,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:b150283756a66d117a61900cd20e1408",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep3_complexmd.gro",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep3/complexmd.gro",
+      "size_bytes": 4236300,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:6636f013db98806526a90d3daf7c67d3",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep3_ref_nw.pdb",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep3/ref_nw.pdb",
+      "size_bytes": 352551,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:23bfd6a59d07986780db71628e745d04",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep3_topol.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep3/topol.top",
+      "size_bytes": 1219405,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:ce0433c630fc45bb40327fe9195a3b72",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep3_topol_flat.top",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep3/topol_flat.top",
+      "size_bytes": 1296047,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:e90ddefe0c24586dbbdeb1dbf1fabd00",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep3_LIG_GMX.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep3/LIG_GMX.itp",
+      "size_bytes": 17809,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:58a95e2b21f7135060305d8e49686e06",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep3_lig_atomtypes.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep3/lig_atomtypes.itp",
+      "size_bytes": 798,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:642c5a8fa17bed6edba9fc3fbcb853de",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep3_posre_LIG.itp",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep3/posre_LIG.itp",
+      "size_bytes": 582,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:10f2374e376f47c7cec4af8c77595dc4",
+      "status": "uploaded"
+    },
+    {
+      "remote": "complex_S3_site473_CHEMBL797_rep3_index.ndx",
+      "local": "02_md_simulations/complex_md/S3_site473_CHEMBL797/rep3/index.ndx",
+      "size_bytes": 1847994,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:1c6eb9e79265d610748ba4569c2d6af0",
+      "status": "uploaded"
+    },
+    {
+      "remote": "persist_BIN1_rep1_persist.xtc",
+      "local": "02_md_simulations/BIN1/persistence_gate/rep1/persist.xtc",
+      "size_bytes": 244005024,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:54e5a0287ae652c76e226c916978062f",
+      "status": "uploaded"
+    },
+    {
+      "remote": "persist_BIN1_rep1_persist.tpr",
+      "local": "02_md_simulations/BIN1/persistence_gate/rep1/persist.tpr",
+      "size_bytes": 11417296,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:402399b1613216038e92ebbd06a8c06b",
+      "status": "uploaded"
+    },
+    {
+      "remote": "persist_BIN1_rep2_persist.xtc",
+      "local": "02_md_simulations/BIN1/persistence_gate/rep2/persist.xtc",
+      "size_bytes": 228483820,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:90d3214f52d88da1305ba4c2899d7716",
+      "status": "uploaded"
+    },
+    {
+      "remote": "persist_BIN1_rep2_persist.tpr",
+      "local": "02_md_simulations/BIN1/persistence_gate/rep2/persist.tpr",
+      "size_bytes": 11417296,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:0a1fdd81b6dec78508805b0fcbccbf34",
+      "status": "uploaded"
+    },
+    {
+      "remote": "persist_BIN1_rep3_persist.xtc",
+      "local": "02_md_simulations/BIN1/persistence_gate/rep3/persist.xtc",
+      "size_bytes": 241183108,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:415cd8a3f4eb6c976d0abfcb955a0398",
+      "status": "uploaded"
+    },
+    {
+      "remote": "persist_BIN1_rep3_persist.tpr",
+      "local": "02_md_simulations/BIN1/persistence_gate/rep3/persist.tpr",
+      "size_bytes": 11417296,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:d4d3b999ddc9b45f893c72289cc816d9",
+      "status": "uploaded"
+    },
+    {
+      "remote": "persist_PICALM_rep1_persist.xtc",
+      "local": "02_md_simulations/PICALM/persistence_gate/rep1/persist.xtc",
+      "size_bytes": 65027228,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:fe9fb6caecd75709f347d842a0a1d701",
+      "status": "uploaded"
+    },
+    {
+      "remote": "persist_PICALM_rep1_persist.tpr",
+      "local": "02_md_simulations/PICALM/persistence_gate/rep1/persist.tpr",
+      "size_bytes": 3377780,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:d7a7dae290474dfb04a8d2ab1ad33e69",
+      "status": "uploaded"
+    },
+    {
+      "remote": "persist_PICALM_rep2_persist.xtc",
+      "local": "02_md_simulations/PICALM/persistence_gate/rep2/persist.xtc",
+      "size_bytes": 65027136,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:c728aafb150a86626791ed52e51c76ac",
+      "status": "uploaded"
+    },
+    {
+      "remote": "persist_PICALM_rep2_persist.tpr",
+      "local": "02_md_simulations/PICALM/persistence_gate/rep2/persist.tpr",
+      "size_bytes": 3377780,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:da25a8ff5090aae5df79544abacffd5a",
+      "status": "uploaded"
+    },
+    {
+      "remote": "persist_PICALM_rep3_persist.xtc",
+      "local": "02_md_simulations/PICALM/persistence_gate/rep3/persist.xtc",
+      "size_bytes": 65028532,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:cd0b1474ecd938e692563a24b0ff8714",
+      "status": "uploaded"
+    },
+    {
+      "remote": "persist_PICALM_rep3_persist.tpr",
+      "local": "02_md_simulations/PICALM/persistence_gate/rep3/persist.tpr",
+      "size_bytes": 3377780,
+      "deposit_id": 19645101,
+      "zenodo_checksum": "md5:82bd20c4c89522413dfcba15765a1b1e",
+      "status": "uploaded"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # CRYPTAD Pipeline — Script Reference
 
+**Repository:** https://github.com/cagriozkurt/CRYPTAD
+
 All scripts accept `--project-root /path/to/CRYPTAD` (default: auto-detected from
 the script's own location). Run everything from the **project root** or pass the
 flag explicitly.

@@ -375,7 +375,6 @@ The GROMACS+PLUMED build is fully specified in `singularity/gromacs-plumed.def`.
 
 Metadynamics input files (PLUMED `.dat` files) are archived on
 [PLUMED-NEST](https://www.plumed-nest.org) under accession **plumID:26.005**
-(replace with accession number after submission).
 
 ### Trajectory data and PLUMED inputs
 

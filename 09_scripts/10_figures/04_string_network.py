@@ -168,6 +168,25 @@ def main():
         seed=42,
     )
 
+    # ── Save network data ─────────────────────────────────────────────────────
+    import csv
+
+    edges_out = outdir / "string_network_edges.csv"
+    with open(edges_out, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["protein_A", "protein_B", "score"])
+        for u, v, d in sorted(G.edges(data=True)):
+            w.writerow([u, v, round(d.get("score", 0), 4)])
+    print(f"  Edge list saved: {edges_out.relative_to(project_root)}")
+
+    degrees_out = outdir / "string_network_degrees.csv"
+    with open(degrees_out, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["protein", "degree", "role"])
+        for node, deg in sorted(G.degree(), key=lambda x: -x[1]):
+            w.writerow([node, deg, ROLE.get(node, "other")])
+    print(f"  Degree table saved: {degrees_out.relative_to(project_root)}")
+
     # ── Draw ──────────────────────────────────────────────────────────────────
     fig, ax = plt.subplots(figsize=(13, 11))
     ax.set_aspect("equal")

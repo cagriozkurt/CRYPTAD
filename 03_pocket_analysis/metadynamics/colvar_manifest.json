@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-04-19T17:16:39Z",
+  "script": "09_scripts/07_conformational/02_analyze_metad_colvar.py",
+  "project_root": "/Volumes/PortableSSD/untitled folder/CRYPTAD",
+  "systems": [
+    "S1_BIN1_BAR",
+    "S2_BIN1_SH3",
+    "S3_PICALM_ANTH",
+    "S4_CD2AP_SH3-2",
+    "S5_CD2AP_SH3-1"
+  ],
+  "results": {
+    "S1_BIN1_BAR": {
+      "total_ns": 200.0,
+      "cv1_min": 1.202972,
+      "cv1_max": 13.491887,
+      "cv1_mean": 4.724586962677849,
+      "cv1_std": 3.309421075811285,
+      "cv2_min": 0.000803,
+      "cv2_max": 3.141235,
+      "cv2_mean": 1.459418006859368,
+      "cv2_std": 0.7505534163258046,
+      "crossings": 216,
+      "bias_final": 87.731221
+    },
+    "S2_BIN1_SH3": {
+      "total_ns": 200.0,
+      "cv1_min": 0.335179,
+      "cv1_max": 4.831166,
+      "cv1_mean": 2.0047041934480654,
+      "cv1_std": 1.0265685238580329,
+      "cv2_min": 0.334487,
+      "cv2_max": 2.795666,
+      "cv2_mean": 1.3875552904070958,
+      "cv2_std": 0.5659008074909019,
+      "crossings": 1713,
+      "bias_final": 87.807395
+    },
+    "S3_PICALM_ANTH": {
+      "total_ns": 200.0,
+      "cv1_min": 0.972361,
+      "cv1_max": 2.462593,
+      "cv1_mean": 1.5709585826641734,
+      "cv1_std": 0.29958347647584554,
+      "cv2_min": 0.754461,
+      "cv2_max": 4.6499,
+      "cv2_mean": 2.2334979617103823,
+      "cv2_std": 0.7117775159302795,
+      "crossings": 2042,
+      "bias_final": 35.94484
+    },
+    "S4_CD2AP_SH3-2": {
+      "total_ns": 200.0,
+      "cv1_min": 0.340429,
+      "cv1_max": 1.889297,
+      "cv1_mean": 1.120768619913801,
+      "cv1_std": 0.34753882866353275,
+      "cv2_min": 0.466764,
+      "cv2_max": 1.897741,
+      "cv2_mean": 1.352766801091989,
+      "cv2_std": 0.30829054949968304,
+      "crossings": 1700,
+      "bias_final": 125.615173
+    },
+    "S5_CD2AP_SH3-1": {
+      "total_ns": 200.0,
+      "cv1_min": 0.341266,
+      "cv1_max": 4.965602,
+      "cv1_mean": 2.467726710445791,
+      "cv1_std": 1.1480694750452398,
+      "cv2_min": 0.338514,
+      "cv2_max": 4.977067,
+      "cv2_mean": 2.5366076173576526,
+      "cv2_std": 1.1850567032188588,
+      "crossings": 1252,
+      "bias_final": 93.98063
+    }
+  }
+}

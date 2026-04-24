@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-04-24T09:44:13Z",
+  "script": "09_scripts/07_conformational/05_conformational_coupling.py",
+  "project_root": "/Volumes/PortableSSD/untitled folder/CRYPTAD",
+  "outputs": {
+    "dccm_s1": "/Volumes/PortableSSD/untitled folder/CRYPTAD/03_pocket_analysis/conformational/dccm_S1_BIN1_BAR.png",
+    "dccm_s3_apo": "/Volumes/PortableSSD/untitled folder/CRYPTAD/03_pocket_analysis/conformational/dccm_S3_PICALM_ANTH.png",
+    "dccm_s3_holo": "/Volumes/PortableSSD/untitled folder/CRYPTAD/03_pocket_analysis/conformational/dccm_S3_PICALM_ANTH_holo.png",
+    "delta_dccm": "/Volumes/PortableSSD/untitled folder/CRYPTAD/03_pocket_analysis/conformational/dccm_delta_S3_PICALM.png",
+    "bar_curvature": "/Volumes/PortableSSD/untitled folder/CRYPTAD/03_pocket_analysis/conformational/bar_curvature.png",
+    "pip2_loop": "/Volumes/PortableSSD/untitled folder/CRYPTAD/03_pocket_analysis/conformational/pip2_loop.png",
+    "summary_txt": "/Volumes/PortableSSD/untitled folder/CRYPTAD/03_pocket_analysis/conformational/conformational_summary.txt"
+  },
+  "results": {
+    "bar_curvature": {
+      "pearson_r": -0.6285,
+      "pearson_p": 1.06e-44,
+      "cv1_mean_nm": 4.751,
+      "tip_tip_mean_nm": 15.916000366210938
+    },
+    "pip2_loop": {
+      "pearson_r": 0.718,
+      "pearson_p": 0.0,
+      "cv_site4_mean_nm": 2.234,
+      "pip2_rmsd_mean_A": 2.512
+    },
+    "delta_dccm": {
+      "holo_reps": [
+        "rep1",
+        "rep5"
+      ],
+      "n_residues": 268,
+      "delta_min": -0.8447999954223633,
+      "delta_max": 1.0440000295639038,
+      "mean_abs_delta": 0.18379999697208405,
+      "pip2_pocket_mean_delta": 0.11069999635219574,
+      "pip2_pocket_max_abs_delta": 0.5789999961853027
+    }
+  }
+}

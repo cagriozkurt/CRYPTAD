@@ -152,7 +152,7 @@ def plot_dccm(dccm, resids, segids, title, outpng, pocket_resids=None):
                 bbox=dict(facecolor="white", edgecolor="none", alpha=0.7, pad=1.5))
 
     plt.tight_layout()
-    plt.savefig(str(outpng), dpi=300, bbox_inches="tight")
+    plt.savefig(str(outpng), dpi=600, bbox_inches="tight")
     plt.close()
     print(f"  Saved: {outpng}")
 
@@ -326,7 +326,7 @@ def main():
     plt.suptitle("BIN1 BAR — Site688/680 Pocket Opening vs Crescent Curvature\n"
                  "200 ns metadynamics", fontsize=11, y=1.01)
     plt.tight_layout()
-    plt.savefig(str(outdir / "bar_curvature.png"), dpi=300, bbox_inches="tight")
+    plt.savefig(str(outdir / "bar_curvature.png"), dpi=600, bbox_inches="tight")
     plt.close()
     print(f"  Saved: {outdir}/bar_curvature.png")
 
@@ -438,7 +438,7 @@ def main():
     plt.suptitle("PICALM ANTH — Site473 Pocket Opening vs PIP2-Binding Helix Displacement\n"
                  "200 ns metadynamics", fontsize=11, y=1.01)
     plt.tight_layout()
-    plt.savefig(str(outdir / "pip2_loop.png"), dpi=300, bbox_inches="tight")
+    plt.savefig(str(outdir / "pip2_loop.png"), dpi=600, bbox_inches="tight")
     plt.close()
     print(f"  Saved: {outdir}/pip2_loop.png")
 
@@ -578,7 +578,7 @@ def main():
                  fontsize=11, y=1.01)
     plt.tight_layout()
     out_delta = outdir / "dccm_delta_S3_PICALM.png"
-    plt.savefig(str(out_delta), dpi=300, bbox_inches="tight")
+    plt.savefig(str(out_delta), dpi=600, bbox_inches="tight")
     plt.close()
     print(f"  Saved: {out_delta}")
 

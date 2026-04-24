@@ -173,7 +173,7 @@ def main():
 
     ax.set_title("CRYPTAD — Virtual Screening Funnel", fontweight="bold", pad=12)
     plt.tight_layout()
-    plt.savefig(outdir / "fig1_screening_funnel.png", dpi=300, bbox_inches="tight")
+    plt.savefig(outdir / "fig1_screening_funnel.png", dpi=600, bbox_inches="tight")
     plt.close()
     print("Fig 1 done")
 
@@ -204,7 +204,7 @@ def main():
     ax.legend(fontsize=8, framealpha=0.9, loc="upper left")
     ax.set_xlim(left=0); ax.set_ylim(bottom=0)
     plt.tight_layout()
-    plt.savefig(outdir / "fig2_hit_properties.png", dpi=300, bbox_inches="tight")
+    plt.savefig(outdir / "fig2_hit_properties.png", dpi=600, bbox_inches="tight")
     plt.close()
     print("Fig 2 done")
 
@@ -223,7 +223,7 @@ def main():
             plt.colorbar(im, ax=ax, fraction=0.046, pad=0.04,
                          label="Occupancy")
     plt.tight_layout()
-    plt.savefig(outdir / "fig3_contacts_site473.png", dpi=300, bbox_inches="tight")
+    plt.savefig(outdir / "fig3_contacts_site473.png", dpi=600, bbox_inches="tight")
     plt.close()
     print("Fig 3 done")
 
@@ -264,7 +264,7 @@ def main():
                      label="Occupancy")
 
     plt.tight_layout()
-    plt.savefig(outdir / "fig4_contacts_bin1.png", dpi=300, bbox_inches="tight")
+    plt.savefig(outdir / "fig4_contacts_bin1.png", dpi=600, bbox_inches="tight")
     plt.close()
     print("Fig 4 done")
 
@@ -346,7 +346,7 @@ def main():
               fontsize=8, framealpha=0.9, bbox_to_anchor=(1, -0.02))
 
     plt.tight_layout()
-    plt.savefig(outdir / "fig5_final_hits_table.png", dpi=300, bbox_inches="tight")
+    plt.savefig(outdir / "fig5_final_hits_table.png", dpi=600, bbox_inches="tight")
     plt.close()
     print("Fig 5 done")
 

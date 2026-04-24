@@ -131,7 +131,7 @@ def main():
             phe_mat[i, j] = phe_data[rep].get(key, 0.0)
 
     # ── Figure ────────────────────────────────────────────────────────────────
-    fig, axes = plt.subplots(1, 2, figsize=(11, 5.5),
+    fig, axes = plt.subplots(1, 2, figsize=(9, 4.5),
                               gridspec_kw={"wspace": 0.45})
     fig.suptitle(
         "PICALM site473 — Residue Contact Occupancy from 100 ns Complex MD",
@@ -191,7 +191,7 @@ def main():
 
     for ext in ("pdf", "png"):
         out = outdir / f"Figure_04_contacts_site473.{ext}"
-        plt.savefig(out, dpi=300, bbox_inches="tight")
+        plt.savefig(out, dpi=600, bbox_inches="tight")
         print(f"Saved: {out.relative_to(root)}")
 
     plt.close()

@@ -258,7 +258,7 @@ def main():
 
     plt.tight_layout()
     out = outdir / "fig_string_network.png"
-    plt.savefig(out, dpi=300, bbox_inches="tight")
+    plt.savefig(out, dpi=600, bbox_inches="tight")
     plt.close()
     print(f"\nFigure saved: {out.relative_to(project_root)}")
 

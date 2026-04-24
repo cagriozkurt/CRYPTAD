@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-04-24T10:30:03Z",
+  "script": "09_scripts/08_virtual_screening/08_selectivity_docking.py",
+  "project_root": "/Volumes/PortableSSD/untitled folder/CRYPTAD",
+  "vina_bin": "/opt/homebrew/Caskroom/miniconda/base/envs/vina_env/bin/vina",
+  "n_compounds": 56,
+  "n_receptors": 4,
+  "n_fully_selective": 0,
+  "receptors": [
+    {
+      "id": "BIN1_SH3_canonical",
+      "pdb_id": "1MUZ"
+    },
+    {
+      "id": "PICALM_ubiquitin_site",
+      "pdb_id": "7JXV"
+    },
+    {
+      "id": "BACE1",
+      "pdb_id": "2QMG"
+    },
+    {
+      "id": "AChE",
+      "pdb_id": "4EY7"
+    }
+  ],
+  "outputs": {
+    "scores": "/Volumes/PortableSSD/untitled folder/CRYPTAD/04_virtual_screening/selectivity/results/scores_all.csv",
+    "summary": "/Volumes/PortableSSD/untitled folder/CRYPTAD/04_virtual_screening/selectivity/results/selectivity_summary.csv",
+    "figure": "/Volumes/PortableSSD/untitled folder/CRYPTAD/06_figures/fig_selectivity.png"
+  }
+}

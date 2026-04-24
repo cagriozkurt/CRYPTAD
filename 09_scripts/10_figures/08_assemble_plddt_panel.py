@@ -110,7 +110,7 @@ def main():
     figs_dir  = root / "06_figures"
     pub_dir.mkdir(parents=True, exist_ok=True)
 
-    fig, axes = plt.subplots(3, 1, figsize=(12, 10.5))
+    fig, axes = plt.subplots(3, 1, figsize=(10, 9))
     fig.subplots_adjust(hspace=0.45)
 
     for ax, (target, cif_name), label in zip(axes, TARGETS, PANEL_LABELS):
@@ -136,7 +136,7 @@ def main():
         pub_dir   / "Figure_S1_plddt.png",
         pub_dir   / "Figure_S1_plddt.tif",
     ]:
-        fig.savefig(out_path, dpi=300, bbox_inches="tight")
+        fig.savefig(out_path, dpi=600, bbox_inches="tight")
         print(f"Saved: {out_path.relative_to(root)}")
 
     plt.close(fig)

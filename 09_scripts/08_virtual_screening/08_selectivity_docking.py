@@ -520,15 +520,40 @@ def main():
 
     ax2 = axes[1]
     colors = ["#2ECC71" if v else "#E74C3C" for v in plot_df["fully_selective"]]
-    ax2.barh(range(len(plot_df)), plot_df["mean_ddG"], color=colors,
-             edgecolor="white", height=0.7)
+    bars = ax2.barh(range(len(plot_df)), plot_df["mean_ddG"], color=colors,
+                    edgecolor="white", height=0.7)
     ax2.axvline(2.0, color="black", lw=1.0, ls="--", alpha=0.6, label="2 kcal/mol threshold")
     ax2.set_xlabel("Mean ΔΔG (kcal/mol)", fontsize=9)
-    ax2.set_yticks([])
+
+    # Y-axis: dashed gridlines at every row to aid cross-referencing with heatmap
+    ax2.set_yticks(range(len(plot_df)))
+    ax2.set_yticklabels([])
+    ax2.yaxis.grid(True, linestyle="--", linewidth=0.4, color="#bbbbbb", alpha=0.7)
+    ax2.set_axisbelow(True)
+
+    # Value annotation at end of each bar
+    x_range = ax2.get_xlim()
+    offset  = (x_range[1] - x_range[0]) * 0.02
+    for bar, val in zip(bars, plot_df["mean_ddG"]):
+        if not np.isnan(val):
+            ax2.text(
+                bar.get_width() + offset,
+                bar.get_y() + bar.get_height() / 2,
+                f"{val:.1f}",
+                va="center", ha="left", fontsize=6.5, color="#333333",
+            )
+    # Expand xlim to prevent annotation clipping
+    ax2.set_xlim(left=ax2.get_xlim()[0],
+                 right=ax2.get_xlim()[1] + (ax2.get_xlim()[1] - ax2.get_xlim()[0]) * 0.12)
+
+    # Match y-axis extent and direction to the heatmap (imshow inverts y)
+    ax2.set_ylim(ax.get_ylim())
+    ax2.invert_yaxis()
+
     ax2.set_title("Mean ΔΔG\nacross 4 targets", fontsize=9)
     ax2.spines["top"].set_visible(False)
     ax2.spines["right"].set_visible(False)
-    ax2.legend(fontsize=8, loc="lower right")
+    ax2.legend(fontsize=8, loc="upper right")
 
     legend_elements = [
         Patch(color="#2ECC71", label=f"Fully selective ({n_sel} compounds)"),
@@ -545,9 +570,23 @@ def main():
         fontsize=10, fontweight="bold", y=1.01)
     plt.tight_layout()
     out_fig = fig_dir / "fig_selectivity.png"
-    plt.savefig(out_fig, dpi=300, bbox_inches="tight")
+    plt.savefig(out_fig, dpi=600, bbox_inches="tight")
     plt.close()
     log(f"  Figure saved: {out_fig.relative_to(project_root)}", GREEN)
+
+    # Publication copies
+    from PIL import Image as _Image
+    pub_dir = fig_dir / "publication"
+    pub_dir.mkdir(parents=True, exist_ok=True)
+    pub_png = pub_dir / "Figure_10_selectivity.png"
+    pub_tif = pub_dir / "Figure_10_selectivity.tif"
+    import shutil as _shutil
+    _shutil.copy(out_fig, pub_png)
+    img = _Image.open(pub_png).convert("RGB")
+    img.save(pub_tif, dpi=(600, 600), compression="tiff_lzw")
+    log(f"  Publication PNG: {pub_png.relative_to(project_root)}", GREEN)
+    log(f"  Publication TIF: {pub_tif.relative_to(project_root)}  "
+        f"({img.width}×{img.height} px @ 600 dpi)", GREEN)
 
     log(f"\n{BOLD}Done. Selectivity assessment complete.{RESET}")
     log(f"  Scores:  {scores_csv}")

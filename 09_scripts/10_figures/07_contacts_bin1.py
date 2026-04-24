@@ -183,7 +183,7 @@ def main():
 
     for ext in ("pdf", "png"):
         out = outdir / f"Figure_05_contacts_bin1.{ext}"
-        plt.savefig(out, dpi=300, bbox_inches="tight")
+        plt.savefig(out, dpi=600, bbox_inches="tight")
         print(f"Saved: {out.relative_to(root)}")
 
     plt.close()

@@ -51,9 +51,9 @@ POCKET_APO  = [r - 18 for r in POCKET_HOLO]
 HOLO_REPS = ["rep1", "rep5"]    # 100% engaged
 
 LABEL_OFFSETS = {
-    201: (  0,  32),
-    219: (-20,  28),
-    222: ( 28,  38),
+    201: (-28,  46),
+    219: ( 24,  30),
+    222: ( 52,  54),
     249: (-42,  32),
     250: ( 42,  48),
     251: (-42,  80),
@@ -184,7 +184,7 @@ def main():
     print(f"  Holo RMSF (mean at pocket): {pocket_holo_rmsf.mean():.2f} Å")
 
     # ── Figure ────────────────────────────────────────────────────────────────
-    fig, axes = plt.subplots(2, 1, figsize=(14, 9), sharex=True,
+    fig, axes = plt.subplots(2, 1, figsize=(11, 6), sharex=True,
                              gridspec_kw={"height_ratios": [3, 1.2]})
     ax  = axes[0]
     ax2 = axes[1]
@@ -274,7 +274,7 @@ def main():
 
     plt.tight_layout()
     out = outdir / "fig_rmsf_apo_holo.png"
-    plt.savefig(out, dpi=300, bbox_inches="tight")
+    plt.savefig(out, dpi=600, bbox_inches="tight")
     plt.close()
     print(f"\nFigure saved: {out.relative_to(project_root)}")
 

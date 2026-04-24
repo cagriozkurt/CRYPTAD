@@ -39,6 +39,7 @@ SYSTEMS = {
         "path": "BIN1/metadynamics/S1_BAR",
         "cvs":  ["cv1 jaw (nm)", "cv2 hinge (rad)"],
         "ref":  [4.000, 2.693],
+        "threshold": {"axis": "v", "value": 2.8, "label": "CV1 > 2.8 nm"},
     },
     "S2_BIN1_SH3": {
         "path": "BIN1/metadynamics/S2_SH3",
@@ -49,6 +50,7 @@ SYSTEMS = {
         "path": "PICALM/metadynamics/S3_ANTH",
         "cvs":  ["cv_site1 (nm)", "cv_site4 (nm)"],
         "ref":  [1.233, 1.545],
+        "threshold": {"axis": "h", "value": 3.0, "label": "CV2 > 3.0 nm"},
     },
     "S4_CD2AP_SH3-2": {
         "path": "CD2AP/metadynamics/S4_SH3-2",
@@ -205,11 +207,12 @@ def main():
         }
 
         # ── Figure: 1D marginal overlays + 2D FES (200 ns) ──────────────────
-        fig = plt.figure(figsize=(14, 10))
+        fig = plt.figure(figsize=(14, 13))
         fig.suptitle(f"{sname}  —  FES Block Convergence  (67 / 133 / 200 ns)",
                      fontsize=13, fontweight="bold")
 
-        gs = fig.add_gridspec(2, 2, hspace=0.35, wspace=0.35)
+        gs = fig.add_gridspec(2, 2, hspace=0.35, wspace=0.35,
+                              height_ratios=[1, 1.8])
         ax_cv1 = fig.add_subplot(gs[0, 0])
         ax_cv2 = fig.add_subplot(gs[0, 1])
         ax_2d  = fig.add_subplot(gs[1, :])
@@ -248,6 +251,16 @@ def main():
                       marker="x", linewidths=2, label="t=0 ref")
         ax_2d.scatter([cv1_star], [cv2_star], c="yellow", s=100, zorder=5,
                       marker="*", edgecolors="k", linewidths=0.5, label="global min")
+
+        # Cyan dashed threshold line marking the cryptic pocket open region
+        thr = cfg.get("threshold")
+        if thr:
+            if thr["axis"] == "v":
+                ax_2d.axvline(thr["value"], color="cyan", lw=1.2, ls="--",
+                              alpha=0.85, label=thr["label"])
+            else:
+                ax_2d.axhline(thr["value"], color="cyan", lw=1.2, ls="--",
+                              alpha=0.85, label=thr["label"])
         ax_2d.set_xlabel(cfg["cvs"][0], fontsize=10)
         ax_2d.set_ylabel(cfg["cvs"][1], fontsize=10)
         ax_2d.set_title(f"2D FES at 200 ns  |  ΔΔF={ddF:.2f} kJ/mol  "
@@ -255,7 +268,7 @@ def main():
         ax_2d.legend(fontsize=8, loc="upper right")
 
         outfile = outdir / f"fes_convergence_{sname}.png"
-        plt.savefig(outfile, dpi=150, bbox_inches="tight")
+        plt.savefig(outfile, dpi=600, bbox_inches="tight")
         plt.close()
         log(f"  Plot → {outfile}", GREEN)
 

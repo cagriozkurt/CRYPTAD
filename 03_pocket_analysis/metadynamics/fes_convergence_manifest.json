@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-04-24T10:42:07Z",
+  "script": "09_scripts/07_conformational/01_analyze_fes_convergence.py",
+  "project_root": "/Volumes/PortableSSD/untitled folder/CRYPTAD",
+  "systems": [
+    "S3_PICALM_ANTH"
+  ],
+  "kT_kJ_mol": 2.577,
+  "temperature_K": 310,
+  "basin_threshold_kJ_mol": 5.0,
+  "convergence_criterion_kJ_mol": 1.0,
+  "results": {
+    "S3_PICALM_ANTH": {
+      "cv1_star": 1.33979,
+      "cv2_star": 1.413035,
+      "ddF": 3.672678124996484e-05,
+      "converged": true,
+      "d_cv1": 0.10678999999999994,
+      "d_cv2": 0.1319649999999999
+    }
+  }
+}

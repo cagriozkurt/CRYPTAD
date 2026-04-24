@@ -263,7 +263,7 @@ def main():
     )
     plt.tight_layout()
     out_rmsd = outdir / "fig_complex_md_rmsd.png"
-    plt.savefig(out_rmsd, dpi=300, bbox_inches="tight")
+    plt.savefig(out_rmsd, dpi=600, bbox_inches="tight")
     plt.close()
     print(f"Saved: {out_rmsd.relative_to(project_root)}")
 
@@ -350,7 +350,7 @@ def main():
 
         plt.tight_layout()
         out_hbond = outdir / "fig_ibufenac_hbond.png"
-        plt.savefig(out_hbond, dpi=300, bbox_inches="tight")
+        plt.savefig(out_hbond, dpi=600, bbox_inches="tight")
         plt.close()
         print(f"\nSaved: {out_hbond.relative_to(project_root)}")
     else:

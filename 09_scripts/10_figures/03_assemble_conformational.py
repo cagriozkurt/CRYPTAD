@@ -23,7 +23,7 @@ _script       = Path(__file__).resolve()
 _default_root = _script.parents[2]
 
 CANVAS_W   = 5000
-DPI        = 300
+DPI        = 600
 LABEL_SIZE = 72
 LABEL_X    = 28
 LABEL_Y    = 48
@@ -125,7 +125,7 @@ def main():
     rgb.save(out_png, dpi=(DPI, DPI))
     print(f"Saved: {out_png.relative_to(project_root)}  ({rgb.width}×{rgb.height} px)")
 
-    sub     = resize_w(rgb, 3300)
+    sub     = resize_w(rgb, 3000)
     sub_png = sub_dir / "Figure_09_conformational.png"
     sub.save(sub_png, dpi=(DPI, DPI))
     print(f"Saved: {sub_png.relative_to(project_root)}  ({sub.width}×{sub.height} px)")
